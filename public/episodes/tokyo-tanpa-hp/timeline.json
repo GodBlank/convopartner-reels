@@ -1,0 +1,373 @@
+{
+ "id": "tokyo-tanpa-hp",
+ "fps": 30,
+ "durationInFrames": 1735,
+ "series": "Bagaimana Jika",
+ "candidate": {
+  "name": "Kamu"
+ },
+ "interviewer": {
+  "name": "Yui",
+  "image": "brand/yui.png",
+  "role": "AI Partner"
+ },
+ "bgm": null,
+ "disclaimer": "Dialog fiktif. Suara dan karakter dibuat dengan AI.",
+ "beats": [
+  {
+   "scene": "hook",
+   "speaker": "interviewer",
+   "title": "Bagaimana jika kamu bangun di Tokyo *tanpa HP?*",
+   "swap": {
+    "kind": "screen",
+    "from": "📵 HP: TIDAK ADA",
+    "to": "💴 Uang: ¥1,000"
+   },
+   "say": "Bagaimana jika besok kamu bangun di Tokyo… tanpa HP, tanpa teman, cuma bawa seribu yen?",
+   "audio": "episodes/tokyo-tanpa-hp/audio/b68a363e7218-0-t1.15.wav",
+   "from": 0,
+   "frames": 161,
+   "speechFrames": 155
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Rina panik. Nggak ada *Google Maps,* nggak ada *Google Translate.*",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Panik 😱",
+     "image": "story/chars/rina-sedih.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/dimas-travel.png"
+    },
+    "bg": "story/bg/stasiun.jpg",
+    "solo": "left",
+    "label": "Bagaimana jika…",
+    "thought": {
+     "side": "left",
+     "text": "Ini di mana?! 😭"
+    }
+   },
+   "audio": "episodes/tokyo-tanpa-hp/audio/b68a363e7218-1-t1.15.wav",
+   "from": 161,
+   "frames": 121,
+   "speechFrames": 115
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Papan stasiunnya? ~Semua kanji.~",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Panik 😱",
+     "image": "story/chars/rina-sedih.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/dimas-travel.png"
+    },
+    "bg": "story/bg/stasiun.jpg",
+    "solo": "left",
+    "label": "Bagaimana jika…",
+    "screen": {
+     "side": "left",
+     "text": "新宿方面 · 乗換口 ❓"
+    }
+   },
+   "audio": "episodes/tokyo-tanpa-hp/audio/b68a363e7218-2-t1.15.wav",
+   "from": 282,
+   "frames": 72,
+   "speechFrames": 66
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Dua jam kemudian, masih muter di tempat yang sama. ~Nggak berani nanya.~",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Masih nyasar 😵",
+     "image": "story/chars/rina-sedih.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/dimas-travel.png"
+    },
+    "bg": "story/bg/stasiun.jpg",
+    "solo": "left",
+    "later": "2 jam kemudian…"
+   },
+   "audio": "episodes/tokyo-tanpa-hp/audio/b68a363e7218-3-t1.15.wav",
+   "from": 354,
+   "frames": 135,
+   "speechFrames": 129
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Dimas cuma hafal *tiga kalimat.*",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/rina-sedih.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Cuma hafal 3 kalimat",
+     "image": "story/chars/dimas-travel.png"
+    },
+    "bg": "story/bg/tokyo.jpg",
+    "solo": "right",
+    "label": "Bagaimana jika…"
+   },
+   "audio": "episodes/tokyo-tanpa-hp/audio/b68a363e7218-4-t1.15.wav",
+   "from": 489,
+   "frames": 63,
+   "speechFrames": 57
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Satu: *sumimasen.* Permisi.",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/rina-sedih.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Cuma hafal 3 kalimat",
+     "image": "story/chars/dimas-travel.png"
+    },
+    "bg": "story/bg/tokyo.jpg",
+    "solo": "right",
+    "label": "Bagaimana jika…",
+    "bubbles": {
+     "right": {
+      "text": "① すみません。",
+      "sub": "Sumimasen · “Permisi.”"
+     }
+    }
+   },
+   "audio": "episodes/tokyo-tanpa-hp/audio/9dffd7787f57-0-t1.15.wav",
+   "from": 552,
+   "frames": 81,
+   "speechFrames": 75
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Dua: *eki wa doko desu ka?* Stasiunnya di mana?",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/rina-sedih.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Cuma hafal 3 kalimat",
+     "image": "story/chars/dimas-travel.png"
+    },
+    "bg": "story/bg/tokyo.jpg",
+    "solo": "right",
+    "label": "Bagaimana jika…",
+    "bubbles": {
+     "right": {
+      "text": "② 駅はどこですか？",
+      "sub": "Eki wa doko desu ka? · “Stasiunnya di mana?”"
+     }
+    }
+   },
+   "audio": "episodes/tokyo-tanpa-hp/audio/9dffd7787f57-1-t1.15.wav",
+   "from": 633,
+   "frames": 145,
+   "speechFrames": 139
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Tiga: *mou ichido onegaishimasu.* Tolong ulangi.",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/rina-sedih.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Cuma hafal 3 kalimat",
+     "image": "story/chars/dimas-travel.png"
+    },
+    "bg": "story/bg/tokyo.jpg",
+    "solo": "right",
+    "label": "Bagaimana jika…",
+    "bubbles": {
+     "right": {
+      "text": "③ もう一度お願いします。",
+      "sub": "Mou ichido onegaishimasu · “Tolong ulangi.”"
+     }
+    }
+   },
+   "audio": "episodes/tokyo-tanpa-hp/audio/9dffd7787f57-2-t1.15.wav",
+   "from": 778,
+   "frames": 141,
+   "speechFrames": 135
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Dia nanya ke satpam, ke kakek di halte, ke kasir konbini.",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/rina-sedih.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Nanya terus 🙋",
+     "image": "story/chars/dimas-travel.png"
+    },
+    "bg": "story/bg/konbini.jpg",
+    "solo": "right",
+    "label": "Bagaimana jika…"
+   },
+   "audio": "episodes/tokyo-tanpa-hp/audio/9dffd7787f57-3-t1.15.wav",
+   "from": 919,
+   "frames": 125,
+   "speechFrames": 119
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Satu jam kemudian, dia udah *sampai tujuan.*",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/rina-sedih.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Nanya terus 🙋",
+     "image": "story/chars/dimas-travel.png"
+    },
+    "bg": "story/bg/tokyo.jpg",
+    "solo": "right",
+    "later": "1 jam kemudian…",
+    "stamp": {
+     "side": "right",
+     "text": "SAMPAI",
+     "color": "green"
+    }
+   },
+   "audio": "episodes/tokyo-tanpa-hp/audio/9dffd7787f57-4-t1.15.wav",
+   "from": 1044,
+   "frames": 95,
+   "speechFrames": 77
+  },
+  {
+   "scene": "card",
+   "speaker": "interviewer",
+   "card": {
+    "kicker": "Ternyata…",
+    "title": "Yang nyelametin Dimas",
+    "icon": "!",
+    "rows": [
+     {
+      "kind": "no",
+      "label": "BUKAN",
+      "text": "Kosakata yang banyak"
+     },
+     {
+      "kind": "yes",
+      "label": "TAPI",
+      "text": "Berani buka mulut duluan"
+     }
+    ],
+    "note": "🇯🇵 Orang Jepang mau bantu, asal kamu nanya"
+   },
+   "say": "Yang nyelametin Dimas bukan kosakata yang banyak. Tapi *berani buka mulut duluan.*",
+   "audio": "episodes/tokyo-tanpa-hp/audio/dba4bd5b2225-0-t1.15.wav",
+   "from": 1139,
+   "frames": 143,
+   "speechFrames": 137
+  },
+  {
+   "scene": "app",
+   "speaker": "interviewer",
+   "app": {
+    "video": "footage/Simulasi kehidupan sehari-hari di Jepang.mp4",
+    "volume": 0.15,
+    "demo": true
+   },
+   "say": "Keberanian itu *bisa dilatih.*",
+   "audio": "episodes/tokyo-tanpa-hp/audio/dba4bd5b2225-1-t1.15.wav",
+   "from": 1282,
+   "frames": 61,
+   "speechFrames": 55
+  },
+  {
+   "scene": "app",
+   "speaker": "interviewer",
+   "app": {
+    "video": "footage/Simulasi kehidupan sehari-hari di Jepang.mp4",
+    "volume": 0.15,
+    "demo": true
+   },
+   "say": "Di *ConvoPartner,* simulasi ngobrol dari konbini sampai stasiun.",
+   "audio": "episodes/tokyo-tanpa-hp/audio/dba4bd5b2225-2-t1.15.wav",
+   "from": 1343,
+   "frames": 140,
+   "speechFrames": 134
+  },
+  {
+   "scene": "debate",
+   "speaker": "interviewer",
+   "debate": {
+    "left": {
+     "icon": "🧭",
+     "label": "Pasti Survive"
+    },
+    "right": {
+     "icon": "😱",
+     "label": "Langsung Panik"
+    },
+    "prompt": "Tulis pendapatmu di komen"
+   },
+   "say": "Kalau besok kamu bangun di Tokyo tanpa HP, kamu tim *pasti survive,* atau tim *langsung panik?* Tulis di komen.",
+   "audio": "episodes/tokyo-tanpa-hp/audio/dba4bd5b2225-3-t1.15.wav",
+   "from": 1483,
+   "frames": 252,
+   "speechFrames": 210
+  }
+ ]
+}

@@ -1,0 +1,340 @@
+{
+ "id": "tidak-ada-pertanyaan",
+ "fps": 30,
+ "durationInFrames": 1540,
+ "series": "Apa Jadinya Kalau",
+ "candidate": {
+  "name": "Kamu"
+ },
+ "interviewer": {
+  "name": "Yui",
+  "image": "brand/yui.png",
+  "role": "AI Partner"
+ },
+ "bgm": null,
+ "disclaimer": "Dialog fiktif. Suara dan karakter dibuat dengan AI.",
+ "beats": [
+  {
+   "scene": "hook",
+   "speaker": "interviewer",
+   "title": "Apa jadinya kalau jawab *“tidak ada”* di akhir mensetsu?",
+   "swap": {
+    "kind": "screen",
+    "from": "特にありません。",
+    "to": ""
+   },
+   "say": "Apa jadinya kalau di akhir mensetsu ditanya, ada pertanyaan? Terus kamu jawab: tidak ada.",
+   "audio": "episodes/tidak-ada-pertanyaan/audio/d8cde1ff5fed-0-t1.1.wav",
+   "from": 0,
+   "frames": 181,
+   "speechFrames": 175
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Mensetsu hampir selesai. Interviewer *nanya:*",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "面接官",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/interviewer.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "focus": "right",
+    "label": "Apa jadinya kalau…",
+    "bubbles": {
+     "right": {
+      "text": "何か質問はありますか？",
+      "sub": "“Ada pertanyaan untuk kami?”"
+     }
+    }
+   },
+   "audio": "episodes/tidak-ada-pertanyaan/audio/d8cde1ff5fed-1-t1.1.wav",
+   "from": 181,
+   "frames": 96,
+   "speechFrames": 90
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Rina jawab *sopan.*",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "面接官",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/interviewer.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "focus": "left",
+    "label": "Apa jadinya kalau…",
+    "bubbles": {
+     "left": {
+      "text": "特にありません。",
+      "sub": "“Tidak ada.”"
+     }
+    }
+   },
+   "audio": "episodes/tidak-ada-pertanyaan/audio/d8cde1ff5fed-2-t1.1.wav",
+   "from": 277,
+   "frames": 48,
+   "speechFrames": 42
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Kedengarannya sopan, kan? Rina juga *mikir gitu.*",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "面接官",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/interviewer.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "focus": "left",
+    "label": "Apa jadinya kalau…",
+    "thought": {
+     "side": "left",
+     "text": "Aman, sopan kok 😊"
+    }
+   },
+   "audio": "episodes/tidak-ada-pertanyaan/audio/d8cde1ff5fed-3-t1.1.wav",
+   "from": 325,
+   "frames": 97,
+   "speechFrames": 91
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Tapi interviewer langsung ~nutup map.~ Mensetsu selesai lebih cepat.",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "面接官",
+     "tag": "",
+     "trait": "Nutup map 📁",
+     "image": "story/chars/interviewer-honne.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "focus": "right",
+    "label": "Apa jadinya kalau…"
+   },
+   "audio": "episodes/tidak-ada-pertanyaan/audio/d8cde1ff5fed-4-t1.1.wav",
+   "from": 422,
+   "frames": 125,
+   "speechFrames": 119
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Seminggu kemudian… ~email penolakan~ masuk.",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Kok bisa? 😣",
+     "image": "story/chars/rina-sedih.png"
+    },
+    "right": {
+     "name": "面接官",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/interviewer-honne.png"
+    },
+    "bg": "story/bg/kamar.jpg",
+    "solo": "left",
+    "later": "1 minggu kemudian…",
+    "screen": {
+     "side": "left",
+     "text": "📧 不採用 · Ditolak"
+    }
+   },
+   "audio": "episodes/tidak-ada-pertanyaan/audio/6bd67033a544-0-t1.1.wav",
+   "from": 547,
+   "frames": 103,
+   "speechFrames": 85
+  },
+  {
+   "scene": "card",
+   "speaker": "interviewer",
+   "card": {
+    "kicker": "Ternyata…",
+    "title": "逆質問 · Gyaku shitsumon",
+    "icon": "!",
+    "rows": [
+     {
+      "kind": "no",
+      "label": "BUKAN",
+      "text": "Basa-basi penutup"
+     }
+    ]
+   },
+   "say": "Di Jepang, pertanyaan ini namanya *gyaku shitsumon.* Ini ~bukan basa-basi.~",
+   "audio": "episodes/tidak-ada-pertanyaan/audio/6bd67033a544-1-t1.1.wav",
+   "from": 650,
+   "frames": 154,
+   "speechFrames": 148
+  },
+  {
+   "scene": "card",
+   "speaker": "interviewer",
+   "card": {
+    "kicker": "Ternyata…",
+    "title": "逆質問 · Gyaku shitsumon",
+    "icon": "!",
+    "rows": [
+     {
+      "kind": "no",
+      "label": "BUKAN",
+      "text": "Basa-basi penutup"
+     },
+     {
+      "kind": "yes",
+      "label": "TAPI",
+      "text": "Tes terakhir: kamu tertarik?"
+     }
+    ]
+   },
+   "say": "Ini *tes terakhir:* kamu beneran tertarik sama perusahaan ini, atau nggak.",
+   "audio": "episodes/tidak-ada-pertanyaan/audio/6bd67033a544-2-t1.1.wav",
+   "from": 804,
+   "frames": 144,
+   "speechFrames": 138
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Kandidat yang lolos biasanya nanya *kayak gini:*",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Coba lagi ✨",
+     "image": "story/chars/rina-senang.png"
+    },
+    "right": {
+     "name": "面接官",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/interviewer.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "focus": "left",
+    "label": "Apa jadinya kalau…",
+    "bubbles": {
+     "left": {
+      "text": "入社までに勉強しておくべきことはありますか？",
+      "sub": "“Ada yang sebaiknya saya pelajari sebelum mulai kerja?”"
+     }
+    }
+   },
+   "audio": "episodes/tidak-ada-pertanyaan/audio/6bd67033a544-3-t1.1.wav",
+   "from": 948,
+   "frames": 79,
+   "speechFrames": 73
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Satu pertanyaan, langsung nunjukin kamu *serius.*",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Coba lagi ✨",
+     "image": "story/chars/rina-senang.png"
+    },
+    "right": {
+     "name": "面接官",
+     "tag": "",
+     "trait": "Terkesan 😊",
+     "image": "story/chars/interviewer.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "label": "Apa jadinya kalau…",
+    "stamp": {
+     "side": "left",
+     "text": "LOLOS",
+     "color": "green"
+    }
+   },
+   "audio": "episodes/tidak-ada-pertanyaan/audio/6bd67033a544-4-t1.1.wav",
+   "from": 1027,
+   "frames": 109,
+   "speechFrames": 91
+  },
+  {
+   "scene": "app",
+   "speaker": "interviewer",
+   "app": {
+    "video": "footage/Jawaban wawancara kamu digrading.mp4",
+    "volume": 0.15,
+    "demo": true
+   },
+   "say": "Di *ConvoPartner,* simulasi mensetsu-nya sampai ke bagian *gyaku shitsumon,*",
+   "audio": "episodes/tidak-ada-pertanyaan/audio/23cf673314ff-0-t1.1.wav",
+   "from": 1136,
+   "frames": 150,
+   "speechFrames": 144
+  },
+  {
+   "scene": "app",
+   "speaker": "interviewer",
+   "app": {
+    "video": "footage/Jawaban wawancara kamu digrading.mp4",
+    "volume": 0.15,
+    "demo": true
+   },
+   "say": "dan jawabanmu langsung *dinilai.*",
+   "audio": "episodes/tidak-ada-pertanyaan/audio/23cf673314ff-1-t1.1.wav",
+   "from": 1286,
+   "frames": 67,
+   "speechFrames": 61
+  },
+  {
+   "scene": "debate",
+   "speaker": "interviewer",
+   "debate": {
+    "left": {
+     "icon": "❓",
+     "label": "Wajib Bertanya"
+    },
+    "right": {
+     "icon": "🙇",
+     "label": "Nggak Perlu"
+    },
+    "prompt": "Tulis pendapatmu di komen"
+   },
+   "say": "Kamu tim *wajib bertanya,* atau tim *nggak perlu,* takut salah? Tulis di komen.",
+   "audio": "episodes/tidak-ada-pertanyaan/audio/23cf673314ff-2-t1.1.wav",
+   "from": 1353,
+   "frames": 187,
+   "speechFrames": 145
+  }
+ ]
+}

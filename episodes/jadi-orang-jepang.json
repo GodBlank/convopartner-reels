@@ -1,0 +1,483 @@
+{
+ "id": "jadi-orang-jepang",
+ "series": "Bagaimana Jika",
+ "topic": "Bagaimana jika kamu jadi orang Jepang selama sehari? (TOFU T8, story-first)",
+ "tempo": 1.15,
+ "candidate": {
+  "name": "Kamu",
+  "voice": "male"
+ },
+ "interviewer": {
+  "name": "Yui",
+  "image": "brand/yui.png",
+  "role": "AI Partner"
+ },
+ "beats": [
+  {
+   "scene": "hook",
+   "speaker": "interviewer",
+   "title": "Bagaimana jika kamu *jadi orang Jepang* sehari?",
+   "swap": {
+    "kind": "screen",
+    "from": "⚠️ KETAHUAN = TAMAT",
+    "to": ""
+   },
+   "say": "Bagaimana jika kamu jadi orang Jepang sehari? Tapi kalau ketahuan… kamu *nggak bisa balik.*"
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Dimas bangun sebagai *Satō,* orang kantoran di Tokyo.",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Jadi Satō 🇯🇵",
+     "image": "story/chars/dimas.png"
+    },
+    "right": {
+     "name": "",
+     "tag": "",
+     "trait": ""
+    },
+    "bg": "story/bg/tokyo.jpg",
+    "solo": "left",
+    "later": "07.00",
+    "cut": true,
+    "react": {
+     "side": "left",
+     "kind": "jump"
+    },
+    "thought": {
+     "side": "left",
+     "text": "Aku… orang Jepang?!"
+    }
+   },
+   "ambience": "city"
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Di stasiun, dia nyapa teman:",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Jadi Satō 🇯🇵",
+     "image": "story/chars/dimas.png"
+    },
+    "right": {
+     "name": "Kenji",
+     "tag": "",
+     "trait": "Teman kantor",
+     "image": "story/chars/interviewer.png"
+    },
+    "bg": "story/bg/stasiun.jpg",
+    "later": "07.30",
+    "focus": "left",
+    "bubbles": {
+     "left": {
+      "text": "おはよう！",
+      "sub": "“Pagi!”",
+      "voice": "dimas",
+      "emotion": "happy"
+     }
+    },
+    "react": {
+     "side": "right",
+     "kind": "nod"
+    }
+   },
+   "ambience": "train"
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Di kantor, ke atasan, *sama persis:*",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Jadi Satō 🇯🇵",
+     "image": "story/chars/dimas.png"
+    },
+    "right": {
+     "name": "Tanaka",
+     "tag": "部長",
+     "trait": "Atasan",
+     "image": "story/chars/atasan.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "later": "09.00",
+    "cut": true,
+    "focus": "left",
+    "cam": "push",
+    "bubbles": {
+     "left": {
+      "text": "おはよう！",
+      "sub": "“Pagi!”",
+      "voice": "dimas",
+      "emotion": "happy"
+     }
+    }
+   },
+   "ambience": "room"
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Semua kepala ~langsung menoleh.~",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Panik 😰",
+     "image": "story/chars/dimas.png"
+    },
+    "right": {
+     "name": "Tanaka",
+     "tag": "部長",
+     "trait": "Atasan",
+     "image": "story/chars/atasan.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "later": "09.00",
+    "shake": true,
+    "cam": "close",
+    "react": {
+     "side": "left",
+     "kind": "shiver"
+    },
+    "screen": {
+     "side": "left",
+     "text": "⚠️ HAMPIR KETAHUAN"
+    }
+   },
+   "ambience": "room"
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Buru-buru *diralat:*",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Panik 😰",
+     "image": "story/chars/dimas.png"
+    },
+    "right": {
+     "name": "Tanaka",
+     "tag": "部長",
+     "trait": "Atasan",
+     "image": "story/chars/atasan.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "later": "09.00",
+    "focus": "left",
+    "cam": "pull",
+    "react": {
+     "side": "left",
+     "kind": "nod"
+    },
+    "bubbles": {
+     "left": {
+      "text": "おはようございます！",
+      "sub": "“Selamat pagi!”",
+      "voice": "dimas",
+      "emotion": "fearful"
+     }
+    }
+   },
+   "ambience": "room"
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Klien cari atasannya. Dimas jawab *sopan:*",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Jadi Satō 🇯🇵",
+     "image": "story/chars/dimas.png"
+    },
+    "right": {
+     "name": "Senpai",
+     "tag": "",
+     "trait": "Rekan kerja",
+     "image": "story/chars/interviewer-honne.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "later": "13.00",
+    "cut": true,
+    "focus": "left",
+    "bubbles": {
+     "left": {
+      "text": "田中部長はいらっしゃいません。",
+      "sub": "“Pak Manajer Tanaka sedang tidak ada.”",
+      "voice": "dimas"
+     }
+    }
+   },
+   "ambience": "room"
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Senpai ~merebut telepon:~",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Jadi Satō 🇯🇵",
+     "image": "story/chars/dimas.png"
+    },
+    "right": {
+     "name": "Senpai",
+     "tag": "",
+     "trait": "Rekan kerja",
+     "image": "story/chars/interviewer-honne.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "later": "13.00",
+    "focus": "right",
+    "react": {
+     "side": "right",
+     "kind": "jump"
+    },
+    "bubbles": {
+     "right": {
+      "text": "田中は席を外しております。",
+      "sub": "“Tanaka sedang tidak di tempat.”",
+      "voice": "pria"
+     }
+    }
+   },
+   "ambience": "room"
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Ke orang luar, atasan sendiri *nggak boleh ditinggikan.*",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Panik 😰",
+     "image": "story/chars/dimas.png"
+    },
+    "right": {
+     "name": "Senpai",
+     "tag": "",
+     "trait": "Rekan kerja",
+     "image": "story/chars/interviewer-honne.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "later": "13.00",
+    "cam": "push",
+    "screen": {
+     "side": "left",
+     "text": "⚠️ HAMPIR KETAHUAN ×2"
+    }
+   },
+   "ambience": "room"
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Malam, di kedai ramen. Hampir *selamat.*",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Hampir selamat 😮‍💨",
+     "image": "story/chars/dimas.png"
+    },
+    "right": {
+     "name": "",
+     "tag": "",
+     "trait": ""
+    },
+    "bg": "story/bg/izakaya.jpg",
+    "solo": "left",
+    "later": "19.00",
+    "cut": true,
+    "mood": "warm",
+    "fx": "steam",
+    "thought": {
+     "side": "left",
+     "text": "Tinggal sedikit lagi…"
+    }
+   },
+   "ambience": "crowd"
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Selesai makan, dia pamit, *super sopan:*",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Hampir selamat 😮‍💨",
+     "image": "story/chars/dimas.png"
+    },
+    "right": {
+     "name": "",
+     "tag": "",
+     "trait": ""
+    },
+    "bg": "story/bg/izakaya.jpg",
+    "solo": "left",
+    "later": "19.00",
+    "mood": "warm",
+    "fx": "steam",
+    "cam": "push",
+    "react": {
+     "side": "left",
+     "kind": "nod"
+    },
+    "bubbles": {
+     "left": {
+      "text": "ごちそうさまでございました！",
+      "sub": "“Terima kasih atas hidangannya!” (super sopan)",
+      "voice": "dimas"
+     }
+    }
+   },
+   "ambience": "crowd"
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Seluruh kedai… *mendadak hening.*",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "…?",
+     "image": "story/chars/dimas.png"
+    },
+    "right": {
+     "name": "",
+     "tag": "",
+     "trait": ""
+    },
+    "bg": "story/bg/izakaya.jpg",
+    "solo": "left",
+    "later": "19.00",
+    "mood": "dark",
+    "cam": "push",
+    "thought": {
+     "side": "left",
+     "text": "Kenapa semua lihat aku?"
+    }
+   },
+   "hold": 0.2
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "…?",
+     "image": "story/chars/dimas.png"
+    },
+    "right": {
+     "name": "Koki",
+     "tag": "",
+     "trait": ""
+    },
+    "bg": "story/bg/izakaya.jpg",
+    "later": "19.00",
+    "mood": "warm",
+    "bubbles": {
+     "right": {
+      "text": "日本人はそこまで言わないよ。",
+      "sub": "“Orang Jepang nggak sesopan itu, kok.”",
+      "voice": "koki",
+      "emotion": "happy"
+     }
+    }
+   },
+   "ambience": "crowd"
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Dia lolos dari semua jebakan… tapi ketahuan karena *terlalu sopan.*",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Ketahuan 😱",
+     "image": "story/chars/dimas.png"
+    },
+    "right": {
+     "name": "Koki",
+     "tag": "",
+     "trait": ""
+    },
+    "bg": "story/bg/izakaya.jpg",
+    "later": "19.00",
+    "mood": "warm",
+    "shake": true,
+    "stamp": {
+     "side": "left",
+     "text": "KETAHUAN",
+     "color": "red"
+    }
+   },
+   "ambience": "crowd"
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Dan sampai hari ini… *Satō masih kerja di Tokyo.*",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Satō, selamanya",
+     "image": "story/chars/dimas.png"
+    },
+    "right": {
+     "name": "",
+     "tag": "",
+     "trait": ""
+    },
+    "bg": "story/bg/tokyo.jpg",
+    "solo": "left",
+    "later": "Sampai hari ini…",
+    "cut": true,
+    "mood": "dusk",
+    "cam": "pull",
+    "react": {
+     "side": "left",
+     "kind": "shrink"
+    }
+   },
+   "ambience": "city"
+  },
+  {
+   "scene": "debate",
+   "speaker": "interviewer",
+   "hold": 0.6,
+   "debate": {
+    "left": {
+     "icon": "😎",
+     "label": "Lolos Sampai Malam"
+    },
+    "right": {
+     "icon": "😵",
+     "label": "Ketahuan Sebelum Siang"
+    },
+    "prompt": "Tulis pendapatmu di komen"
+   },
+   "say": "Kamu tim *lolos sampai malam,* atau tim *ketahuan sebelum siang?* Tulis di komen."
+  }
+ ]
+}

@@ -1,0 +1,166 @@
+{
+  "id": "5-pertanyaan-60-sarah",
+  "series": "Tips Mensetsu",
+  "topic": "5 pertanyaan mensetsu yang paling sering bikin orang gagal (listicle) — versi padat ≤60 s",
+  "candidate": {
+    "name": "Kamu",
+    "voice": "male"
+  },
+  "interviewer": {
+    "name": "Yui",
+    "image": "brand/yui.png"
+  },
+  "beats": [
+    {
+      "scene": "hook",
+      "speaker": "interviewer",
+      "teaser": 5,
+      "title": "5 Pertanyaan Mensetsu yang Paling Sering Bikin Orang *Gagal* 🇯🇵",
+      "say": "5 pertanyaan mensetsu yang paling sering bikin orang gagal."
+    },
+    {
+      "scene": "point",
+      "speaker": "interviewer",
+      "point": {
+        "n": 1,
+        "of": 5,
+        "text": "自己紹介をお願いします",
+        "romaji": "Jiko shoukai wo onegai shimasu",
+        "arti": "Tolong perkenalkan diri kamu"
+      },
+      "say": "自己紹介をお願いします。"
+    },
+    {
+      "scene": "point",
+      "speaker": "interviewer",
+      "point": {
+        "n": 1,
+        "of": 5,
+        "text": "自己紹介をお願いします",
+        "romaji": "Jiko shoukai wo onegai shimasu",
+        "arti": "Tolong perkenalkan diri kamu"
+      },
+      "say": "Paling banyak gagal di sini. Idealnya *30–60 detik,* jelas, dan relevan sama posisi.",
+      "speak": "Paling banyak gagal di sini. Idealnya tiga puluh sampai enam puluh detik, jelas, dan relevan sama posisi."
+    },
+    {
+      "scene": "point",
+      "speaker": "interviewer",
+      "point": {
+        "n": 2,
+        "of": 5,
+        "text": "なぜ日本で働きたいですか？",
+        "romaji": "Naze nihon de hatarakitai desu ka?",
+        "arti": "Kenapa mau kerja di Jepang?"
+      },
+      "say": "なぜ日本で働きたいですか？"
+    },
+    {
+      "scene": "point",
+      "speaker": "interviewer",
+      "point": {
+        "n": 2,
+        "of": 5,
+        "text": "なぜ日本で働きたいですか？",
+        "romaji": "Naze nihon de hatarakitai desu ka?",
+        "arti": "Kenapa mau kerja di Jepang?"
+      },
+      "say": "Jawaban ~gaji lebih besar~ atau ~suka anime~ gak bikin terkesan. Jawab *kenapa harus Jepang,* bukan negara lain."
+    },
+    {
+      "scene": "point",
+      "speaker": "interviewer",
+      "point": {
+        "n": 3,
+        "of": 5,
+        "text": "長所と短所を教えてください",
+        "romaji": "Chousho to tansho wo oshiete kudasai",
+        "arti": "Sebutkan kelebihan dan kekuranganmu"
+      },
+      "say": "長所と短所を教えてください。"
+    },
+    {
+      "scene": "point",
+      "speaker": "interviewer",
+      "point": {
+        "n": 3,
+        "of": 5,
+        "text": "長所と短所を教えてください",
+        "romaji": "Chousho to tansho wo oshiete kudasai",
+        "arti": "Sebutkan kelebihan dan kekuranganmu"
+      },
+      "say": "Jangan jawab kekurangan yang ~fatal~ atau ~dibuat-buat.~ Pilih yang *bisa dikembangkan,* plus langkah perbaikannya."
+    },
+    {
+      "scene": "point",
+      "speaker": "interviewer",
+      "point": {
+        "n": 4,
+        "of": 5,
+        "text": "どうやって日本語を勉強しますか？",
+        "romaji": "Dou yatte nihongo wo benkyou shimasu ka?",
+        "arti": "Gimana cara kamu belajar bahasa Jepang?"
+      },
+      "say": "どうやって日本語を勉強しますか？"
+    },
+    {
+      "scene": "point",
+      "speaker": "interviewer",
+      "point": {
+        "n": 4,
+        "of": 5,
+        "text": "どうやって日本語を勉強しますか？",
+        "romaji": "Dou yatte nihongo wo benkyou shimasu ka?",
+        "arti": "Gimana cara kamu belajar bahasa Jepang?"
+      },
+      "say": "Ini *kesempatan,* jangan cuma jawab ~belajar dari buku.~"
+    },
+    {
+      "scene": "app",
+      "speaker": "interviewer",
+      "app": {
+        "video": "footage/Simulasi wawancara kerja ke Jepang.mp4",
+        "volume": 0.15,
+        "badge": "Simulasi mensetsu bareng Yui"
+      },
+      "say": "Ceritakan latihan ngomong di *ConvoPartner:* simulasi sama AI, salah langsung dikoreksi.",
+      "speak": "Ceritakan latihan ngomong di ConvoPartner: simulasi sama AI, salah langsung dikoreksi."
+    },
+    {
+      "scene": "point",
+      "speaker": "interviewer",
+      "point": {
+        "n": 5,
+        "of": 5,
+        "text": "どんな性格か教えてください",
+        "romaji": "Donna seikaku ka oshiete kudasai",
+        "arti": "Ceritakan tentang karaktermu"
+      },
+      "say": "どんな性格か教えてください。"
+    },
+    {
+      "scene": "point",
+      "speaker": "interviewer",
+      "point": {
+        "n": 5,
+        "of": 5,
+        "text": "どんな性格か教えてください",
+        "romaji": "Donna seikaku ka oshiete kudasai",
+        "arti": "Ceritakan tentang karaktermu"
+      },
+      "say": "Jangan ~terlalu generic~ kayak saya pekerja keras. Kasih *contoh konkret.*"
+    },
+    {
+      "scene": "cta",
+      "speaker": "interviewer",
+      "cta": {
+        "word": "MENSETSU",
+        "line": "Mau latihan jawab *semua pertanyaan ini?*"
+      },
+      "speak": "Mau latihan jawab semua pertanyaan ini? Komen MENSETSU di bawah!",
+      "hold": 1.0
+    }
+  ],
+  "speed": 1.2,
+  "tempo": 1.05
+}

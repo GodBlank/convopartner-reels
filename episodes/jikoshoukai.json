@@ -1,0 +1,78 @@
+{
+  "id": "jikoshoukai",
+  "series": "Mensetsu #1 · 自己紹介",
+  "topic": "自己紹介してください — pertanyaan pembuka mensetsu",
+  "candidate": { "name": "Kamu", "voice": "male" },
+  "interviewer": { "name": "Yui", "image": "brand/yui.png" },
+  "beats": [
+    { "scene": "hook", "speaker": "interviewer",
+      "title": "Salah jawab ini, *langsung ditolak.*",
+      "say": "自己紹介をしてください。", "sub": "\"Silakan perkenalkan diri.\"" },
+
+    { "scene": "chat", "speaker": "candidate", "quote": "自己紹介をしてください。",
+      "say": "わたしはリズキです。二十四さいです。しゅみはアニメです。",
+      "chips": ["Nama", "Umur", "Hobi"], "stamp": "DITOLAK", "hold": 0.2 },
+
+    { "scene": "host", "speaker": "interviewer", "mood": "stern",
+      "say": "~Stop.~ Semua itu udah ada di *rirekisho.*",
+      "badge": { "tag": "AWAS", "text": "⚠ Pertanyaan jebakan", "color": "red" } },
+
+    { "scene": "card", "speaker": "interviewer",
+      "card": { "kicker": "Kenapa ini jebakan", "title": "Yang dicari 面接官", "icon": "?",
+        "rows": [ { "kind": "no", "label": "BUKAN", "text": "Data diri dari rirekisho" },
+                  { "kind": "yes", "label": "TAPI", "text": "Kamu sebagai pekerja" } ] },
+      "say": "Aku nggak butuh data diri. Aku mau tahu kamu *sebagai pekerja.*" },
+
+    { "scene": "host", "speaker": "interviewer",
+      "say": "*Save dulu,* terus pakai rumus 3 langkah ini.",
+      "badge": { "tag": "SAVE", "text": "🔖 Kamu bakal butuh ini", "color": "gold" } },
+
+    { "scene": "step", "speaker": "interviewer",
+      "step": { "n": 1, "of": 3, "word": "Salam" }, "say": "Satu, salam dan nama." },
+    { "scene": "jp", "speaker": "candidate",
+      "jp": { "kicker": "Langkah 1 · Salam", "text": "はじめまして。リズキと申します。",
+        "romaji": "Hajimemashite. Rizky to moushimasu.", "arti": "Salam kenal. Nama saya Rizky." } },
+
+    { "scene": "step", "speaker": "interviewer",
+      "step": { "n": 2, "of": 3, "word": "Pengalaman" }, "say": "Dua, satu pengalaman yang nyambung." },
+    { "scene": "jp", "speaker": "candidate",
+      "jp": { "kicker": "Langkah 2 · Pengalaman", "text": "インドネシアで三年間、介護の仕事をしていました。",
+        "romaji": "Indoneshia de sannenkan, kaigo no shigoto o shite imashita.",
+        "arti": "Saya 3 tahun kerja di bidang perawatan lansia di Indonesia." } },
+
+    { "scene": "step", "speaker": "interviewer",
+      "step": { "n": 3, "of": 3, "word": "Semangat" }, "say": "Tiga, kenapa mau kerja di sini." },
+    { "scene": "jp", "speaker": "candidate",
+      "jp": { "kicker": "Langkah 3 · Penutup", "text": "日本の介護をもっと学びたいです。よろしくお願いいたします。",
+        "romaji": "Nihon no kaigo o motto manabitai desu. Yoroshiku onegai itashimasu.",
+        "arti": "Saya ingin belajar perawatan lansia di Jepang. Mohon bimbingannya." } },
+
+    { "scene": "host", "speaker": "interviewer", "mood": "smile",
+      "say": "Nah! Singkat, sopan, +nyambung.+",
+      "badge": { "tag": "LOLOS", "text": "Salam + Pengalaman + Semangat", "color": "green" } },
+
+    { "scene": "card", "speaker": "interviewer",
+      "card": { "kicker": "Jangan lakukan ini", "title": "3 kesalahan fatal", "icon": "!",
+        "rows": [ { "kind": "no", "label": "JANGAN", "text": "Baca rirekisho dari atas" },
+                  { "kind": "no", "label": "JANGAN", "text": "Jawab lebih dari 1 menit" },
+                  { "kind": "no", "label": "JANGAN", "text": "Lupa よろしくお願いします" } ] },
+      "say": "Jangan baca rirekisho, jangan lebih dari *satu menit,* jangan lupa yoroshiku." },
+
+    { "scene": "chat", "speaker": "candidate",
+      "say": "Tapi kalau di depan 面接官 aku *blank* gimana?",
+      "speak": "Tapi kalau di depan mensetsukan aku blank gimana?" },
+
+    { "scene": "app", "speaker": "interviewer",
+      "say": "Latihan dulu sama aku di *ConvoPartner.* Ada mode mensetsu-nya!",
+      "app": { "screen": "feat5.png", "badge": "面接練習 · Mode Mensetsu" } },
+
+    { "scene": "cta", "speaker": "interviewer",
+      "cta": { "word": "MENSETSU", "line": "kukirim *contoh jawabannya* via DM." } },
+
+    { "scene": "end", "speaker": "interviewer", "hold": 0.1,
+      "speak": "Dapatkan akses sekarang.",
+      "end": { "headline": "Latihan *mensetsu* bareng AI, 24 jam.",
+        "sub": "Roleplay, koreksi otomatis, dan versi jawaban yang lebih natural.",
+        "cta": "Dapatkan Akses Sekarang" } }
+  ]
+}

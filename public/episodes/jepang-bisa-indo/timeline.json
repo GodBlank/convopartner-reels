@@ -1,0 +1,282 @@
+{
+ "id": "jepang-bisa-indo",
+ "fps": 30,
+ "durationInFrames": 1645,
+ "series": "Bagaimana Jika",
+ "candidate": {
+  "name": "Kamu"
+ },
+ "interviewer": {
+  "name": "Yui",
+  "image": "brand/yui.png",
+  "role": "AI Partner"
+ },
+ "bgm": null,
+ "disclaimer": "Dialog fiktif. Suara dan karakter dibuat dengan AI.",
+ "beats": [
+  {
+   "scene": "hook",
+   "speaker": "interviewer",
+   "title": "Bagaimana jika orang Jepang *tiba-tiba lancar bahasa Indonesia?*",
+   "swap": {
+    "kind": "news",
+    "from": "Seluruh Jepang Kini Lancar Bahasa Indonesia",
+    "to": "Terjadi dalam semalam, para ahli bingung"
+   },
+   "say": "Bagaimana jika besok pagi, semua orang Jepang tiba-tiba lancar bahasa Indonesia?",
+   "audio": "episodes/jepang-bisa-indo/audio/8b990162d6a6-0-t1.1.wav",
+   "from": 0,
+   "frames": 153,
+   "speechFrames": 147
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Rina, yang udah belajar Jepang *tiga tahun,* langsung lemes.",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Belajar Jepang 3 tahun",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Belum pernah belajar",
+     "image": "story/chars/dimas.png"
+    },
+    "bg": "story/bg/kerja.jpg",
+    "focus": "left",
+    "label": "Bagaimana jika…",
+    "bubbles": {
+     "left": "Terus… buat apa aku belajar? 😩"
+    }
+   },
+   "audio": "episodes/jepang-bisa-indo/audio/8b990162d6a6-1-t1.1.wav",
+   "from": 153,
+   "frames": 124,
+   "speechFrames": 118
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Dimas, yang belum pernah belajar, langsung beli tiket ke Tokyo.",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Belajar Jepang 3 tahun",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Belum pernah belajar",
+     "image": "story/chars/dimas.png"
+    },
+    "bg": "story/bg/kerja.jpg",
+    "focus": "right",
+    "label": "Bagaimana jika…",
+    "bubbles": {
+     "right": "Tokyo, aku dataang! ✈️"
+    }
+   },
+   "audio": "episodes/jepang-bisa-indo/audio/8b990162d6a6-2-t1.1.wav",
+   "from": 277,
+   "frames": 126,
+   "speechFrames": 120
+  },
+  {
+   "scene": "card",
+   "speaker": "interviewer",
+   "card": {
+    "kicker": "1 bulan kemudian",
+    "title": "Lowongan kerja di Jepang",
+    "icon": "!",
+    "rows": [
+     {
+      "kind": "info",
+      "label": "PELAMAR",
+      "text": "Naik 10× lipat 📈"
+     },
+     {
+      "kind": "no",
+      "label": "SAINGAN",
+      "text": "Semua bisa ngobrol"
+     }
+    ]
+   },
+   "say": "Bulan pertama, lowongan buat orang Indonesia *meledak.* Semua orang bisa kerja di Jepang.",
+   "audio": "episodes/jepang-bisa-indo/audio/8b990162d6a6-3-t1.1.wav",
+   "from": 403,
+   "frames": 170,
+   "speechFrames": 164
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Tapi justru di situ masalahnya. Kalau semua bisa… apa yang bikin *kamu beda?*",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/dimas.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "ask": true,
+    "label": "Bagaimana jika…"
+   },
+   "audio": "episodes/jepang-bisa-indo/audio/ca026c3a74cd-0-t1.1.wav",
+   "from": 573,
+   "frames": 153,
+   "speechFrames": 147
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Mensetsu. Interviewer nanya pakai *bahasa Indonesia.*",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "面接官",
+     "tag": "",
+     "trait": "Lancar bahasa Indonesia 🇮🇩",
+     "image": "story/chars/interviewer.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "focus": "right",
+    "label": "Bagaimana jika…",
+    "bubbles": {
+     "right": "Kenapa mau kerja di sini?"
+    }
+   },
+   "audio": "episodes/jepang-bisa-indo/audio/ca026c3a74cd-1-t1.1.wav",
+   "from": 726,
+   "frames": 118,
+   "speechFrames": 112
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Tapi Rina jawab pakai *bahasa Jepang.*",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "面接官",
+     "tag": "",
+     "trait": "Lancar bahasa Indonesia 🇮🇩",
+     "image": "story/chars/interviewer.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "focus": "left",
+    "label": "Bagaimana jika…",
+    "bubbles": {
+     "left": {
+      "text": "御社で成長したいです。",
+      "sub": "“Saya ingin berkembang di perusahaan ini.”"
+     }
+    }
+   },
+   "audio": "episodes/jepang-bisa-indo/audio/ca026c3a74cd-2-t1.1.wav",
+   "from": 844,
+   "frames": 78,
+   "speechFrames": 72
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Interviewer langsung *senyum.* Yang dia lihat bukan cuma bahasanya, tapi *usaha* dan *rasa hormat* ke budayanya.",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "面接官",
+     "tag": "",
+     "trait": "Terkesan 😊",
+     "image": "story/chars/interviewer.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "label": "Bagaimana jika…",
+    "stamp": {
+     "side": "left",
+     "text": "LOLOS",
+     "color": "green"
+    }
+   },
+   "audio": "episodes/jepang-bisa-indo/audio/ca026c3a74cd-3-t1.1.wav",
+   "from": 922,
+   "frames": 205,
+   "speechFrames": 187
+  },
+  {
+   "scene": "app",
+   "speaker": "interviewer",
+   "app": {
+    "video": "footage/Simulasi wawancara kerja ke Jepang.mp4",
+    "volume": 0.15,
+    "demo": true
+   },
+   "say": "Bisa ngomong Jepang itu nilai tambah yang *nggak bisa diganti.*",
+   "audio": "episodes/jepang-bisa-indo/audio/8d8fa58cf86c-0-t1.1.wav",
+   "from": 1127,
+   "frames": 99,
+   "speechFrames": 93
+  },
+  {
+   "scene": "app",
+   "speaker": "interviewer",
+   "app": {
+    "video": "footage/Simulasi wawancara kerja ke Jepang.mp4",
+    "volume": 0.15,
+    "demo": true
+   },
+   "say": "Di *ConvoPartner,* kamu latihan sampai jawaban mensetsu-mu kedengeran *natural.*",
+   "audio": "episodes/jepang-bisa-indo/audio/8d8fa58cf86c-1-t1.1.wav",
+   "from": 1226,
+   "frames": 151,
+   "speechFrames": 145
+  },
+  {
+   "scene": "debate",
+   "speaker": "interviewer",
+   "debate": {
+    "left": {
+     "icon": "📚",
+     "label": "Tetap Belajar"
+    },
+    "right": {
+     "icon": "😎",
+     "label": "Ngapain Belajar Lagi"
+    },
+    "prompt": "Tulis pendapatmu di komen"
+   },
+   "say": "Kalau orang Jepang bisa bahasa Indonesia, kamu tim *tetap belajar,* atau tim *ngapain belajar lagi?* Tulis di komen.",
+   "audio": "episodes/jepang-bisa-indo/audio/8d8fa58cf86c-2-t1.1.wav",
+   "from": 1377,
+   "frames": 268,
+   "speechFrames": 226
+  }
+ ]
+}

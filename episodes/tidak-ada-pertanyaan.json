@@ -1,0 +1,89 @@
+{
+  "id": "tidak-ada-pertanyaan",
+  "series": "Apa Jadinya Kalau",
+  "topic": "Apa jadinya kalau kamu jawab 'tidak ada' waktu ditanya 'ada pertanyaan?' (逆質問) (pilar Apa jadinya kalau, A3)",
+  "tempo": 1.1,
+  "candidate": { "name": "Kamu", "voice": "male" },
+  "interviewer": { "name": "Yui", "image": "brand/yui.png", "role": "AI Partner" },
+  "beats": [
+    { "scene": "hook", "speaker": "interviewer",
+      "title": "Apa jadinya kalau jawab *“tidak ada”* di akhir mensetsu?",
+      "swap": { "kind": "screen", "from": "特にありません。", "to": "" },
+      "say": "Apa jadinya kalau di akhir mensetsu ditanya, ada pertanyaan? Terus kamu jawab: tidak ada." },
+
+    { "scene": "duel", "speaker": "interviewer",
+      "say": "Mensetsu hampir selesai. Interviewer *nanya:*",
+      "duel": {
+        "left": { "name": "Rina", "tag": "", "trait": "", "image": "story/chars/rina.png" },
+        "right": { "name": "面接官", "tag": "", "trait": "", "image": "story/chars/interviewer.png" },
+        "bg": "story/bg/wawancara.jpg", "focus": "right", "label": "Apa jadinya kalau…",
+        "bubbles": { "right": { "text": "何か質問はありますか？", "sub": "“Ada pertanyaan untuk kami?”" } } } },
+    { "scene": "duel", "speaker": "interviewer",
+      "say": "Rina jawab *sopan.*",
+      "duel": {
+        "left": { "name": "Rina", "tag": "", "trait": "", "image": "story/chars/rina.png" },
+        "right": { "name": "面接官", "tag": "", "trait": "", "image": "story/chars/interviewer.png" },
+        "bg": "story/bg/wawancara.jpg", "focus": "left", "label": "Apa jadinya kalau…",
+        "bubbles": { "left": { "text": "特にありません。", "sub": "“Tidak ada.”" } } } },
+    { "scene": "duel", "speaker": "interviewer",
+      "say": "Kedengarannya sopan, kan? Rina juga *mikir gitu.*",
+      "duel": {
+        "left": { "name": "Rina", "tag": "", "trait": "", "image": "story/chars/rina.png" },
+        "right": { "name": "面接官", "tag": "", "trait": "", "image": "story/chars/interviewer.png" },
+        "bg": "story/bg/wawancara.jpg", "focus": "left", "label": "Apa jadinya kalau…",
+        "thought": { "side": "left", "text": "Aman, sopan kok 😊" } } },
+    { "scene": "duel", "speaker": "interviewer",
+      "say": "Tapi interviewer langsung ~nutup map.~ Mensetsu selesai lebih cepat.",
+      "duel": {
+        "left": { "name": "Rina", "tag": "", "trait": "", "image": "story/chars/rina.png" },
+        "right": { "name": "面接官", "tag": "", "trait": "Nutup map 📁", "image": "story/chars/interviewer-honne.png" },
+        "bg": "story/bg/wawancara.jpg", "focus": "right", "label": "Apa jadinya kalau…" } },
+    { "scene": "duel", "speaker": "interviewer",
+      "say": "Seminggu kemudian… ~email penolakan~ masuk.",
+      "hold": 0.4,
+      "duel": {
+        "left": { "name": "Rina", "tag": "", "trait": "Kok bisa? 😣", "image": "story/chars/rina-sedih.png" },
+        "right": { "name": "面接官", "tag": "", "trait": "", "image": "story/chars/interviewer-honne.png" },
+        "bg": "story/bg/kamar.jpg", "solo": "left", "later": "1 minggu kemudian…",
+        "screen": { "side": "left", "text": "📧 不採用 · Ditolak" } } },
+
+    { "scene": "card", "speaker": "interviewer",
+      "card": { "kicker": "Ternyata…", "title": "逆質問 · Gyaku shitsumon", "icon": "!",
+        "rows": [ { "kind": "no", "label": "BUKAN", "text": "Basa-basi penutup" } ] },
+      "say": "Di Jepang, pertanyaan ini namanya *gyaku shitsumon.* Ini ~bukan basa-basi.~" },
+    { "scene": "card", "speaker": "interviewer",
+      "card": { "kicker": "Ternyata…", "title": "逆質問 · Gyaku shitsumon", "icon": "!",
+        "rows": [ { "kind": "no", "label": "BUKAN", "text": "Basa-basi penutup" },
+                  { "kind": "yes", "label": "TAPI", "text": "Tes terakhir: kamu tertarik?" } ] },
+      "say": "Ini *tes terakhir:* kamu beneran tertarik sama perusahaan ini, atau nggak." },
+
+    { "scene": "duel", "speaker": "interviewer",
+      "say": "Kandidat yang lolos biasanya nanya *kayak gini:*",
+      "duel": {
+        "left": { "name": "Rina", "tag": "", "trait": "Coba lagi ✨", "image": "story/chars/rina-senang.png" },
+        "right": { "name": "面接官", "tag": "", "trait": "", "image": "story/chars/interviewer.png" },
+        "bg": "story/bg/wawancara.jpg", "focus": "left", "label": "Apa jadinya kalau…",
+        "bubbles": { "left": { "text": "入社までに勉強しておくべきことはありますか？", "sub": "“Ada yang sebaiknya saya pelajari sebelum mulai kerja?”" } } } },
+    { "scene": "duel", "speaker": "interviewer",
+      "say": "Satu pertanyaan, langsung nunjukin kamu *serius.*",
+      "hold": 0.4,
+      "duel": {
+        "left": { "name": "Rina", "tag": "", "trait": "Coba lagi ✨", "image": "story/chars/rina-senang.png" },
+        "right": { "name": "面接官", "tag": "", "trait": "Terkesan 😊", "image": "story/chars/interviewer.png" },
+        "bg": "story/bg/wawancara.jpg", "label": "Apa jadinya kalau…",
+        "stamp": { "side": "left", "text": "LOLOS", "color": "green" } } },
+
+    { "scene": "app", "speaker": "interviewer",
+      "app": { "video": "footage/Jawaban wawancara kamu digrading.mp4", "volume": 0.15, "demo": true },
+      "say": "Di *ConvoPartner,* simulasi mensetsu-nya sampai ke bagian *gyaku shitsumon,*" },
+    { "scene": "app", "speaker": "interviewer",
+      "app": { "video": "footage/Jawaban wawancara kamu digrading.mp4", "volume": 0.15, "demo": true },
+      "say": "dan jawabanmu langsung *dinilai.*" },
+
+    { "scene": "debate", "speaker": "interviewer", "hold": 1.2,
+      "debate": { "left": { "icon": "❓", "label": "Wajib Bertanya" },
+                  "right": { "icon": "🙇", "label": "Nggak Perlu" },
+                  "prompt": "Tulis pendapatmu di komen" },
+      "say": "Kamu tim *wajib bertanya,* atau tim *nggak perlu,* takut salah? Tulis di komen." }
+  ]
+}

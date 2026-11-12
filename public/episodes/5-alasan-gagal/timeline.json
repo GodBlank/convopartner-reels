@@ -1,0 +1,151 @@
+{
+ "id": "5-alasan-gagal",
+ "fps": 30,
+ "durationInFrames": 1222,
+ "series": "Tips Mensetsu",
+ "candidate": {
+  "name": "Kamu"
+ },
+ "interviewer": {
+  "name": "Yui",
+  "image": "brand/yui.png"
+ },
+ "bgm": null,
+ "disclaimer": "Dialog fiktif. Suara dan karakter dibuat dengan AI.",
+ "beats": [
+  {
+   "scene": "hook",
+   "speaker": "interviewer",
+   "teaser": 5,
+   "title": "5 Alasan Kamu *Gagal* Wawancara Kerja ke Jepang 😭",
+   "say": "5 alasan kamu gagal wawancara kerja ke Jepang.",
+   "audio": "episodes/5-alasan-gagal/audio/10c662eb37e4.wav",
+   "from": 0,
+   "frames": 101,
+   "speechFrames": 95
+  },
+  {
+   "scene": "point",
+   "speaker": "interviewer",
+   "point": {
+    "n": 1,
+    "of": 5,
+    "text": "Mikir lama sebelum jawab"
+   },
+   "say": "Di depan orang Jepang, jeda *5 detik* aja udah keliatan ~gak siap.~",
+   "audio": "episodes/5-alasan-gagal/audio/8ea23befcc28.wav",
+   "from": 101,
+   "frames": 127,
+   "speechFrames": 121
+  },
+  {
+   "scene": "point",
+   "speaker": "interviewer",
+   "point": {
+    "n": 2,
+    "of": 5,
+    "text": "Jawaban melenceng dari pertanyaan"
+   },
+   "say": "Perusahaan tanya A, jawabnya malah B. Bukan karena gak ngerti, tapi *gugup.*",
+   "audio": "episodes/5-alasan-gagal/audio/88dfcd03f68f.wav",
+   "from": 228,
+   "frames": 154,
+   "speechFrames": 148
+  },
+  {
+   "scene": "point",
+   "speaker": "interviewer",
+   "point": {
+    "n": 3,
+    "of": 5,
+    "text": "Latihan sendiri tanpa ada yang benerin",
+    "tag": "AKAR MASALAH"
+   },
+   "say": "Ini *akar masalahnya.* Latihan depan cermin ~gak ada feedback.~",
+   "audio": "episodes/5-alasan-gagal/audio/2950b93df42c.wav",
+   "from": 382,
+   "frames": 117,
+   "speechFrames": 111
+  },
+  {
+   "scene": "app",
+   "speaker": "interviewer",
+   "app": {
+    "screen": "cara4.png",
+    "badge": "Jawaban mensetsu di-grading"
+   },
+   "say": "Di *ConvoPartner,* tiap jawaban mensetsu di-grading langsung.",
+   "audio": "episodes/5-alasan-gagal/audio/d2faa614274f.wav",
+   "from": 499,
+   "frames": 125,
+   "speechFrames": 119
+  },
+  {
+   "scene": "app",
+   "speaker": "interviewer",
+   "app": {
+    "screen": "cara4.png",
+    "badge": "Jawaban mensetsu di-grading"
+   },
+   "say": "Tau persis bagian mana yang harus *diperbaiki* sebelum hari H.",
+   "audio": "episodes/5-alasan-gagal/audio/ff40636a350a.wav",
+   "from": 624,
+   "frames": 111,
+   "speechFrames": 105
+  },
+  {
+   "scene": "point",
+   "speaker": "interviewer",
+   "point": {
+    "n": 4,
+    "of": 5,
+    "text": "Jawaban terlalu kaku, kayak hafalan"
+   },
+   "say": "Perusahaan tau kamu lagi baca dari ingatan, *bukan ngomong beneran.*",
+   "audio": "episodes/5-alasan-gagal/audio/1ecc9f2b80d6.wav",
+   "from": 735,
+   "frames": 133,
+   "speechFrames": 127
+  },
+  {
+   "scene": "point",
+   "speaker": "interviewer",
+   "point": {
+    "n": 5,
+    "of": 5,
+    "text": "Lupa soal etika dan kesan pertama"
+   },
+   "say": "Cara masuk, cara duduk, ekspresi. Semua dinilai *bahkan sebelum kamu ngomong.*",
+   "audio": "episodes/5-alasan-gagal/audio/adf70580f6d2.wav",
+   "from": 868,
+   "frames": 161,
+   "speechFrames": 155
+  },
+  {
+   "scene": "cta",
+   "speaker": "interviewer",
+   "cta": {
+    "word": "MENSETSU",
+    "line": "Mau persiapan yang *bener* sebelum wawancara?"
+   },
+   "speak": "Mau persiapan yang bener sebelum wawancara? Komen MENSETSU sekarang!",
+   "audio": "episodes/5-alasan-gagal/audio/8d6e6f23eebc.wav",
+   "from": 1029,
+   "frames": 133,
+   "speechFrames": 127
+  },
+  {
+   "scene": "end",
+   "silent": true,
+   "end": {
+    "headline": "Latihan *mensetsu* bareng AI, 24 jam.",
+    "sub": "Roleplay, grading jawaban, dan versi yang lebih natural.",
+    "cta": "Dapatkan Akses Sekarang"
+   },
+   "audio": null,
+   "from": 1162,
+   "frames": 60,
+   "speechFrames": 60
+  }
+ ]
+}

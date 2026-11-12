@@ -1,0 +1,409 @@
+{
+ "id": "tukar-hidup",
+ "series": "Bagaimana Jika",
+ "topic": "Bagaimana jika kamu tukar hidup dengan orang Jepang selama seminggu? (TOFU T10 v3)",
+ "tempo": 1.15,
+ "candidate": {
+  "name": "Kamu",
+  "voice": "male"
+ },
+ "interviewer": {
+  "name": "Yui",
+  "image": "brand/yui.png",
+  "role": "AI Partner"
+ },
+ "beats": [
+  {
+   "scene": "hook",
+   "speaker": "interviewer",
+   "title": "Bagaimana jika kamu *tukar hidup* dengan orang Jepang?",
+   "duo": {
+    "left": {
+     "image": "story/chars/rina-senang.png",
+     "name": "Rina",
+     "place": "🇯🇵 TOKYO",
+     "bg": "story/bg/tokyo.jpg"
+    },
+    "right": {
+     "image": "story/chars/tanaka.png",
+     "name": "Tanaka",
+     "place": "🇮🇩 JAKARTA",
+     "bg": "story/bg/jakarta.jpg"
+    }
+   },
+   "say": "Bagaimana jika kamu tukar hidup dengan orang Jepang, seminggu? Di hari ketujuh… dua-duanya *nggak mau pulang.*"
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "duel": {
+    "left": {
+     "name": "Ibu Rina",
+     "tag": "",
+     "trait": "Nggak bisa bahasa Inggris",
+     "image": "story/chars/ibu-rina.png"
+    },
+    "right": {
+     "name": "Tanaka",
+     "tag": "",
+     "trait": "Masih tidur 😴",
+     "image": "story/chars/tanaka.png"
+    },
+    "bg": "story/bg/rumah-jakarta.jpg",
+    "later": "Jakarta · Hari 1",
+    "mood": "night",
+    "focus": "left",
+    "screen": {
+     "side": "right",
+     "text": "⏰ 04.30"
+    },
+    "react": {
+     "side": "right",
+     "kind": "shiver"
+    },
+    "bubbles": {
+     "left": {
+      "text": "Nak, bangun! Sarapan dulu!",
+      "voice": "ibu",
+      "emotion": "happy"
+     }
+    },
+    "cut": true
+   },
+   "say": "Tanaka tinggal bareng ibu Rina. Jam setengah lima pagi:",
+   "ambience": "room"
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Takjub 😮",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "",
+     "tag": "",
+     "trait": ""
+    },
+    "bg": "story/bg/kereta.jpg",
+    "solo": "left",
+    "later": "Tokyo · Hari 1",
+    "cut": true,
+    "cam": "push",
+    "screen": {
+     "side": "left",
+     "text": "🕗 08:02:00",
+     "tone": "green"
+    }
+   },
+   "say": "Di Tokyo, keretanya *tepat waktu,* sampai ke detik.",
+   "ambience": "train"
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Malu 😳",
+     "image": "story/chars/rina-sedih.png"
+    },
+    "right": {
+     "name": "",
+     "tag": "",
+     "trait": ""
+    },
+    "bg": "story/bg/kereta.jpg",
+    "solo": "left",
+    "later": "Tokyo · Hari 1",
+    "shake": true,
+    "cam": "close",
+    "react": {
+     "side": "left",
+     "kind": "shrink"
+    },
+    "thought": {
+     "side": "left",
+     "text": "Aku salah apa…"
+    }
+   },
+   "say": "Rina bersin… *semua melirik.*",
+   "ambience": "train"
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "duel": {
+    "left": {
+     "name": "Ibu Rina",
+     "tag": "",
+     "trait": "Sayang tamu 🥰",
+     "image": "story/chars/ibu-rina.png"
+    },
+    "right": {
+     "name": "Tanaka",
+     "tag": "",
+     "trait": "Kenyang 🤤",
+     "image": "story/chars/tanaka.png"
+    },
+    "bg": "story/bg/rumah-jakarta.jpg",
+    "later": "Jakarta · Hari 3",
+    "cut": true,
+    "mood": "warm",
+    "focus": "right",
+    "react": {
+     "side": "right",
+     "kind": "jump"
+    },
+    "bubbles": {
+     "right": {
+      "text": "Enak… banget, Bu!",
+      "voice": "tanaka",
+      "emotion": "happy"
+     }
+    }
+   },
+   "say": "Di Jakarta, nasi uduk Tanaka *ditambah terus.*",
+   "ambience": "room"
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Panik 😰",
+     "image": "story/chars/rina-sedih.png"
+    },
+    "right": {
+     "name": "",
+     "tag": "",
+     "trait": ""
+    },
+    "bg": "story/bg/stasiun.jpg",
+    "solo": "left",
+    "later": "Tokyo · Hari 3",
+    "cut": true,
+    "shake": true,
+    "react": {
+     "side": "left",
+     "kind": "shiver"
+    },
+    "screen": {
+     "side": "left",
+     "text": "👛 DOMPET HILANG"
+    }
+   },
+   "say": "Di Tokyo, dompet Rina *ketinggalan di kereta.*",
+   "ambience": "train"
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Panik 😰",
+     "image": "story/chars/rina-sedih.png"
+    },
+    "right": {
+     "name": "Petugas",
+     "tag": "",
+     "trait": "Stasiun",
+     "image": "story/chars/petugas.png"
+    },
+    "bg": "story/bg/stasiun.jpg",
+    "later": "1 jam kemudian",
+    "focus": "right",
+    "bubbles": {
+     "right": {
+      "text": "こちら、お客様のお財布でしょうか？",
+      "sub": "“Apakah ini dompet Anda?”",
+      "voice": "pria"
+     }
+    }
+   },
+   "say": "Sejam kemudian, petugas memanggil:",
+   "ambience": "train"
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Lega 🥹",
+     "image": "story/chars/rina-senang.png"
+    },
+    "right": {
+     "name": "Petugas",
+     "tag": "",
+     "trait": "Stasiun",
+     "image": "story/chars/petugas.png"
+    },
+    "bg": "story/bg/stasiun.jpg",
+    "later": "1 jam kemudian",
+    "focus": "left",
+    "fx": "sparkle",
+    "react": {
+     "side": "right",
+     "kind": "nod"
+    },
+    "bubbles": {
+     "left": {
+      "text": "本当にありがとうございます！",
+      "sub": "“Terima kasih banyak!”",
+      "voice": "rina",
+      "emotion": "happy"
+     }
+    }
+   },
+   "say": "Utuh. Struknya pun *masih ada.*",
+   "ambience": "train"
+  },
+  {
+   "scene": "hook",
+   "speaker": "interviewer",
+   "title": "Hari 7: *pulang,* atau *tinggal?*",
+   "duo": {
+    "left": {
+     "image": "story/chars/rina-senang.png",
+     "name": "Rina",
+     "place": "🇯🇵 TOKYO",
+     "bg": "story/bg/tokyo.jpg"
+    },
+    "right": {
+     "image": "story/chars/tanaka.png",
+     "name": "Tanaka",
+     "place": "🇮🇩 JAKARTA",
+     "bg": "story/bg/jakarta.jpg"
+    }
+   },
+   "say": "Hari ketujuh. Pulang, atau *tinggal?*"
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "duel": {
+    "left": {
+     "name": "",
+     "tag": "",
+     "trait": ""
+    },
+    "right": {
+     "name": "Tanaka",
+     "tag": "",
+     "trait": "Kangen 🥹",
+     "image": "story/chars/tanaka.png"
+    },
+    "bg": "story/bg/rumah-jakarta.jpg",
+    "solo": "right",
+    "mood": "warm",
+    "cam": "push"
+   },
+   "say": "Dua-duanya pilih *tinggal.* Tanaka kangen dibangunin subuh.",
+   "ambience": "room"
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Kangen 🥹",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "",
+     "tag": "",
+     "trait": ""
+    },
+    "bg": "story/bg/kereta.jpg",
+    "solo": "left",
+    "mood": "dusk",
+    "cam": "push"
+   },
+   "say": "Rina kangen dompet yang kembali *utuh.*",
+   "ambience": "train"
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/rina-senang.png"
+    },
+    "right": {
+     "name": "Tanaka",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/tanaka.png"
+    },
+    "bg": "story/bg/tokyo.jpg",
+    "mood": "dusk",
+    "fx": "sparkle",
+    "cam": "pull"
+   },
+   "say": "Mereka jatuh cinta sama hal yang *nggak dimiliki* negaranya sendiri.",
+   "ambience": "city"
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "duel": {
+    "left": {
+     "name": "",
+     "tag": "",
+     "trait": ""
+    },
+    "right": {
+     "name": "Tanaka",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/tanaka.png"
+    },
+    "bg": "story/bg/jakarta.jpg",
+    "solo": "right",
+    "mood": "dusk",
+    "cam": "push",
+    "bubbles": {
+     "right": {
+      "text": "急がなくても、いいんだ。",
+      "sub": "“Ternyata nggak perlu buru-buru.”",
+      "voice": "tanaka"
+     }
+    }
+   },
+   "say": "Tanaka nulis satu kalimat:",
+   "ambience": "city"
+  },
+  {
+   "scene": "debate",
+   "speaker": "interviewer",
+   "hold": 0.6,
+   "debate": {
+    "left": {
+     "icon": "🇯🇵",
+     "label": "Tinggal di Jepang"
+    },
+    "right": {
+     "icon": "🇮🇩",
+     "label": "Pulang ke Rumah"
+    },
+    "prompt": "Tulis pendapatmu di komen"
+   },
+   "say": "Kamu tim *tinggal di Jepang,* atau tim *pulang?* Tulis di komen."
+  }
+ ]
+}

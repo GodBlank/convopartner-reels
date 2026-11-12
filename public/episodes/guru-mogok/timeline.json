@@ -1,0 +1,309 @@
+{
+ "id": "guru-mogok",
+ "fps": 30,
+ "durationInFrames": 1301,
+ "series": "Bagaimana Jika",
+ "candidate": {
+  "name": "Kamu"
+ },
+ "interviewer": {
+  "name": "Yui",
+  "image": "brand/yui.png",
+  "role": "AI Partner"
+ },
+ "bgm": null,
+ "disclaimer": "Dialog fiktif. Suara dan karakter dibuat dengan AI.",
+ "beats": [
+  {
+   "scene": "hook",
+   "speaker": "interviewer",
+   "title": "Bagaimana jika semua guru bahasa Jepang *mogok setahun?*",
+   "swap": {
+    "kind": "news",
+    "from": "Guru Bahasa Jepang Sedunia Mogok 1 Tahun",
+    "to": "Semua kelas & LPK ditutup mulai hari ini"
+   },
+   "say": "Bagaimana jika semua guru bahasa Jepang di dunia mogok… selama satu tahun?",
+   "audio": "episodes/guru-mogok/audio/8440688f051e-0-t1.1.wav",
+   "from": 0,
+   "frames": 137,
+   "speechFrames": 131
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Kelas tutup. LPK sepi. ~Nggak ada yang ngajarin.~",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/dimas.png"
+    },
+    "bg": "story/bg/kelas.jpg",
+    "focus": "both",
+    "label": "Bagaimana jika…"
+   },
+   "audio": "episodes/guru-mogok/audio/8440688f051e-1-t1.1.wav",
+   "from": 137,
+   "frames": 125,
+   "speechFrames": 119
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Rina *berhenti belajar.*",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Libur dulu 😴",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/dimas.png"
+    },
+    "bg": "story/bg/kamar.jpg",
+    "solo": "left",
+    "label": "Bagaimana jika…",
+    "bubbles": {
+     "left": "Nunggu gurunya balik aja deh…"
+    }
+   },
+   "audio": "episodes/guru-mogok/audio/8440688f051e-2-t1.1.wav",
+   "from": 262,
+   "frames": 53,
+   "speechFrames": 47
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Dimas tetap latihan sendiri. *Sepuluh menit* tiap hari.",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "10 menit tiap hari ⏱️",
+     "image": "story/chars/dimas.png"
+    },
+    "bg": "story/bg/kamar.jpg",
+    "solo": "right",
+    "label": "Bagaimana jika…"
+   },
+   "audio": "episodes/guru-mogok/audio/8440688f051e-3-t1.1.wav",
+   "from": 315,
+   "frames": 95,
+   "speechFrames": 89
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Ngomong, rekam, dengerin ulang, *perbaiki.*",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "10 menit tiap hari ⏱️",
+     "image": "story/chars/dimas.png"
+    },
+    "bg": "story/bg/kamar.jpg",
+    "solo": "right",
+    "label": "Bagaimana jika…",
+    "climb": {
+     "side": "right",
+     "steps": [
+      "1",
+      "180",
+      "365"
+     ],
+     "note": "hari latihan"
+    }
+   },
+   "audio": "episodes/guru-mogok/audio/8440688f051e-4-t1.1.wav",
+   "from": 410,
+   "frames": 105,
+   "speechFrames": 99
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Setahun kemudian, guru-guru *balik.*",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/dimas.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "focus": "both",
+    "later": "1 tahun kemudian…"
+   },
+   "audio": "episodes/guru-mogok/audio/30ebb05cf48b-0-t1.1.wav",
+   "from": 515,
+   "frames": 70,
+   "speechFrames": 64
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Rina harus ~mulai dari awal lagi.~",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Lupa semua 😣",
+     "image": "story/chars/rina-sedih.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/dimas.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "later": "1 tahun kemudian…",
+    "stamp": {
+     "side": "left",
+     "text": "MULAI LAGI",
+     "color": "red"
+    }
+   },
+   "audio": "episodes/guru-mogok/audio/30ebb05cf48b-1-t1.1.wav",
+   "from": 585,
+   "frames": 60,
+   "speechFrames": 54
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Dimas udah *siap mensetsu.*",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Lupa semua 😣",
+     "image": "story/chars/rina-sedih.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Siap mensetsu 💪",
+     "image": "story/chars/dimas-kerja.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "later": "1 tahun kemudian…",
+    "stamp": {
+     "side": "right",
+     "text": "SIAP",
+     "color": "green"
+    }
+   },
+   "audio": "episodes/guru-mogok/audio/30ebb05cf48b-2-t1.1.wav",
+   "from": 645,
+   "frames": 70,
+   "speechFrames": 52
+  },
+  {
+   "scene": "card",
+   "speaker": "interviewer",
+   "card": {
+    "kicker": "Intinya",
+    "title": "Yang bikin lancar",
+    "icon": "check",
+    "rows": [
+     {
+      "kind": "info",
+      "label": "GURU",
+      "text": "Penting, tapi nggak tiap saat"
+     },
+     {
+      "kind": "yes",
+      "label": "LATIHAN",
+      "text": "Tiap hari, ada guru atau nggak"
+     }
+    ]
+   },
+   "say": "Guru itu penting. Tapi yang bikin lancar itu *latihan tiap hari,* ada guru atau nggak.",
+   "audio": "episodes/guru-mogok/audio/30ebb05cf48b-3-t1.1.wav",
+   "from": 715,
+   "frames": 155,
+   "speechFrames": 149
+  },
+  {
+   "scene": "app",
+   "speaker": "interviewer",
+   "app": {
+    "video": "footage/Simulasi wawancara kerja ke Jepang.mp4",
+    "volume": 0.15,
+    "demo": true
+   },
+   "say": "Latihan ngomong nggak harus *nunggu jadwal les.*",
+   "audio": "episodes/guru-mogok/audio/30ebb05cf48b-4-t1.1.wav",
+   "from": 870,
+   "frames": 71,
+   "speechFrames": 65
+  },
+  {
+   "scene": "app",
+   "speaker": "interviewer",
+   "app": {
+    "video": "footage/Simulasi wawancara kerja ke Jepang.mp4",
+    "volume": 0.15,
+    "demo": true
+   },
+   "say": "Di *ConvoPartner,* Yui siap jadi lawan bicaramu *kapan aja.*",
+   "audio": "episodes/guru-mogok/audio/abae206da067-0-t1.1.wav",
+   "from": 941,
+   "frames": 120,
+   "speechFrames": 114
+  },
+  {
+   "scene": "debate",
+   "speaker": "interviewer",
+   "debate": {
+    "left": {
+     "icon": "👩‍🏫",
+     "label": "Guru Manusia"
+    },
+    "right": {
+     "icon": "🤖",
+     "label": "Partner AI"
+    },
+    "prompt": "Tulis pendapatmu di komen"
+   },
+   "say": "Menurutmu, belajar Jepang lebih efektif sama *guru manusia,* atau *partner AI?* Tulis di komen.",
+   "audio": "episodes/guru-mogok/audio/abae206da067-1-t1.1.wav",
+   "from": 1061,
+   "frames": 240,
+   "speechFrames": 198
+  }
+ ]
+}

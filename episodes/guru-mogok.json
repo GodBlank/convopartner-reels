@@ -1,0 +1,262 @@
+{
+  "id": "guru-mogok",
+  "series": "Bagaimana Jika",
+  "topic": "Bagaimana jika semua guru bahasa Jepang di dunia mogok setahun? (pilar Bagaimana jika, B14)",
+  "tempo": 1.1,
+  "candidate": {
+    "name": "Kamu",
+    "voice": "male"
+  },
+  "interviewer": {
+    "name": "Yui",
+    "image": "brand/yui.png",
+    "role": "AI Partner"
+  },
+  "beats": [
+    {
+      "scene": "hook",
+      "speaker": "interviewer",
+      "title": "Bagaimana jika semua guru bahasa Jepang *mogok setahun?*",
+      "swap": {
+        "kind": "news",
+        "from": "Guru Bahasa Jepang Sedunia Mogok 1 Tahun",
+        "to": "Semua kelas & LPK ditutup mulai hari ini"
+      },
+      "say": "Bagaimana jika semua guru bahasa Jepang di dunia mogok… selama satu tahun?"
+    },
+    {
+      "scene": "duel",
+      "speaker": "interviewer",
+      "say": "Kelas tutup. LPK sepi. ~Nggak ada yang ngajarin.~",
+      "duel": {
+        "left": {
+          "name": "Rina",
+          "tag": "",
+          "trait": "",
+          "image": "story/chars/rina.png"
+        },
+        "right": {
+          "name": "Dimas",
+          "tag": "",
+          "trait": "",
+          "image": "story/chars/dimas.png"
+        },
+        "bg": "story/bg/kelas.jpg",
+        "focus": "both",
+        "label": "Bagaimana jika…"
+      }
+    },
+    {
+      "scene": "duel",
+      "speaker": "interviewer",
+      "say": "Rina *berhenti belajar.*",
+      "duel": {
+        "left": {
+          "name": "Rina",
+          "tag": "",
+          "trait": "Libur dulu 😴",
+          "image": "story/chars/rina.png"
+        },
+        "right": {
+          "name": "Dimas",
+          "tag": "",
+          "trait": "",
+          "image": "story/chars/dimas.png"
+        },
+        "bg": "story/bg/kamar.jpg",
+        "solo": "left",
+        "label": "Bagaimana jika…",
+        "bubbles": {
+          "left": "Nunggu gurunya balik aja deh…"
+        }
+      }
+    },
+    {
+      "scene": "duel",
+      "speaker": "interviewer",
+      "say": "Dimas tetap latihan sendiri. *Sepuluh menit* tiap hari.",
+      "duel": {
+        "left": {
+          "name": "Rina",
+          "tag": "",
+          "trait": "",
+          "image": "story/chars/rina.png"
+        },
+        "right": {
+          "name": "Dimas",
+          "tag": "",
+          "trait": "10 menit tiap hari ⏱️",
+          "image": "story/chars/dimas.png"
+        },
+        "bg": "story/bg/kamar.jpg",
+        "solo": "right",
+        "label": "Bagaimana jika…"
+      }
+    },
+    {
+      "scene": "duel",
+      "speaker": "interviewer",
+      "say": "Ngomong, rekam, dengerin ulang, *perbaiki.*",
+      "duel": {
+        "left": {
+          "name": "Rina",
+          "tag": "",
+          "trait": "",
+          "image": "story/chars/rina.png"
+        },
+        "right": {
+          "name": "Dimas",
+          "tag": "",
+          "trait": "10 menit tiap hari ⏱️",
+          "image": "story/chars/dimas.png"
+        },
+        "bg": "story/bg/kamar.jpg",
+        "solo": "right",
+        "label": "Bagaimana jika…",
+        "climb": {
+          "side": "right",
+          "steps": [
+            "1",
+            "180",
+            "365"
+          ],
+          "note": "hari latihan"
+        }
+      }
+    },
+    {
+      "scene": "duel",
+      "speaker": "interviewer",
+      "say": "Setahun kemudian, guru-guru *balik.*",
+      "duel": {
+        "left": {
+          "name": "Rina",
+          "tag": "",
+          "trait": "",
+          "image": "story/chars/rina.png"
+        },
+        "right": {
+          "name": "Dimas",
+          "tag": "",
+          "trait": "",
+          "image": "story/chars/dimas.png"
+        },
+        "bg": "story/bg/wawancara.jpg",
+        "focus": "both",
+        "later": "1 tahun kemudian…"
+      }
+    },
+    {
+      "scene": "duel",
+      "speaker": "interviewer",
+      "say": "Rina harus ~mulai dari awal lagi.~",
+      "duel": {
+        "left": {
+          "name": "Rina",
+          "tag": "",
+          "trait": "Lupa semua 😣",
+          "image": "story/chars/rina-sedih.png"
+        },
+        "right": {
+          "name": "Dimas",
+          "tag": "",
+          "trait": "",
+          "image": "story/chars/dimas.png"
+        },
+        "bg": "story/bg/wawancara.jpg",
+        "later": "1 tahun kemudian…",
+        "stamp": {
+          "side": "left",
+          "text": "MULAI LAGI",
+          "color": "red"
+        }
+      }
+    },
+    {
+      "scene": "duel",
+      "speaker": "interviewer",
+      "say": "Dimas udah *siap mensetsu.*",
+      "hold": 0.4,
+      "duel": {
+        "left": {
+          "name": "Rina",
+          "tag": "",
+          "trait": "Lupa semua 😣",
+          "image": "story/chars/rina-sedih.png"
+        },
+        "right": {
+          "name": "Dimas",
+          "tag": "",
+          "trait": "Siap mensetsu 💪",
+          "image": "story/chars/dimas-kerja.png"
+        },
+        "bg": "story/bg/wawancara.jpg",
+        "later": "1 tahun kemudian…",
+        "stamp": {
+          "side": "right",
+          "text": "SIAP",
+          "color": "green"
+        }
+      }
+    },
+    {
+      "scene": "card",
+      "speaker": "interviewer",
+      "card": {
+        "kicker": "Intinya",
+        "title": "Yang bikin lancar",
+        "icon": "check",
+        "rows": [
+          {
+            "kind": "info",
+            "label": "GURU",
+            "text": "Penting, tapi nggak tiap saat"
+          },
+          {
+            "kind": "yes",
+            "label": "LATIHAN",
+            "text": "Tiap hari, ada guru atau nggak"
+          }
+        ]
+      },
+      "say": "Guru itu penting. Tapi yang bikin lancar itu *latihan tiap hari,* ada guru atau nggak."
+    },
+    {
+      "scene": "app",
+      "speaker": "interviewer",
+      "app": {
+        "video": "footage/Simulasi wawancara kerja ke Jepang.mp4",
+        "volume": 0.15,
+        "demo": true
+      },
+      "say": "Latihan ngomong nggak harus *nunggu jadwal les.*"
+    },
+    {
+      "scene": "app",
+      "speaker": "interviewer",
+      "app": {
+        "video": "footage/Simulasi wawancara kerja ke Jepang.mp4",
+        "volume": 0.15,
+        "demo": true
+      },
+      "say": "Di *ConvoPartner,* Yui siap jadi lawan bicaramu *kapan aja.*"
+    },
+    {
+      "scene": "debate",
+      "speaker": "interviewer",
+      "hold": 1.2,
+      "debate": {
+        "left": {
+          "icon": "👩‍🏫",
+          "label": "Guru Manusia"
+        },
+        "right": {
+          "icon": "🤖",
+          "label": "Partner AI"
+        },
+        "prompt": "Tulis pendapatmu di komen"
+      },
+      "say": "Menurutmu, belajar Jepang lebih efektif sama *guru manusia,* atau *partner AI?* Tulis di komen."
+    }
+  ]
+}

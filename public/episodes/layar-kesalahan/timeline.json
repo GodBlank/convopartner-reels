@@ -1,0 +1,330 @@
+{
+ "id": "layar-kesalahan",
+ "fps": 30,
+ "durationInFrames": 1687,
+ "series": "Bagaimana Jika",
+ "candidate": {
+  "name": "Kamu"
+ },
+ "interviewer": {
+  "name": "Yui",
+  "image": "brand/yui.png",
+  "role": "AI Partner"
+ },
+ "bgm": null,
+ "disclaimer": "Dialog fiktif. Suara dan karakter dibuat dengan AI.",
+ "beats": [
+  {
+   "scene": "hook",
+   "speaker": "interviewer",
+   "title": "Bagaimana jika kesalahanmu *muncul di atas kepala?*",
+   "swap": {
+    "kind": "screen",
+    "from": "働くたい ❌",
+    "to": "働きたい ✓"
+   },
+   "say": "Bagaimana jika setiap kamu salah ngomong Jepang, kesalahanmu langsung muncul di layar… di atas kepalamu?",
+   "audio": "episodes/layar-kesalahan/audio/1f51183b8704-0-t1.1.wav",
+   "from": 0,
+   "frames": 184,
+   "speechFrames": 178
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Rina lagi mensetsu. Dia jawab dengan *pede.*",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "面接官",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/interviewer.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "focus": "left",
+    "label": "Bagaimana jika…",
+    "bubbles": {
+     "left": {
+      "text": "日本で働くたいです。",
+      "sub": "“Saya ingin kerja di Jepang.”"
+     }
+    }
+   },
+   "audio": "episodes/layar-kesalahan/audio/1f51183b8704-1-t1.1.wav",
+   "from": 184,
+   "frames": 99,
+   "speechFrames": 93
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Di atas kepalanya langsung nyala: ~salah!~ Harusnya *hatarakitai.*",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "面接官",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/interviewer.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "focus": "left",
+    "label": "Bagaimana jika…",
+    "screen": {
+     "side": "left",
+     "text": "働くたい ❌",
+     "fix": "✓ 働きたい"
+    }
+   },
+   "audio": "episodes/layar-kesalahan/audio/1f51183b8704-2-t1.1.wav",
+   "from": 283,
+   "frames": 138,
+   "speechFrames": 132
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Semua orang di ruangan bisa lihat. Malu? ~Banget.~",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Malu banget 😣",
+     "image": "story/chars/rina-sedih.png"
+    },
+    "right": {
+     "name": "面接官",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/interviewer.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "focus": "left",
+    "label": "Bagaimana jika…",
+    "screen": {
+     "side": "left",
+     "text": "働くたい ❌",
+     "fix": "✓ 働きたい"
+    }
+   },
+   "audio": "episodes/layar-kesalahan/audio/1f51183b8704-3-t1.1.wav",
+   "from": 421,
+   "frames": 139,
+   "speechFrames": 124
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Dimas kebalikannya. Biar layarnya kosong, dia jawab *sesingkat mungkin.*",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/rina-sedih.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Main aman 🤐",
+     "image": "story/chars/dimas.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "focus": "right",
+    "label": "Bagaimana jika…",
+    "bubbles": {
+     "right": {
+      "text": "はい。そうです。",
+      "sub": "“Iya. Betul.”"
+     }
+    }
+   },
+   "audio": "episodes/layar-kesalahan/audio/50114f201def-0-t1.1.wav",
+   "from": 560,
+   "frames": 140,
+   "speechFrames": 134
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Layarnya bersih. Tapi dia juga ~nggak lolos.~",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/rina-sedih.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Main aman 🤐",
+     "image": "story/chars/dimas.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "label": "Bagaimana jika…",
+    "screen": {
+     "side": "right",
+     "text": "0 kesalahan",
+     "tone": "green"
+    },
+    "stamp": {
+     "side": "right",
+     "text": "DITOLAK",
+     "color": "red"
+    }
+   },
+   "audio": "episodes/layar-kesalahan/audio/50114f201def-1-t1.1.wav",
+   "from": 700,
+   "frames": 111,
+   "speechFrames": 93
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Seminggu kemudian, layar di atas kepala Rina makin *jarang nyala.*",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Makin lancar ✨",
+     "image": "story/chars/rina-senang.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/dimas.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "solo": "left",
+    "later": "1 minggu kemudian…",
+    "screen": {
+     "side": "left",
+     "text": "働きたい ✓",
+     "tone": "green"
+    }
+   },
+   "audio": "episodes/layar-kesalahan/audio/50114f201def-2-t1.1.wav",
+   "from": 811,
+   "frames": 124,
+   "speechFrames": 118
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Karena tiap kesalahan yang kelihatan, langsung dia *perbaiki.*",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Makin lancar ✨",
+     "image": "story/chars/rina-senang.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/dimas.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "solo": "left",
+    "later": "1 minggu kemudian…",
+    "screen": {
+     "side": "left",
+     "text": "働きたい ✓",
+     "tone": "green"
+    }
+   },
+   "audio": "episodes/layar-kesalahan/audio/50114f201def-3-t1.1.wav",
+   "from": 935,
+   "frames": 107,
+   "speechFrames": 101
+  },
+  {
+   "scene": "card",
+   "speaker": "interviewer",
+   "card": {
+    "kicker": "Intinya",
+    "title": "Tahu salahnya = cepat jago",
+    "icon": "check",
+    "rows": [
+     {
+      "kind": "yes",
+      "label": "RINA",
+      "text": "Salah kelihatan → diperbaiki"
+     },
+     {
+      "kind": "no",
+      "label": "DIMAS",
+      "text": "Aman, tapi nggak berkembang"
+     }
+    ]
+   },
+   "say": "Orang yang tahu salahnya, berkembang jauh *lebih cepat* daripada yang sembunyi.",
+   "audio": "episodes/layar-kesalahan/audio/50114f201def-4-t1.1.wav",
+   "from": 1042,
+   "frames": 135,
+   "speechFrames": 129
+  },
+  {
+   "scene": "app",
+   "speaker": "interviewer",
+   "app": {
+    "video": "footage/Jawaban wawancara kamu digrading.mp4",
+    "volume": 0.15,
+    "demo": true
+   },
+   "say": "Layar kayak gini sebenarnya *udah ada,* tapi cuma kamu yang lihat.",
+   "audio": "episodes/layar-kesalahan/audio/70366d60eb44-0-t1.1.wav",
+   "from": 1177,
+   "frames": 111,
+   "speechFrames": 105
+  },
+  {
+   "scene": "app",
+   "speaker": "interviewer",
+   "app": {
+    "video": "footage/Jawaban wawancara kamu digrading.mp4",
+    "volume": 0.15,
+    "demo": true
+   },
+   "say": "Di *ConvoPartner,* tiap jawabanmu dikoreksi, dan dikasih contoh yang benar.",
+   "audio": "episodes/layar-kesalahan/audio/70366d60eb44-1-t1.1.wav",
+   "from": 1288,
+   "frames": 140,
+   "speechFrames": 134
+  },
+  {
+   "scene": "debate",
+   "speaker": "interviewer",
+   "debate": {
+    "left": {
+     "icon": "😳",
+     "label": "Mau, Biar Cepat Jago"
+    },
+    "right": {
+     "icon": "🙈",
+     "label": "Ogah, Malu"
+    },
+    "prompt": "Tulis pendapatmu di komen"
+   },
+   "say": "Kalau layar ini beneran ada, kamu tim *mau, biar cepet jago,* atau tim *ogah, malu?* Tulis di komen.",
+   "audio": "episodes/layar-kesalahan/audio/70366d60eb44-2-t1.1.wav",
+   "from": 1428,
+   "frames": 259,
+   "speechFrames": 217
+  }
+ ]
+}

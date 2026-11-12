@@ -1,0 +1,508 @@
+{
+ "id": "anime-dilarang",
+ "fps": 30,
+ "durationInFrames": 1689,
+ "series": "Bagaimana Jika",
+ "candidate": {
+  "name": "Kamu"
+ },
+ "interviewer": {
+  "name": "Yui",
+  "image": "brand/yui.png",
+  "role": "AI Partner"
+ },
+ "bgm": null,
+ "disclaimer": "Dialog fiktif. Suara dan karakter dibuat dengan AI.",
+ "beats": [
+  {
+   "scene": "hook",
+   "speaker": "interviewer",
+   "title": "Bagaimana jika *anime dilarang* setahun?",
+   "swap": {
+    "kind": "news",
+    "from": "Anime Resmi Dilarang Tayang di Indonesia",
+    "to": "Berlaku 1 tahun, mulai besok"
+   },
+   "say": "Bagaimana jika anime dilarang di Indonesia… setahun penuh? Setahun kemudian, yang terjadi justru *kebalikannya.*",
+   "audio": "episodes/anime-dilarang/audio/c76f9221fa55-0-t1.15.wav",
+   "from": 0,
+   "frames": 199,
+   "speechFrames": 193
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Bulan pertama, Rina nonton ulang episode di HP-nya, sampai hafal *tiap dialog.*",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Wibu sejati 😭",
+     "image": "story/chars/rina-sedih.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Penjaga pintu 🔒",
+     "image": "story/chars/dimas.png"
+    },
+    "bg": "story/bg/kamar.jpg",
+    "solo": "left",
+    "later": "Bulan 1",
+    "cam": "push",
+    "mood": "night",
+    "react": {
+     "side": "left",
+     "kind": "shrink"
+    },
+    "screen": {
+     "side": "left",
+     "text": "📵 ANIME DIBLOKIR"
+    }
+   },
+   "ambience": "room",
+   "audio": "episodes/anime-dilarang/audio/c76f9221fa55-1-t1.15.wav",
+   "from": 199,
+   "frames": 157,
+   "speechFrames": 151
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Lalu beredar bisik-bisik: ada *kafe nobar rahasia.*",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Penasaran 👀",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Penjaga pintu 🔒",
+     "image": "story/chars/dimas.png"
+    },
+    "bg": "story/bg/kamar.jpg",
+    "solo": "left",
+    "later": "Bulan 1",
+    "cam": "right",
+    "mood": "night",
+    "thought": {
+     "side": "left",
+     "text": "Kafe rahasia…?"
+    }
+   },
+   "ambience": "room",
+   "audio": "episodes/anime-dilarang/audio/c76f9221fa55-2-t1.15.wav",
+   "from": 356,
+   "frames": 99,
+   "speechFrames": 93
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Syaratnya: sebut password, *pakai bahasa Jepang.*",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Penasaran 👀",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Penjaga pintu 🔒",
+     "image": "story/chars/dimas.png"
+    },
+    "bg": "story/bg/izakaya.jpg",
+    "later": "Bulan 2",
+    "focus": "right",
+    "mood": "dark",
+    "fx": "dust",
+    "cam": "push",
+    "bubbles": {
+     "right": {
+      "text": "パスワードは？",
+      "sub": "“Password-nya?”"
+     }
+    }
+   },
+   "ambience": "crowd",
+   "audio": "episodes/anime-dilarang/audio/c76f9221fa55-3-t1.15.wav",
+   "from": 455,
+   "frames": 103,
+   "speechFrames": 97
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Minggu pertama, password-nya gampang.",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Penasaran 👀",
+     "image": "story/chars/rina-senang.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Penjaga pintu 🔒",
+     "image": "story/chars/dimas.png"
+    },
+    "bg": "story/bg/izakaya.jpg",
+    "later": "Bulan 2",
+    "focus": "left",
+    "mood": "dark",
+    "fx": "dust",
+    "react": {
+     "side": "right",
+     "kind": "nod"
+    },
+    "bubbles": {
+     "left": {
+      "text": "こんにちは！",
+      "sub": "“Halo!”"
+     }
+    }
+   },
+   "ambience": "crowd",
+   "audio": "episodes/anime-dilarang/audio/c76f9221fa55-4-t1.15.wav",
+   "from": 558,
+   "frames": 78,
+   "speechFrames": 72
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Tapi tiap minggu, password-nya *makin susah.*",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Penasaran 👀",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Penjaga pintu 🔒",
+     "image": "story/chars/dimas.png"
+    },
+    "bg": "story/bg/izakaya.jpg",
+    "later": "Bulan 2",
+    "focus": "right",
+    "mood": "dark",
+    "fx": "dust",
+    "screen": {
+     "side": "right",
+     "text": "🔒 Level naik ⬆️"
+    }
+   },
+   "ambience": "crowd",
+   "audio": "episodes/anime-dilarang/audio/c638b3e03295-0-t1.15.wav",
+   "from": 636,
+   "frames": 83,
+   "speechFrames": 77
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Bulan keenam: cerita satu episode pakai bahasa Jepang, *satu menit penuh.*",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Panik 😰",
+     "image": "story/chars/rina-sedih.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Penjaga pintu 🔒",
+     "image": "story/chars/dimas.png"
+    },
+    "bg": "story/bg/kamar.jpg",
+    "solo": "left",
+    "later": "Bulan 6",
+    "cut": true,
+    "mood": "night",
+    "cam": "push",
+    "react": {
+     "side": "left",
+     "kind": "shiver"
+    },
+    "screen": {
+     "side": "left",
+     "text": "⏱️ 1:00 · 日本語のみ"
+    }
+   },
+   "ambience": "tick",
+   "audio": "episodes/anime-dilarang/audio/c638b3e03295-1-t1.15.wav",
+   "from": 719,
+   "frames": 151,
+   "speechFrames": 145
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Rina yang *pemalu* latihan tiap malam di depan cermin.",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Latihan tiap malam 🌙",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Penjaga pintu 🔒",
+     "image": "story/chars/dimas.png"
+    },
+    "bg": "story/bg/kamar.jpg",
+    "solo": "left",
+    "later": "Bulan 6",
+    "mood": "night",
+    "fx": "dust",
+    "cam": "left",
+    "thought": {
+     "side": "left",
+     "text": "Sekali lagi… dari awal"
+    }
+   },
+   "ambience": "tick",
+   "audio": "episodes/anime-dilarang/audio/c638b3e03295-2-t1.15.wav",
+   "from": 870,
+   "frames": 98,
+   "speechFrames": 92
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Bulan kesembilan, Rina jadi yang *paling ditunggu,*",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Pencerita ✨",
+     "image": "story/chars/rina-senang.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Penonton setia 🙌",
+     "image": "story/chars/dimas.png"
+    },
+    "bg": "story/bg/izakaya.jpg",
+    "later": "Bulan 9",
+    "cut": true,
+    "focus": "left",
+    "mood": "warm",
+    "fx": "sparkle",
+    "cam": "push",
+    "react": {
+     "side": "right",
+     "kind": "jump"
+    }
+   },
+   "ambience": "crowd",
+   "audio": "episodes/anime-dilarang/audio/c638b3e03295-3-t1.15.wav",
+   "from": 968,
+   "frames": 97,
+   "speechFrames": 91
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "karena ceritanya *paling seru.*",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Pencerita ✨",
+     "image": "story/chars/rina-senang.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Penonton setia 🙌",
+     "image": "story/chars/dimas.png"
+    },
+    "bg": "story/bg/izakaya.jpg",
+    "later": "Bulan 9",
+    "focus": "left",
+    "mood": "warm",
+    "fx": "sparkle",
+    "cam": "close",
+    "bubbles": {
+     "left": {
+      "text": "主人公が最後に笑ったんです！",
+      "sub": "“Tokoh utamanya akhirnya tersenyum!”"
+     }
+    }
+   },
+   "ambience": "crowd",
+   "audio": "episodes/anime-dilarang/audio/c638b3e03295-4-t1.15.wav",
+   "from": 1065,
+   "frames": 60,
+   "speechFrames": 54
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Bulan kedua belas, larangan *dicabut.*",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Bebas! 🎉",
+     "image": "story/chars/rina-senang.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Penjaga pintu 🔒",
+     "image": "story/chars/dimas.png"
+    },
+    "bg": "story/bg/kamar.jpg",
+    "solo": "left",
+    "later": "Bulan 12",
+    "cut": true,
+    "cam": "pull",
+    "screen": {
+     "side": "left",
+     "text": "✅ LARANGAN DICABUT",
+     "tone": "green"
+    }
+   },
+   "ambience": "room",
+   "audio": "episodes/anime-dilarang/audio/4e235f3ed0d7-0-t1.15.wav",
+   "from": 1125,
+   "frames": 66,
+   "speechFrames": 60
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Tapi kafe rahasia itu… *tetap penuh.*",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Hah? 😮",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Penonton setia 🙌",
+     "image": "story/chars/dimas.png"
+    },
+    "bg": "story/bg/izakaya.jpg",
+    "later": "Bulan 12",
+    "mood": "warm",
+    "fx": "dust",
+    "shake": true,
+    "cam": "push",
+    "stamp": {
+     "side": "right",
+     "text": "PENUH",
+     "color": "green"
+    }
+   },
+   "ambience": "crowd",
+   "audio": "episodes/anime-dilarang/audio/4e235f3ed0d7-1-t1.15.wav",
+   "from": 1191,
+   "frames": 103,
+   "speechFrames": 88
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Ternyata yang mereka rindukan… *bukan animenya.*",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Sadar 💭",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Penonton setia 🙌",
+     "image": "story/chars/dimas.png"
+    },
+    "bg": "story/bg/izakaya.jpg",
+    "later": "Bulan 12",
+    "mood": "warm",
+    "fx": "sparkle",
+    "cam": "close",
+    "focus": "left"
+   },
+   "ambience": "crowd",
+   "audio": "episodes/anime-dilarang/audio/4e235f3ed0d7-2-t1.15.wav",
+   "from": 1294,
+   "frames": 93,
+   "speechFrames": 87
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Tapi *ngobrol* soal anime, bareng orang lain, pakai bahasa Jepang.",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Sadar 💭",
+     "image": "story/chars/rina-senang.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Penonton setia 🙌",
+     "image": "story/chars/dimas.png"
+    },
+    "bg": "story/bg/izakaya.jpg",
+    "later": "Bulan 12",
+    "mood": "warm",
+    "fx": "sparkle",
+    "cam": "pull",
+    "bubbles": {
+     "right": {
+      "text": "次は何の話？",
+      "sub": "“Habis ini cerita apa?”"
+     }
+    }
+   },
+   "ambience": "crowd",
+   "audio": "episodes/anime-dilarang/audio/4e235f3ed0d7-3-t1.15.wav",
+   "from": 1387,
+   "frames": 130,
+   "speechFrames": 115
+  },
+  {
+   "scene": "debate",
+   "speaker": "interviewer",
+   "debate": {
+    "left": {
+     "icon": "📺",
+     "label": "Nonton Sendiri"
+    },
+    "right": {
+     "icon": "🗣️",
+     "label": "Nobar & Bahas"
+    },
+    "prompt": "Tulis pendapatmu di komen"
+   },
+   "say": "Kamu tim *nonton sendiri,* atau tim *nobar sambil bahas?* Tulis di komen.",
+   "audio": "episodes/anime-dilarang/audio/4e235f3ed0d7-4-t1.15.wav",
+   "from": 1517,
+   "frames": 172,
+   "speechFrames": 130
+  }
+ ]
+}

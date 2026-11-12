@@ -1,0 +1,351 @@
+{
+ "id": "jawab-gaji",
+ "fps": 30,
+ "durationInFrames": 1709,
+ "series": "Apa Jadinya Kalau",
+ "candidate": {
+  "name": "Kamu"
+ },
+ "interviewer": {
+  "name": "Yui",
+  "image": "brand/yui.png",
+  "role": "AI Partner"
+ },
+ "bgm": null,
+ "disclaimer": "Dialog fiktif. Suara dan karakter dibuat dengan AI.",
+ "beats": [
+  {
+   "scene": "hook",
+   "speaker": "interviewer",
+   "title": "Apa jadinya kalau jawab *“karena gajinya besar”?*",
+   "swap": {
+    "kind": "screen",
+    "from": "💴 給料が高いからです。",
+    "to": ""
+   },
+   "say": "Apa jadinya kalau kamu ditanya kenapa mau kerja di Jepang, terus jawab: karena gajinya besar?",
+   "audio": "episodes/jawab-gaji/audio/a2d1f74d854c-0-t1.1.wav",
+   "from": 0,
+   "frames": 163,
+   "speechFrames": 157
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Mensetsu dimulai.",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "面接官",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/interviewer.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "focus": "right",
+    "label": "Apa jadinya kalau…",
+    "bubbles": {
+     "right": {
+      "text": "なぜ日本で働きたいですか？",
+      "sub": "“Kenapa mau kerja di Jepang?”"
+     }
+    }
+   },
+   "audio": "episodes/jawab-gaji/audio/a2d1f74d854c-1-t1.1.wav",
+   "from": 163,
+   "frames": 64,
+   "speechFrames": 58
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Rina jawab *jujur.*",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "面接官",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/interviewer.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "focus": "left",
+    "label": "Apa jadinya kalau…",
+    "bubbles": {
+     "left": {
+      "text": "給料が高いからです。",
+      "sub": "“Karena gajinya tinggi.”"
+     }
+    }
+   },
+   "audio": "episodes/jawab-gaji/audio/a2d1f74d854c-2-t1.1.wav",
+   "from": 227,
+   "frames": 43,
+   "speechFrames": 37
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Interviewer nggak langsung nolak. Tapi dia *nanya balik.*",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "面接官",
+     "tag": "",
+     "trait": "Hmm… 🤔",
+     "image": "story/chars/interviewer.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "focus": "right",
+    "label": "Apa jadinya kalau…"
+   },
+   "audio": "episodes/jawab-gaji/audio/a2d1f74d854c-3-t1.1.wav",
+   "from": 270,
+   "frames": 99,
+   "speechFrames": 93
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Australia, Amerika, Korea… ~gajinya juga tinggi,~ kan?",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "面接官",
+     "tag": "",
+     "trait": "Hmm… 🤔",
+     "image": "story/chars/interviewer.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "focus": "right",
+    "label": "Apa jadinya kalau…",
+    "bubbles": {
+     "right": {
+      "text": "オーストラリアやアメリカ、韓国も給料が高いですよね？",
+      "sub": "“Australia, Amerika, Korea juga gajinya tinggi, kan?”"
+     }
+    }
+   },
+   "audio": "episodes/jawab-gaji/audio/a2d1f74d854c-4-t1.1.wav",
+   "from": 369,
+   "frames": 138,
+   "speechFrames": 132
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Rina diam. Lalu *satu pertanyaan lagi.*",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Blank 😰",
+     "image": "story/chars/rina-sedih.png"
+    },
+    "right": {
+     "name": "面接官",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/interviewer-honne.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "focus": "left",
+    "label": "Apa jadinya kalau…",
+    "thought": {
+     "side": "left",
+     "text": "Duh… iya juga 😰"
+    }
+   },
+   "audio": "episodes/jawab-gaji/audio/0105619c1b3c-0-t1.1.wav",
+   "from": 507,
+   "frames": 110,
+   "speechFrames": 104
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Kalau ada perusahaan yang gajinya lebih tinggi, ~kamu langsung keluar?~",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Blank 😰",
+     "image": "story/chars/rina-sedih.png"
+    },
+    "right": {
+     "name": "面接官",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/interviewer-honne.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "focus": "right",
+    "label": "Apa jadinya kalau…",
+    "bubbles": {
+     "right": {
+      "text": "もっと給料が高い会社があったら、すぐ辞めますか？",
+      "sub": "“Kalau ada yang gajinya lebih tinggi, langsung keluar?”",
+      "tone": "red"
+     }
+    }
+   },
+   "audio": "episodes/jawab-gaji/audio/0105619c1b3c-1-t1.1.wav",
+   "from": 617,
+   "frames": 127,
+   "speechFrames": 109
+  },
+  {
+   "scene": "card",
+   "speaker": "interviewer",
+   "card": {
+    "kicker": "Masalahnya",
+    "title": "Bukan soal gaji",
+    "icon": "!",
+    "rows": [
+     {
+      "kind": "no",
+      "label": "JAWABAN",
+      "text": "Gaji besar? Negara lain juga"
+     },
+     {
+      "kind": "yes",
+      "label": "HARUS JAWAB",
+      "text": "Kenapa harus Jepang?"
+     }
+    ]
+   },
+   "say": "Masalahnya bukan gaji. Tapi jawabanmu nggak jawab satu hal: *kenapa harus Jepang.*",
+   "audio": "episodes/jawab-gaji/audio/0105619c1b3c-2-t1.1.wav",
+   "from": 744,
+   "frames": 167,
+   "speechFrames": 161
+  },
+  {
+   "scene": "card",
+   "speaker": "interviewer",
+   "card": {
+    "kicker": "Masalahnya",
+    "title": "Bukan soal gaji",
+    "icon": "!",
+    "rows": [
+     {
+      "kind": "no",
+      "label": "JAWABAN",
+      "text": "Gaji besar? Negara lain juga"
+     },
+     {
+      "kind": "yes",
+      "label": "HARUS JAWAB",
+      "text": "Kenapa harus Jepang?"
+     }
+    ],
+    "note": "Alasan yang cuma ada di Jepang 🇯🇵"
+   },
+   "say": "Jawaban yang kuat punya alasan yang *cuma ada di Jepang.*",
+   "audio": "episodes/jawab-gaji/audio/0105619c1b3c-3-t1.1.wav",
+   "from": 911,
+   "frames": 107,
+   "speechFrames": 101
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Misalnya: mau belajar *teknologi dan standar kerja Jepang,* buat dibawa pulang ke Indonesia.",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Jawaban kuat ✨",
+     "image": "story/chars/rina-senang.png"
+    },
+    "right": {
+     "name": "面接官",
+     "tag": "",
+     "trait": "Terkesan 😊",
+     "image": "story/chars/interviewer.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "focus": "left",
+    "label": "Apa jadinya kalau…",
+    "bubbles": {
+     "left": {
+      "text": "日本の技術と働き方を学んで、インドネシアで活かしたいです。",
+      "sub": "“Saya ingin belajar teknologi & cara kerja Jepang, lalu menerapkannya di Indonesia.”"
+     }
+    }
+   },
+   "audio": "episodes/jawab-gaji/audio/23c4258a47f9-0-t1.1.wav",
+   "from": 1018,
+   "frames": 185,
+   "speechFrames": 170
+  },
+  {
+   "scene": "app",
+   "speaker": "interviewer",
+   "app": {
+    "video": "footage/Jawaban wawancara kamu digrading.mp4",
+    "volume": 0.15,
+    "demo": true
+   },
+   "say": "Di *ConvoPartner,* kamu bisa latihan jawab pertanyaan ini sampai alasanmu *kuat,*",
+   "audio": "episodes/jawab-gaji/audio/23c4258a47f9-1-t1.1.wav",
+   "from": 1203,
+   "frames": 162,
+   "speechFrames": 156
+  },
+  {
+   "scene": "app",
+   "speaker": "interviewer",
+   "app": {
+    "video": "footage/Jawaban wawancara kamu digrading.mp4",
+    "volume": 0.15,
+    "demo": true
+   },
+   "say": "dan langsung dikasih *contoh jawaban* yang lebih baik.",
+   "audio": "episodes/jawab-gaji/audio/23c4258a47f9-2-t1.1.wav",
+   "from": 1365,
+   "frames": 87,
+   "speechFrames": 81
+  },
+  {
+   "scene": "debate",
+   "speaker": "interviewer",
+   "debate": {
+    "left": {
+     "icon": "💴",
+     "label": "Jujur Soal Gaji"
+    },
+    "right": {
+     "icon": "🎌",
+     "label": "Jangan Sebut Gaji"
+    },
+    "prompt": "Tulis pendapatmu di komen"
+   },
+   "say": "Menurutmu, kamu tim *jujur soal gaji,* atau tim *jangan sebut gaji* waktu mensetsu? Tulis di komen.",
+   "audio": "episodes/jawab-gaji/audio/23c4258a47f9-3-t1.1.wav",
+   "from": 1452,
+   "frames": 257,
+   "speechFrames": 215
+  }
+ ]
+}

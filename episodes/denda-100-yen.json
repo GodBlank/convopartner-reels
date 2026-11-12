@@ -1,0 +1,242 @@
+{
+  "id": "denda-100-yen",
+  "series": "Bagaimana Jika",
+  "topic": "Bagaimana jika tiap salah ngomong Jepang kamu didenda ¥100? (pilar Bagaimana jika, B3)",
+  "tempo": 1.1,
+  "candidate": {
+    "name": "Kamu",
+    "voice": "male"
+  },
+  "interviewer": {
+    "name": "Yui",
+    "image": "brand/yui.png",
+    "role": "AI Partner"
+  },
+  "beats": [
+    {
+      "scene": "hook",
+      "speaker": "interviewer",
+      "title": "Bagaimana jika salah ngomong Jepang *didenda ¥100?*",
+      "swap": {
+        "kind": "coin",
+        "from": "",
+        "to": ""
+      },
+      "say": "Bagaimana jika di Jepang, setiap kamu salah ngomong bahasa Jepang… kamu didenda seratus yen?"
+    },
+    {
+      "scene": "duel",
+      "speaker": "interviewer",
+      "say": "Hari pertama kerja. Rina salah partikel… ~seratus yen.~",
+      "duel": {
+        "left": {
+          "name": "Rina",
+          "tag": "",
+          "trait": "Hari pertama kerja",
+          "image": "story/chars/rina.png"
+        },
+        "right": {
+          "name": "Dimas",
+          "tag": "",
+          "trait": "",
+          "image": "story/chars/dimas.png"
+        },
+        "bg": "story/bg/kerja.jpg",
+        "solo": "left",
+        "label": "Bagaimana jika…",
+        "bubbles": {
+          "left": {
+            "text": "日本に働きます。 ❌",
+            "sub": "✓ 日本で働きます",
+            "tone": "red"
+          }
+        },
+        "fine": {
+          "to": 100
+        }
+      }
+    },
+    {
+      "scene": "duel",
+      "speaker": "interviewer",
+      "say": "Ngomong ke atasan pakai bahasa santai… ~seratus yen lagi.~",
+      "duel": {
+        "left": {
+          "name": "Rina",
+          "tag": "",
+          "trait": "Hari pertama kerja",
+          "image": "story/chars/rina.png"
+        },
+        "right": {
+          "name": "Dimas",
+          "tag": "",
+          "trait": "",
+          "image": "story/chars/dimas.png"
+        },
+        "bg": "story/bg/kerja.jpg",
+        "solo": "left",
+        "label": "Bagaimana jika…",
+        "bubbles": {
+          "left": {
+            "text": "わかった！ ❌",
+            "sub": "✓ わかりました",
+            "tone": "red"
+          }
+        },
+        "fine": {
+          "to": 200
+        }
+      }
+    },
+    {
+      "scene": "duel",
+      "speaker": "interviewer",
+      "say": "Seminggu kemudian, dendanya udah ~sepuluh ribu yen~ lebih. Lebih mahal dari uang makannya!",
+      "duel": {
+        "left": {
+          "name": "Rina",
+          "tag": "",
+          "trait": "Dompet menipis 😵",
+          "image": "story/chars/rina.png"
+        },
+        "right": {
+          "name": "Dimas",
+          "tag": "",
+          "trait": "",
+          "image": "story/chars/dimas.png"
+        },
+        "bg": "story/bg/kerja.jpg",
+        "solo": "left",
+        "later": "1 minggu kemudian…",
+        "fine": {
+          "to": 10400
+        }
+      }
+    },
+    {
+      "scene": "duel",
+      "speaker": "interviewer",
+      "say": "Dimas beda. Dia milih *diam.* Nggak pernah salah, nggak pernah didenda.",
+      "duel": {
+        "left": {
+          "name": "Rina",
+          "tag": "",
+          "trait": "Nekat ngomong",
+          "image": "story/chars/rina.png"
+        },
+        "right": {
+          "name": "Dimas",
+          "tag": "",
+          "trait": "Milih diam 🤐",
+          "image": "story/chars/dimas.png"
+        },
+        "bg": "story/bg/kerja.jpg",
+        "focus": "right",
+        "label": "Bagaimana jika…",
+        "fine": {
+          "from": 0,
+          "to": 0,
+          "label": "DENDA DIMAS"
+        }
+      }
+    },
+    {
+      "scene": "duel",
+      "speaker": "interviewer",
+      "say": "Tapi juga ~nggak pernah diajak ngobrol…~ dan ~nggak pernah naik jabatan.~",
+      "duel": {
+        "left": {
+          "name": "Rina",
+          "tag": "",
+          "trait": "Nekat ngomong",
+          "image": "story/chars/rina.png"
+        },
+        "right": {
+          "name": "Dimas",
+          "tag": "",
+          "trait": "Milih diam 🤐",
+          "image": "story/chars/dimas.png"
+        },
+        "bg": "story/bg/kerja.jpg",
+        "label": "Bagaimana jika…",
+        "stamp": {
+          "side": "right",
+          "text": "MENTOK",
+          "color": "red"
+        }
+      }
+    },
+    {
+      "scene": "card",
+      "speaker": "interviewer",
+      "card": {
+        "kicker": "Ternyata…",
+        "title": "Bukan salahnya, tapi tempatnya",
+        "icon": "!",
+        "rows": [
+          {
+            "kind": "no",
+            "label": "KERJA",
+            "text": "Salah = mahal"
+          },
+          {
+            "kind": "yes",
+            "label": "LATIHAN",
+            "text": "Salah = gratis"
+          }
+        ]
+      },
+      "say": "Ternyata masalahnya bukan salahnya, tapi *di mana* kamu salah. Salah di tempat kerja itu ~mahal.~ Salah waktu latihan itu +gratis.+"
+    },
+    {
+      "scene": "app",
+      "speaker": "interviewer",
+      "app": {
+        "video": "footage-web/Correction and Analytics.mp4",
+        "volume": 0.15,
+        "demo": true
+      },
+      "say": "Di *ConvoPartner,* kamu bisa salah sebanyak apa pun.",
+      "hold": 1.3
+    },
+    {
+      "scene": "app",
+      "speaker": "interviewer",
+      "app": {
+        "video": "footage-web/Simulasi Koreksi.mp4",
+        "volume": 0.15,
+        "demo": true,
+        "rate": 1.15
+      },
+      "say": "Tiap jawabanmu *langsung dikoreksi,* ditunjukin bagian yang salah,"
+    },
+    {
+      "scene": "app",
+      "speaker": "interviewer",
+      "app": {
+        "video": "footage-web/Simulasi Koreksi.mp4",
+        "volume": 0.15,
+        "demo": true,
+        "rate": 1.15
+      },
+      "say": "dan dikasih contoh yang benar. Nggak ada yang ngetawain, nggak ada ~denda.~"
+    },
+    {
+      "scene": "debate",
+      "speaker": "interviewer",
+      "hold": 1.2,
+      "debate": {
+        "left": {
+          "icon": "🗣️",
+          "label": "Tetap Nekat Ngomong"
+        },
+        "right": {
+          "icon": "🤐",
+          "label": "Mending Diam"
+        },
+        "prompt": "Tulis pendapatmu di komen"
+      },
+      "say": "Kalau aturan ini beneran ada, kamu tim *tetap nekat ngomong,* atau tim *mending diam?* Tulis di komen."
+    }
+  ]
+}

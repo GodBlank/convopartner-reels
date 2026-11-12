@@ -1,0 +1,325 @@
+{
+ "id": "latihan-90-hari",
+ "fps": 30,
+ "durationInFrames": 1632,
+ "series": "Apa Jadinya Kalau",
+ "candidate": {
+  "name": "Kamu"
+ },
+ "interviewer": {
+  "name": "Yui",
+  "image": "brand/yui.png",
+  "role": "AI Partner"
+ },
+ "bgm": null,
+ "disclaimer": "Dialog fiktif. Suara dan karakter dibuat dengan AI.",
+ "beats": [
+  {
+   "scene": "hook",
+   "speaker": "interviewer",
+   "title": "Apa jadinya kalau latihan ngomong *10 menit sehari, 90 hari?*",
+   "swap": {
+    "kind": "screen",
+    "from": "⏱️ 10 menit × 90 hari",
+    "to": "= 15 jam ngomong"
+   },
+   "say": "Apa jadinya kalau kamu latihan ngomong Jepang cuma sepuluh menit, tiap hari, selama sembilan puluh hari?",
+   "audio": "episodes/latihan-90-hari/audio/bfcc015c18e5-0-t1.1.wav",
+   "from": 0,
+   "frames": 175,
+   "speechFrames": 169
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Hari pertama. Rina rekam *jikoshoukai-nya.*",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Hari 1 🎙️",
+     "image": "story/chars/rina-sedih.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/dimas.png"
+    },
+    "bg": "story/bg/kamar.jpg",
+    "solo": "left",
+    "later": "Hari 1",
+    "bubbles": {
+     "left": {
+      "text": "はじめまして… えーと… リナ… です…",
+      "sub": "“Salam kenal… eee… Rina… desu…”"
+     }
+    }
+   },
+   "audio": "episodes/latihan-90-hari/audio/bfcc015c18e5-1-t1.1.wav",
+   "from": 175,
+   "frames": 105,
+   "speechFrames": 99
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Dua puluh detik, lima kali berhenti, satu ~eee~ yang panjang banget.",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Hari 1 🎙️",
+     "image": "story/chars/rina-sedih.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/dimas.png"
+    },
+    "bg": "story/bg/kamar.jpg",
+    "solo": "left",
+    "later": "Hari 1",
+    "screen": {
+     "side": "left",
+     "text": "5× berhenti"
+    }
+   },
+   "audio": "episodes/latihan-90-hari/audio/bfcc015c18e5-2-t1.1.wav",
+   "from": 280,
+   "frames": 133,
+   "speechFrames": 127
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Hari ketujuh. Masih kaku. Tapi dia udah *nggak takut* dengar suaranya sendiri.",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Hari 7 😅",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/dimas.png"
+    },
+    "bg": "story/bg/kamar.jpg",
+    "solo": "left",
+    "later": "Hari 7",
+    "screen": {
+     "side": "left",
+     "text": "3× berhenti"
+    }
+   },
+   "audio": "episodes/latihan-90-hari/audio/bfcc015c18e5-3-t1.1.wav",
+   "from": 413,
+   "frames": 162,
+   "speechFrames": 156
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Hari ketiga puluh. Jedanya *mulai hilang.* Dia bisa jawab tanpa ngintip catatan.",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Hari 30 🙂",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/dimas.png"
+    },
+    "bg": "story/bg/kamar.jpg",
+    "solo": "left",
+    "later": "Hari 30",
+    "screen": {
+     "side": "left",
+     "text": "1× berhenti",
+     "tone": "green"
+    }
+   },
+   "audio": "episodes/latihan-90-hari/audio/ee81043b58dd-0-t1.1.wav",
+   "from": 575,
+   "frames": 159,
+   "speechFrames": 153
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Hari kesembilan puluh. Rina putar ulang rekaman hari pertama…",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Hari 90 ✨",
+     "image": "story/chars/rina-senang.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/dimas.png"
+    },
+    "bg": "story/bg/kamar.jpg",
+    "solo": "left",
+    "later": "Hari 90",
+    "screen": {
+     "side": "left",
+     "text": "0× berhenti ✓",
+     "tone": "green"
+    }
+   },
+   "audio": "episodes/latihan-90-hari/audio/ee81043b58dd-1-t1.1.wav",
+   "from": 734,
+   "frames": 120,
+   "speechFrames": 114
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "dan *nggak percaya* itu suaranya.",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Hari 90 ✨",
+     "image": "story/chars/rina-senang.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/dimas.png"
+    },
+    "bg": "story/bg/kamar.jpg",
+    "solo": "left",
+    "later": "Hari 90",
+    "screen": {
+     "side": "left",
+     "text": "0× berhenti ✓",
+     "tone": "green"
+    },
+    "bubbles": {
+     "left": {
+      "text": "はじめまして。リナと申します。",
+      "sub": "“Salam kenal. Nama saya Rina.”"
+     }
+    }
+   },
+   "audio": "episodes/latihan-90-hari/audio/ee81043b58dd-2-t1.1.wav",
+   "from": 854,
+   "frames": 84,
+   "speechFrames": 69
+  },
+  {
+   "scene": "card",
+   "speaker": "interviewer",
+   "card": {
+    "kicker": "Hari ke-90",
+    "title": "Yang paling berubah",
+    "icon": "check",
+    "rows": [
+     {
+      "kind": "no",
+      "label": "BUKAN",
+      "text": "Jumlah kosakata"
+     },
+     {
+      "kind": "yes",
+      "label": "TAPI",
+      "text": "Keberanian ngomong"
+     }
+    ]
+   },
+   "say": "Yang berubah paling banyak bukan kosakatanya, tapi *keberaniannya.*",
+   "audio": "episodes/latihan-90-hari/audio/ee81043b58dd-3-t1.1.wav",
+   "from": 938,
+   "frames": 109,
+   "speechFrames": 103
+  },
+  {
+   "scene": "card",
+   "speaker": "interviewer",
+   "card": {
+    "kicker": "Hari ke-90",
+    "title": "Yang paling berubah",
+    "icon": "check",
+    "rows": [
+     {
+      "kind": "no",
+      "label": "BUKAN",
+      "text": "Jumlah kosakata"
+     },
+     {
+      "kind": "yes",
+      "label": "TAPI",
+      "text": "Keberanian ngomong"
+     }
+    ],
+    "note": "10 menit × 90 hari = 15 jam ngomong"
+   },
+   "say": "Totalnya *lima belas jam* ngomong. Banyak yang belajar bertahun-tahun, tapi belum pernah ngomong selama itu.",
+   "audio": "episodes/latihan-90-hari/audio/dfcfbf41c3d5-0-t1.1.wav",
+   "from": 1047,
+   "frames": 179,
+   "speechFrames": 173
+  },
+  {
+   "scene": "app",
+   "speaker": "interviewer",
+   "app": {
+    "video": "footage/Shadowing bandingin suara kamu dengan native.mp4",
+    "volume": 0.15,
+    "demo": true
+   },
+   "say": "Sepuluh menit itu bisa kamu lakukan di *ConvoPartner.*",
+   "audio": "episodes/latihan-90-hari/audio/dfcfbf41c3d5-1-t1.1.wav",
+   "from": 1226,
+   "frames": 94,
+   "speechFrames": 88
+  },
+  {
+   "scene": "app",
+   "speaker": "interviewer",
+   "app": {
+    "video": "footage/Shadowing bandingin suara kamu dengan native.mp4",
+    "volume": 0.15,
+    "demo": true
+   },
+   "say": "*Shadowing,* bandingin suaramu sama native, *tiap hari.*",
+   "audio": "episodes/latihan-90-hari/audio/dfcfbf41c3d5-2-t1.1.wav",
+   "from": 1320,
+   "frames": 120,
+   "speechFrames": 114
+  },
+  {
+   "scene": "debate",
+   "speaker": "interviewer",
+   "debate": {
+    "left": {
+     "icon": "⏳",
+     "label": "10 Menit Cukup"
+    },
+    "right": {
+     "icon": "📚",
+     "label": "Harus Berjam-jam"
+    },
+    "prompt": "Tulis pendapatmu di komen"
+   },
+   "say": "Menurutmu, *sepuluh menit sehari* udah cukup, atau *harus berjam-jam?* Tulis di komen.",
+   "audio": "episodes/latihan-90-hari/audio/dfcfbf41c3d5-3-t1.1.wav",
+   "from": 1440,
+   "frames": 192,
+   "speechFrames": 150
+  }
+ ]
+}

@@ -1,0 +1,475 @@
+{
+ "id": "sejuta-lowongan",
+ "fps": 30,
+ "durationInFrames": 1710,
+ "series": "Bagaimana Jika",
+ "candidate": {
+  "name": "Kamu"
+ },
+ "interviewer": {
+  "name": "Yui",
+  "image": "brand/yui.png",
+  "role": "AI Partner"
+ },
+ "bgm": null,
+ "disclaimer": "Dialog fiktif. Suara dan karakter dibuat dengan AI.",
+ "beats": [
+  {
+   "scene": "hook",
+   "speaker": "interviewer",
+   "title": "Bagaimana jika Jepang buka *1 juta lowongan* buat orang Indonesia?",
+   "swap": {
+    "kind": "news",
+    "from": "Jepang Buka 1.000.000 Lowongan Khusus WNI",
+    "to": "3 juta pendaftar di hari pertama"
+   },
+   "say": "Bagaimana jika Jepang buka sejuta lowongan, khusus orang Indonesia? Tapi di tahap terakhir, *satu jawaban* menentukan segalanya.",
+   "audio": "episodes/sejuta-lowongan/audio/33e4733943aa-0-t1.15.wav",
+   "from": 0,
+   "frames": 221,
+   "speechFrames": 215
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Belajar dari anime 📺",
+     "image": "story/chars/dimas.png"
+    },
+    "right": {
+     "name": "",
+     "tag": "",
+     "trait": ""
+    },
+    "bg": "story/bg/kamar.jpg",
+    "solo": "left",
+    "mood": "night",
+    "cam": "push",
+    "react": {
+     "side": "left",
+     "kind": "jump"
+    },
+    "thought": {
+     "side": "left",
+     "text": "Gampang lah 😎"
+    }
+   },
+   "say": "Dimas belajar Jepang dari *anime.*",
+   "ambience": "room",
+   "audio": "episodes/sejuta-lowongan/audio/33e4733943aa-1-t1.15.wav",
+   "from": 221,
+   "frames": 65,
+   "speechFrames": 59
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Latihan mensetsu 🎙️",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "",
+     "tag": "",
+     "trait": ""
+    },
+    "bg": "story/bg/kamar.jpg",
+    "solo": "left",
+    "mood": "night",
+    "fx": "dust",
+    "thought": {
+     "side": "left",
+     "text": "Sekali lagi… dari awal"
+    }
+   },
+   "say": "Rina, dari *latihan mensetsu.*",
+   "ambience": "tick",
+   "audio": "episodes/sejuta-lowongan/audio/33e4733943aa-2-t1.15.wav",
+   "from": 286,
+   "frames": 67,
+   "speechFrames": 61
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Belajar dari anime 📺",
+     "image": "story/chars/dimas.png"
+    },
+    "right": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Latihan mensetsu 🎙️",
+     "image": "story/chars/rina.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "later": "Tahap akhir",
+    "cut": true,
+    "ask": true
+   },
+   "say": "Berkas lolos, tes tulis lolos. Tinggal *mensetsu.*",
+   "ambience": "room",
+   "audio": "episodes/sejuta-lowongan/audio/33e4733943aa-3-t1.15.wav",
+   "from": 353,
+   "frames": 125,
+   "speechFrames": 119
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Belajar dari anime 📺",
+     "image": "story/chars/dimas.png"
+    },
+    "right": {
+     "name": "面接官",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/interviewer.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "focus": "right",
+    "cam": "push",
+    "bubbles": {
+     "right": {
+      "text": "自己紹介をお願いします。",
+      "sub": "“Silakan perkenalkan diri.”",
+      "voice": "pria"
+     }
+    }
+   },
+   "say": "Interviewer minta:",
+   "ambience": "room",
+   "audio": "episodes/sejuta-lowongan/audio/33e4733943aa-4-t1.15.wav",
+   "line": {
+    "audio": "episodes/sejuta-lowongan/audio/line-e9ebaccf6ad5.wav",
+    "side": "right",
+    "at": 34,
+    "frames": 60
+   },
+   "from": 478,
+   "frames": 100,
+   "speechFrames": 30
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Belajar dari anime 📺",
+     "image": "story/chars/dimas.png"
+    },
+    "right": {
+     "name": "面接官",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/interviewer.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "focus": "left",
+    "react": {
+     "side": "left",
+     "kind": "jump"
+    },
+    "bubbles": {
+     "left": {
+      "text": "オッス！オレ、ディマス！日本で働きてぇんだ！よろしくな！",
+      "sub": "“Oss! Gue Dimas! Pengen kerja di Jepang nih! Salam ya!”",
+      "voice": "dimas",
+      "emotion": "happy",
+      "speed": 1.1
+     }
+    }
+   },
+   "say": "Dimas, *gaya anime:*",
+   "ambience": "room",
+   "audio": "episodes/sejuta-lowongan/audio/636d029a3668-0-t1.15.wav",
+   "line": {
+    "audio": "episodes/sejuta-lowongan/audio/line-9d6115a3988e.wav",
+    "side": "left",
+    "at": 51,
+    "frames": 117
+   },
+   "from": 578,
+   "frames": 174,
+   "speechFrames": 47
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "…?",
+     "image": "story/chars/dimas.png"
+    },
+    "right": {
+     "name": "面接官",
+     "tag": "",
+     "trait": "😐",
+     "image": "story/chars/interviewer-honne.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "shake": true,
+    "cam": "close",
+    "thought": {
+     "side": "left",
+     "text": "Kok pada diem?"
+    }
+   },
+   "say": "Ruangan ~langsung beku.~",
+   "audio": "episodes/sejuta-lowongan/audio/636d029a3668-1-t1.15.wav",
+   "from": 752,
+   "frames": 49,
+   "speechFrames": 43
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "…?",
+     "image": "story/chars/dimas.png"
+    },
+    "right": {
+     "name": "面接官",
+     "tag": "",
+     "trait": "😐",
+     "image": "story/chars/interviewer-honne.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "cam": "pull",
+    "stamp": {
+     "side": "left",
+     "text": "GAGAL",
+     "color": "red"
+    }
+   },
+   "say": "Itu bahasa ~ke teman,~ bukan ke calon atasan.",
+   "ambience": "room",
+   "audio": "episodes/sejuta-lowongan/audio/636d029a3668-2-t1.15.wav",
+   "from": 801,
+   "frames": 97,
+   "speechFrames": 91
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Latihan mensetsu 🎙️",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "面接官",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/interviewer.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "focus": "left",
+    "cam": "push",
+    "bubbles": {
+     "left": {
+      "text": "本日はお時間を頂いて、ありがとうございます。",
+      "sub": "“Terima kasih atas waktunya hari ini.”",
+      "voice": "rina",
+      "speed": 1.15
+     }
+    }
+   },
+   "say": "Giliran Rina.",
+   "ambience": "room",
+   "audio": "episodes/sejuta-lowongan/audio/636d029a3668-3-t1.15.wav",
+   "line": {
+    "audio": "episodes/sejuta-lowongan/audio/line-5820ae90135d.wav",
+    "side": "left",
+    "at": 33,
+    "frames": 102
+   },
+   "from": 898,
+   "frames": 141,
+   "speechFrames": 29
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Latihan mensetsu 🎙️",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "面接官",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/interviewer.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "focus": "left",
+    "react": {
+     "side": "right",
+     "kind": "nod"
+    },
+    "bubbles": {
+     "left": {
+      "text": "はじめまして、リナと申します。今年は20歳で、インドネシアのスラバヤ出身です。",
+      "sub": "“Salam kenal, nama saya Rina. Umur saya 20 tahun, dari Surabaya, Indonesia.”",
+      "voice": "rina",
+      "speed": 1.15
+     }
+    }
+   },
+   "ambience": "room",
+   "audio": null,
+   "line": {
+    "audio": "episodes/sejuta-lowongan/audio/line-5cbd81246e36.wav",
+    "side": "left",
+    "at": 0,
+    "frames": 205
+   },
+   "from": 1039,
+   "frames": 211,
+   "speechFrames": 30
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Latihan mensetsu 🎙️",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "面接官",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/interviewer.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "focus": "left",
+    "bubbles": {
+     "left": {
+      "text": "趣味は音楽を聴くことです。どうぞよろしくお願いいたします。",
+      "sub": "“Hobi saya mendengarkan musik. Mohon kerja samanya.”",
+      "voice": "rina",
+      "speed": 1.15
+     }
+    }
+   },
+   "ambience": "room",
+   "audio": null,
+   "line": {
+    "audio": "episodes/sejuta-lowongan/audio/line-9c6ebfe92dc8.wav",
+    "side": "left",
+    "at": 0,
+    "frames": 130
+   },
+   "from": 1250,
+   "frames": 136,
+   "speechFrames": 30
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Lolos ✨",
+     "image": "story/chars/rina-senang.png"
+    },
+    "right": {
+     "name": "面接官",
+     "tag": "",
+     "trait": "😊",
+     "image": "story/chars/interviewer.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "mood": "warm",
+    "fx": "sparkle",
+    "stamp": {
+     "side": "left",
+     "text": "LOLOS",
+     "color": "green"
+    }
+   },
+   "say": "Interviewer *tersenyum.*",
+   "ambience": "room",
+   "audio": "episodes/sejuta-lowongan/audio/2154b8146060-0-t1.15.wav",
+   "from": 1386,
+   "frames": 38,
+   "speechFrames": 32
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Lolos ✨",
+     "image": "story/chars/rina-senang.png"
+    },
+    "right": {
+     "name": "面接官",
+     "tag": "",
+     "trait": "😊",
+     "image": "story/chars/interviewer.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "mood": "warm",
+    "cam": "pull"
+   },
+   "say": "Lowongan itu nggak pernah penuh. Yang bisa jawab kayak Rina… *cuma sedikit.*",
+   "ambience": "room",
+   "audio": "episodes/sejuta-lowongan/audio/2154b8146060-1-t1.15.wav",
+   "from": 1424,
+   "frames": 150,
+   "speechFrames": 135
+  },
+  {
+   "scene": "debate",
+   "speaker": "interviewer",
+   "debate": {
+    "left": {
+     "icon": "📺",
+     "label": "Belajar dari Anime"
+    },
+    "right": {
+     "icon": "🎙️",
+     "label": "Latihan Mensetsu"
+    },
+    "prompt": "Tulis pendapatmu di komen"
+   },
+   "say": "Kamu tim *anime,* atau tim *latihan mensetsu?* Tulis di komen.",
+   "audio": "episodes/sejuta-lowongan/audio/2154b8146060-2-t1.15.wav",
+   "from": 1574,
+   "frames": 136,
+   "speechFrames": 106
+  }
+ ]
+}

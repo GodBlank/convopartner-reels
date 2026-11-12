@@ -1,0 +1,588 @@
+{
+ "id": "jadi-orang-jepang",
+ "fps": 30,
+ "durationInFrames": 1797,
+ "series": "Bagaimana Jika",
+ "candidate": {
+  "name": "Kamu"
+ },
+ "interviewer": {
+  "name": "Yui",
+  "image": "brand/yui.png",
+  "role": "AI Partner"
+ },
+ "bgm": null,
+ "disclaimer": "Dialog fiktif. Suara dan karakter dibuat dengan AI.",
+ "beats": [
+  {
+   "scene": "hook",
+   "speaker": "interviewer",
+   "title": "Bagaimana jika kamu *jadi orang Jepang* sehari?",
+   "swap": {
+    "kind": "screen",
+    "from": "⚠️ KETAHUAN = TAMAT",
+    "to": ""
+   },
+   "say": "Bagaimana jika kamu jadi orang Jepang sehari? Tapi kalau ketahuan… kamu *nggak bisa balik.*",
+   "audio": "episodes/jadi-orang-jepang/audio/6d668d393755-0-t1.15.wav",
+   "from": 0,
+   "frames": 146,
+   "speechFrames": 140
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Dimas bangun sebagai *Satō,* orang kantoran di Tokyo.",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Jadi Satō 🇯🇵",
+     "image": "story/chars/dimas.png"
+    },
+    "right": {
+     "name": "",
+     "tag": "",
+     "trait": ""
+    },
+    "bg": "story/bg/tokyo.jpg",
+    "solo": "left",
+    "later": "07.00",
+    "cut": true,
+    "react": {
+     "side": "left",
+     "kind": "jump"
+    },
+    "thought": {
+     "side": "left",
+     "text": "Aku… orang Jepang?!"
+    }
+   },
+   "ambience": "city",
+   "audio": "episodes/jadi-orang-jepang/audio/6d668d393755-1-t1.15.wav",
+   "from": 146,
+   "frames": 99,
+   "speechFrames": 93
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Di stasiun, dia nyapa teman:",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Jadi Satō 🇯🇵",
+     "image": "story/chars/dimas.png"
+    },
+    "right": {
+     "name": "Kenji",
+     "tag": "",
+     "trait": "Teman kantor",
+     "image": "story/chars/interviewer.png"
+    },
+    "bg": "story/bg/stasiun.jpg",
+    "later": "07.30",
+    "focus": "left",
+    "bubbles": {
+     "left": {
+      "text": "おはよう！",
+      "sub": "“Pagi!”",
+      "voice": "dimas",
+      "emotion": "happy"
+     }
+    },
+    "react": {
+     "side": "right",
+     "kind": "nod"
+    }
+   },
+   "ambience": "train",
+   "audio": "episodes/jadi-orang-jepang/audio/6d668d393755-2-t1.15.wav",
+   "line": {
+    "audio": "episodes/jadi-orang-jepang/audio/line-13ddfb19ed43.wav",
+    "side": "left",
+    "at": 63,
+    "frames": 28
+   },
+   "from": 245,
+   "frames": 97,
+   "speechFrames": 59
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Di kantor, ke atasan, *sama persis:*",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Jadi Satō 🇯🇵",
+     "image": "story/chars/dimas.png"
+    },
+    "right": {
+     "name": "Tanaka",
+     "tag": "部長",
+     "trait": "Atasan",
+     "image": "story/chars/atasan.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "later": "09.00",
+    "cut": true,
+    "focus": "left",
+    "cam": "push",
+    "bubbles": {
+     "left": {
+      "text": "おはよう！",
+      "sub": "“Pagi!”",
+      "voice": "dimas",
+      "emotion": "happy"
+     }
+    }
+   },
+   "ambience": "room",
+   "audio": "episodes/jadi-orang-jepang/audio/6d668d393755-3-t1.15.wav",
+   "line": {
+    "audio": "episodes/jadi-orang-jepang/audio/line-13ddfb19ed43.wav",
+    "side": "left",
+    "at": 80,
+    "frames": 28
+   },
+   "from": 342,
+   "frames": 114,
+   "speechFrames": 76
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Semua kepala ~langsung menoleh.~",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Panik 😰",
+     "image": "story/chars/dimas.png"
+    },
+    "right": {
+     "name": "Tanaka",
+     "tag": "部長",
+     "trait": "Atasan",
+     "image": "story/chars/atasan.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "later": "09.00",
+    "shake": true,
+    "cam": "close",
+    "react": {
+     "side": "left",
+     "kind": "shiver"
+    },
+    "screen": {
+     "side": "left",
+     "text": "⚠️ HAMPIR KETAHUAN"
+    }
+   },
+   "ambience": "room",
+   "audio": "episodes/jadi-orang-jepang/audio/6d668d393755-4-t1.15.wav",
+   "from": 456,
+   "frames": 62,
+   "speechFrames": 56
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Buru-buru *diralat:*",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Panik 😰",
+     "image": "story/chars/dimas.png"
+    },
+    "right": {
+     "name": "Tanaka",
+     "tag": "部長",
+     "trait": "Atasan",
+     "image": "story/chars/atasan.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "later": "09.00",
+    "focus": "left",
+    "cam": "pull",
+    "react": {
+     "side": "left",
+     "kind": "nod"
+    },
+    "bubbles": {
+     "left": {
+      "text": "おはようございます！",
+      "sub": "“Selamat pagi!”",
+      "voice": "dimas",
+      "emotion": "fearful"
+     }
+    }
+   },
+   "ambience": "room",
+   "audio": "episodes/jadi-orang-jepang/audio/2022c7635107-0-t1.15.wav",
+   "line": {
+    "audio": "episodes/jadi-orang-jepang/audio/line-bda0fdcf4272.wav",
+    "side": "left",
+    "at": 41,
+    "frames": 46
+   },
+   "from": 518,
+   "frames": 93,
+   "speechFrames": 37
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Klien cari atasannya. Dimas jawab *sopan:*",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Jadi Satō 🇯🇵",
+     "image": "story/chars/dimas.png"
+    },
+    "right": {
+     "name": "Senpai",
+     "tag": "",
+     "trait": "Rekan kerja",
+     "image": "story/chars/interviewer-honne.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "later": "13.00",
+    "cut": true,
+    "focus": "left",
+    "bubbles": {
+     "left": {
+      "text": "田中部長はいらっしゃいません。",
+      "sub": "“Pak Manajer Tanaka sedang tidak ada.”",
+      "voice": "dimas"
+     }
+    }
+   },
+   "ambience": "room",
+   "audio": "episodes/jadi-orang-jepang/audio/2022c7635107-1-t1.15.wav",
+   "line": {
+    "audio": "episodes/jadi-orang-jepang/audio/line-8e2074b9506a.wav",
+    "side": "left",
+    "at": 106,
+    "frames": 53
+   },
+   "from": 611,
+   "frames": 165,
+   "speechFrames": 102
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Senpai ~merebut telepon:~",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Jadi Satō 🇯🇵",
+     "image": "story/chars/dimas.png"
+    },
+    "right": {
+     "name": "Senpai",
+     "tag": "",
+     "trait": "Rekan kerja",
+     "image": "story/chars/interviewer-honne.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "later": "13.00",
+    "focus": "right",
+    "react": {
+     "side": "right",
+     "kind": "jump"
+    },
+    "bubbles": {
+     "right": {
+      "text": "田中は席を外しております。",
+      "sub": "“Tanaka sedang tidak di tempat.”",
+      "voice": "pria"
+     }
+    }
+   },
+   "ambience": "room",
+   "audio": "episodes/jadi-orang-jepang/audio/2022c7635107-2-t1.15.wav",
+   "line": {
+    "audio": "episodes/jadi-orang-jepang/audio/line-c1e40b778936.wav",
+    "side": "right",
+    "at": 52,
+    "frames": 71
+   },
+   "from": 776,
+   "frames": 129,
+   "speechFrames": 48
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Ke orang luar, atasan sendiri *nggak boleh ditinggikan.*",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Panik 😰",
+     "image": "story/chars/dimas.png"
+    },
+    "right": {
+     "name": "Senpai",
+     "tag": "",
+     "trait": "Rekan kerja",
+     "image": "story/chars/interviewer-honne.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "later": "13.00",
+    "cam": "push",
+    "screen": {
+     "side": "left",
+     "text": "⚠️ HAMPIR KETAHUAN ×2"
+    }
+   },
+   "ambience": "room",
+   "audio": "episodes/jadi-orang-jepang/audio/2022c7635107-3-t1.15.wav",
+   "from": 905,
+   "frames": 102,
+   "speechFrames": 96
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Malam, di kedai ramen. Hampir *selamat.*",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Hampir selamat 😮‍💨",
+     "image": "story/chars/dimas.png"
+    },
+    "right": {
+     "name": "",
+     "tag": "",
+     "trait": ""
+    },
+    "bg": "story/bg/izakaya.jpg",
+    "solo": "left",
+    "later": "19.00",
+    "cut": true,
+    "mood": "warm",
+    "fx": "steam",
+    "thought": {
+     "side": "left",
+     "text": "Tinggal sedikit lagi…"
+    }
+   },
+   "ambience": "crowd",
+   "audio": "episodes/jadi-orang-jepang/audio/2022c7635107-4-t1.15.wav",
+   "from": 1007,
+   "frames": 101,
+   "speechFrames": 95
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Selesai makan, dia pamit, *super sopan:*",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Hampir selamat 😮‍💨",
+     "image": "story/chars/dimas.png"
+    },
+    "right": {
+     "name": "",
+     "tag": "",
+     "trait": ""
+    },
+    "bg": "story/bg/izakaya.jpg",
+    "solo": "left",
+    "later": "19.00",
+    "mood": "warm",
+    "fx": "steam",
+    "cam": "push",
+    "react": {
+     "side": "left",
+     "kind": "nod"
+    },
+    "bubbles": {
+     "left": {
+      "text": "ごちそうさまでございました！",
+      "sub": "“Terima kasih atas hidangannya!” (super sopan)",
+      "voice": "dimas"
+     }
+    }
+   },
+   "ambience": "crowd",
+   "audio": "episodes/jadi-orang-jepang/audio/4fb2d0b9ff01-0-t1.15.wav",
+   "line": {
+    "audio": "episodes/jadi-orang-jepang/audio/line-69f0722ca630.wav",
+    "side": "left",
+    "at": 72,
+    "frames": 50
+   },
+   "from": 1108,
+   "frames": 128,
+   "speechFrames": 68
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Seluruh kedai… *mendadak hening.*",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "…?",
+     "image": "story/chars/dimas.png"
+    },
+    "right": {
+     "name": "",
+     "tag": "",
+     "trait": ""
+    },
+    "bg": "story/bg/izakaya.jpg",
+    "solo": "left",
+    "later": "19.00",
+    "mood": "dark",
+    "cam": "push",
+    "thought": {
+     "side": "left",
+     "text": "Kenapa semua lihat aku?"
+    }
+   },
+   "audio": "episodes/jadi-orang-jepang/audio/4fb2d0b9ff01-1-t1.15.wav",
+   "from": 1236,
+   "frames": 96,
+   "speechFrames": 84
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "…?",
+     "image": "story/chars/dimas.png"
+    },
+    "right": {
+     "name": "Koki",
+     "tag": "",
+     "trait": ""
+    },
+    "bg": "story/bg/izakaya.jpg",
+    "later": "19.00",
+    "mood": "warm",
+    "bubbles": {
+     "right": {
+      "text": "日本人はそこまで言わないよ。",
+      "sub": "“Orang Jepang nggak sesopan itu, kok.”",
+      "voice": "koki",
+      "emotion": "happy"
+     }
+    }
+   },
+   "ambience": "crowd",
+   "audio": null,
+   "line": {
+    "audio": "episodes/jadi-orang-jepang/audio/line-8d4195c9a970.wav",
+    "side": "right",
+    "at": 0,
+    "frames": 64
+   },
+   "from": 1332,
+   "frames": 70,
+   "speechFrames": 30
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Dia lolos dari semua jebakan… tapi ketahuan karena *terlalu sopan.*",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Ketahuan 😱",
+     "image": "story/chars/dimas.png"
+    },
+    "right": {
+     "name": "Koki",
+     "tag": "",
+     "trait": ""
+    },
+    "bg": "story/bg/izakaya.jpg",
+    "later": "19.00",
+    "mood": "warm",
+    "shake": true,
+    "stamp": {
+     "side": "left",
+     "text": "KETAHUAN",
+     "color": "red"
+    }
+   },
+   "ambience": "crowd",
+   "audio": "episodes/jadi-orang-jepang/audio/1a6df5c50659-0-t1.15.wav",
+   "from": 1402,
+   "frames": 113,
+   "speechFrames": 107
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Dan sampai hari ini… *Satō masih kerja di Tokyo.*",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Satō, selamanya",
+     "image": "story/chars/dimas.png"
+    },
+    "right": {
+     "name": "",
+     "tag": "",
+     "trait": ""
+    },
+    "bg": "story/bg/tokyo.jpg",
+    "solo": "left",
+    "later": "Sampai hari ini…",
+    "cut": true,
+    "mood": "dusk",
+    "cam": "pull",
+    "react": {
+     "side": "left",
+     "kind": "shrink"
+    }
+   },
+   "ambience": "city",
+   "audio": "episodes/jadi-orang-jepang/audio/1a6df5c50659-1-t1.15.wav",
+   "from": 1515,
+   "frames": 116,
+   "speechFrames": 110
+  },
+  {
+   "scene": "debate",
+   "speaker": "interviewer",
+   "debate": {
+    "left": {
+     "icon": "😎",
+     "label": "Lolos Sampai Malam"
+    },
+    "right": {
+     "icon": "😵",
+     "label": "Ketahuan Sebelum Siang"
+    },
+    "prompt": "Tulis pendapatmu di komen"
+   },
+   "say": "Kamu tim *lolos sampai malam,* atau tim *ketahuan sebelum siang?* Tulis di komen.",
+   "audio": "episodes/jadi-orang-jepang/audio/1a6df5c50659-2-t1.15.wav",
+   "from": 1631,
+   "frames": 166,
+   "speechFrames": 142
+  }
+ ]
+}

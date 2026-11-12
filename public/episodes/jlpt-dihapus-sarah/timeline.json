@@ -1,0 +1,332 @@
+{
+ "id": "jlpt-dihapus-sarah",
+ "fps": 30,
+ "durationInFrames": 1729,
+ "series": "Bagaimana Jika",
+ "candidate": {
+  "name": "Kamu"
+ },
+ "interviewer": {
+  "name": "Yui",
+  "image": "brand/yui.png",
+  "role": "AI Partner"
+ },
+ "bgm": null,
+ "disclaimer": "Dialog fiktif. Suara dan karakter dibuat dengan AI.",
+ "beats": [
+  {
+   "scene": "hook",
+   "speaker": "interviewer",
+   "title": "Bagaimana jika *JLPT dihapus?*",
+   "swap": {
+    "from": "JLPT",
+    "to": "Tes Ngomong",
+    "icon": "🎙️"
+   },
+   "say": "Bagaimana jika ujian JLPT dihapus… dan diganti tes ngomong langsung?",
+   "speak": "Bagaimana jika ujian je el pe te dihapus… dan diganti tes ngomong langsung?",
+   "audio": "episodes/jlpt-dihapus-sarah/audio/7c8d36870b8a-0-t1.1.wav",
+   "from": 0,
+   "frames": 152,
+   "speechFrames": 146
+  },
+  {
+   "scene": "card",
+   "speaker": "interviewer",
+   "card": {
+    "kicker": "Fakta",
+    "title": "Isi ujian JLPT",
+    "icon": "?",
+    "rows": [
+     {
+      "kind": "yes",
+      "text": "Kosakata · 文字・語彙"
+     },
+     {
+      "kind": "yes",
+      "text": "Tata bahasa · 文法"
+     },
+     {
+      "kind": "yes",
+      "text": "Membaca · 読解"
+     },
+     {
+      "kind": "yes",
+      "text": "Mendengar · 聴解"
+     },
+     {
+      "kind": "no",
+      "label": "TIDAK ADA",
+      "text": "Berbicara"
+     }
+    ]
+   },
+   "say": "Faktanya, JLPT *nggak ada tes bicaranya.* Cuma kosakata, tata bahasa, membaca, dan mendengar.",
+   "speak": "Faktanya, je el pe te nggak ada tes bicaranya. Cuma kosakata, tata bahasa, membaca, dan mendengar.",
+   "audio": "episodes/jlpt-dihapus-sarah/audio/7c8d36870b8a-1-t1.1.wav",
+   "from": 152,
+   "frames": 220,
+   "speechFrames": 214
+  },
+  {
+   "scene": "host",
+   "speaker": "interviewer",
+   "say": "Makanya ada yang pegang *N3 atau N2,* tapi pas mensetsu ditanya langsung…",
+   "badge": {
+    "tag": "PUNYA",
+    "text": "🎓 Sertifikat N3 / N2",
+    "color": "gold"
+   },
+   "speak": "Makanya ada yang pegang en tiga atau en dua, tapi pas mensetsu ditanya langsung…",
+   "audio": "episodes/jlpt-dihapus-sarah/audio/7c8d36870b8a-2-t1.1.wav",
+   "from": 372,
+   "frames": 153,
+   "speechFrames": 147
+  },
+  {
+   "scene": "chat",
+   "speaker": "candidate",
+   "quote": "なぜ日本で働きたいですか？",
+   "say": "えっと…あの…",
+   "stamp": "BLANK",
+   "audio": "episodes/jlpt-dihapus-sarah/audio/886ee47a3a2a.wav",
+   "from": 525,
+   "frames": 73,
+   "speechFrames": 58
+  },
+  {
+   "scene": "host",
+   "speaker": "interviewer",
+   "mood": "stern",
+   "say": "Padahal kalau mau kerja di Jepang, *harus bisa ngomong* Jepang.",
+   "audio": "episodes/jlpt-dihapus-sarah/audio/4716acd95b84-0-t1.1.wav",
+   "from": 598,
+   "frames": 103,
+   "speechFrames": 97
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Bayangin dua orang ngelamar kerja yang sama di Jepang.",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "N2",
+     "trait": "Nilai bagus, tapi kaku ngobrol",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "N4",
+     "trait": "Tiap malam latihan ngomong",
+     "image": "story/chars/dimas.png"
+    },
+    "label": "Cerita ilustrasi",
+    "focus": "both",
+    "bg": "story/bg/wawancara.jpg"
+   },
+   "audio": "episodes/jlpt-dihapus-sarah/audio/4716acd95b84-1-t1.1.wav",
+   "from": 701,
+   "frames": 116,
+   "speechFrames": 110
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Rina, *N2,* tapi ~kaku~ kalau ngobrol.",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "N2",
+     "trait": "Nilai bagus, tapi kaku ngobrol",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "N4",
+     "trait": "Tiap malam latihan ngomong",
+     "image": "story/chars/dimas.png"
+    },
+    "label": "Cerita ilustrasi",
+    "focus": "left",
+    "bg": "story/bg/wawancara.jpg"
+   },
+   "speak": "Rina, en dua, tapi kaku kalau ngobrol.",
+   "audio": "episodes/jlpt-dihapus-sarah/audio/4716acd95b84-2-t1.1.wav",
+   "from": 817,
+   "frames": 101,
+   "speechFrames": 95
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Dimas, cuma *N4,* tapi tiap malam latihan ngomong di ConvoPartner.",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "N2",
+     "trait": "Nilai bagus, tapi kaku ngobrol",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "N4",
+     "trait": "Tiap malam latihan ngomong",
+     "video": "footage/Simulasi wawancara kerja ke Jepang.mp4",
+     "image": "story/chars/dimas.png"
+    },
+    "label": "Cerita ilustrasi",
+    "focus": "right",
+    "bg": "story/bg/wawancara.jpg"
+   },
+   "speak": "Dimas, cuma en empat, tapi tiap malam latihan ngomong di ConvoPartner.",
+   "audio": "episodes/jlpt-dihapus-sarah/audio/4716acd95b84-3-t1.1.wav",
+   "from": 918,
+   "frames": 140,
+   "speechFrames": 134
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Mensetsu dimulai. Rina ~terbata-bata.~ Dimas jawab lancar sambil senyum.",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "N2",
+     "trait": "Nilai bagus, tapi kaku ngobrol",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "N4",
+     "trait": "Tiap malam latihan ngomong",
+     "image": "story/chars/dimas.png"
+    },
+    "label": "Cerita ilustrasi",
+    "focus": "both",
+    "bubbles": {
+     "left": "えっと…わたし…は…",
+     "right": "はい！日本で介護の仕事がしたいです。"
+    },
+    "bg": "story/bg/wawancara.jpg"
+   },
+   "audio": "episodes/jlpt-dihapus-sarah/audio/4716acd95b84-4-t1.1.wav",
+   "from": 1058,
+   "frames": 160,
+   "speechFrames": 154
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Coba tebak… *siapa yang diterima?*",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "N2",
+     "trait": "Nilai bagus, tapi kaku ngobrol",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "N4",
+     "trait": "Tiap malam latihan ngomong",
+     "image": "story/chars/dimas.png"
+    },
+    "label": "Cerita ilustrasi",
+    "ask": true,
+    "bg": "story/bg/wawancara.jpg"
+   },
+   "audio": "episodes/jlpt-dihapus-sarah/audio/6a257e60bd99-0-t1.1.wav",
+   "from": 1218,
+   "frames": 86,
+   "speechFrames": 56
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "+Dimas.+",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "N2",
+     "trait": "Nilai bagus, tapi kaku ngobrol",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "N4",
+     "trait": "Tiap malam latihan ngomong",
+     "image": "story/chars/dimas.png"
+    },
+    "label": "Cerita ilustrasi",
+    "stamp": {
+     "side": "right",
+     "text": "DITERIMA",
+     "color": "green"
+    },
+    "bg": "story/bg/wawancara.jpg"
+   },
+   "audio": "episodes/jlpt-dihapus-sarah/audio/6a257e60bd99-1-t1.1.wav",
+   "from": 1304,
+   "frames": 66,
+   "speechFrames": 39
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Sambil kerja, bahasa Jepangnya terus naik. Dan *gaji sama kariernya* ikut naik.",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "N2",
+     "trait": "Nilai bagus, tapi kaku ngobrol",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Kerja di Jepang",
+     "image": "story/chars/dimas-kerja.png"
+    },
+    "label": "Cerita ilustrasi",
+    "later": "1 tahun kemudian…",
+    "climb": {
+     "side": "right",
+     "steps": [
+      "N4",
+      "N3",
+      "N2"
+     ],
+     "note": "Gaji ↑  Karier ↑"
+    },
+    "bg": "story/bg/kerja.jpg",
+    "solo": "right"
+   },
+   "audio": "episodes/jlpt-dihapus-sarah/audio/6a257e60bd99-2-t1.1.wav",
+   "from": 1370,
+   "frames": 135,
+   "speechFrames": 129
+  },
+  {
+   "scene": "debate",
+   "speaker": "interviewer",
+   "debate": {
+    "left": {
+     "icon": "📝",
+     "label": "Sertifikat JLPT"
+    },
+    "right": {
+     "icon": "🗣️",
+     "label": "Kemampuan Ngomong"
+    },
+    "prompt": "Tulis pendapatmu di komen"
+   },
+   "say": "Menurutmu, lebih penting *sertifikat JLPT* atau *kemampuan ngomong?* Coba kasih pendapatmu di komen.",
+   "speak": "Menurutmu, lebih penting sertifikat je el pe te atau kemampuan ngomong? Coba kasih pendapatmu di komen.",
+   "audio": "episodes/jlpt-dihapus-sarah/audio/6a257e60bd99-3-t1.1.wav",
+   "from": 1505,
+   "frames": 224,
+   "speechFrames": 182
+  }
+ ]
+}

@@ -1,0 +1,260 @@
+{
+ "id": "tatemae-hilang",
+ "fps": 30,
+ "durationInFrames": 1477,
+ "series": "Bagaimana Jika",
+ "candidate": {
+  "name": "Kamu"
+ },
+ "interviewer": {
+  "name": "Yui",
+  "image": "brand/yui.png",
+  "role": "AI Partner"
+ },
+ "bgm": null,
+ "disclaimer": "Dialog fiktif. Suara dan karakter dibuat dengan AI.",
+ "beats": [
+  {
+   "scene": "hook",
+   "speaker": "interviewer",
+   "title": "Bagaimana jika orang Jepang *nggak bisa basa-basi?*",
+   "swap": {
+    "kind": "mask",
+    "from": "建前 · Tatemae",
+    "to": "Blak-blakan",
+    "icon": "🗯️"
+   },
+   "say": "Bagaimana jika orang Jepang tiba-tiba… nggak bisa basa-basi lagi?",
+   "audio": "episodes/tatemae-hilang/audio/d56f6f2943b4-0.wav",
+   "from": 0,
+   "frames": 123,
+   "speechFrames": 117
+  },
+  {
+   "scene": "card",
+   "speaker": "interviewer",
+   "card": {
+    "kicker": "Fakta budaya",
+    "title": "Dua sisi orang Jepang",
+    "icon": "!",
+    "rows": [
+     {
+      "kind": "info",
+      "label": "建前 TATEMAE",
+      "text": "Yang diucapkan di depan"
+     },
+     {
+      "kind": "info",
+      "label": "本音 HONNE",
+      "text": "Isi hati yang sebenarnya"
+     }
+    ]
+   },
+   "say": "Di Jepang ada dua sisi. *Tatemae,* yang diucapkan di depan. Dan *honne,* isi hati yang sebenarnya.",
+   "audio": "episodes/tatemae-hilang/audio/d56f6f2943b4-1.wav",
+   "from": 123,
+   "frames": 211,
+   "speechFrames": 205
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Pas mensetsu dibilang, akan kami pertimbangkan. Padahal bisa jadi artinya… ~nggak.~",
+   "duel": {
+    "left": {
+     "name": "Kamu",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "面接官",
+     "tag": "",
+     "trait": "Tatemae 🙂",
+     "image": "story/chars/interviewer.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "focus": "right",
+    "bubbles": {
+     "right": {
+      "text": "前向きに検討します。",
+      "sub": "“Akan kami pertimbangkan.”"
+     }
+    }
+   },
+   "audio": "episodes/tatemae-hilang/audio/d56f6f2943b4-2.wav",
+   "from": 334,
+   "frames": 182,
+   "speechFrames": 176
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Sekarang bayangin *tatemae hilang.* Kamu selesai jawab, orang Jepang langsung bilang:",
+   "duel": {
+    "left": {
+     "name": "Kamu",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "面接官",
+     "tag": "",
+     "trait": "Honne 😐",
+     "image": "story/chars/interviewer-honne.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "focus": "right",
+    "label": "Bagaimana jika…"
+   },
+   "audio": "episodes/tatemae-hilang/audio/a055226fd560-0.wav",
+   "from": 516,
+   "frames": 144,
+   "speechFrames": 138
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "~Jawabanmu kayak hafalan.~",
+   "duel": {
+    "left": {
+     "name": "Kamu",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "面接官",
+     "tag": "",
+     "trait": "Honne 😐",
+     "image": "story/chars/interviewer-honne.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "focus": "right",
+    "label": "Bagaimana jika…",
+    "bubbles": {
+     "right": {
+      "text": "答えが暗記っぽいですね。",
+      "sub": "“Jawabanmu kayak hafalan.”",
+      "tone": "red"
+     }
+    }
+   },
+   "audio": "episodes/tatemae-hilang/audio/a055226fd560-1.wav",
+   "from": 660,
+   "frames": 85,
+   "speechFrames": 55
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "~Bahasa Jepangmu jelek banget.~",
+   "duel": {
+    "left": {
+     "name": "Kamu",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "面接官",
+     "tag": "",
+     "trait": "Honne 😐",
+     "image": "story/chars/interviewer-honne.png"
+    },
+    "bg": "story/bg/wawancara.jpg",
+    "focus": "left",
+    "label": "Bagaimana jika…",
+    "bubbles": {
+     "right": {
+      "text": "日本語、かなり下手ですね。",
+      "sub": "“Bahasa Jepangmu jelek banget.”",
+      "tone": "red"
+     }
+    }
+   },
+   "audio": "episodes/tatemae-hilang/audio/a055226fd560-2.wav",
+   "from": 745,
+   "frames": 78,
+   "speechFrames": 48
+  },
+  {
+   "scene": "card",
+   "speaker": "interviewer",
+   "card": {
+    "kicker": "Sakit, tapi…",
+    "title": "Feedback jujur",
+    "icon": "check",
+    "rows": [
+     {
+      "kind": "yes",
+      "text": "Tahu bagian yang salah"
+     },
+     {
+      "kind": "yes",
+      "text": "Langsung bisa diperbaiki"
+     },
+     {
+      "kind": "no",
+      "text": "Nunggu WA penolakan"
+     }
+    ]
+   },
+   "say": "Sakit? Iya. Tapi kamu langsung tahu harus *perbaiki apa.* Nggak nunggu ~WhatsApp penolakan~ berminggu-minggu kemudian.",
+   "speak": "Sakit? Iya. Tapi kamu langsung tahu harus perbaiki apa. Nggak nunggu wasap penolakan berminggu-minggu kemudian.",
+   "audio": "episodes/tatemae-hilang/audio/a055226fd560-3.wav",
+   "from": 823,
+   "frames": 188,
+   "speechFrames": 182
+  },
+  {
+   "scene": "app",
+   "speaker": "interviewer",
+   "app": {
+    "video": "footage/Jawaban wawancara kamu digrading.mp4",
+    "volume": 0.15,
+    "badge": "Jawaban wawancaramu di-grading"
+   },
+   "say": "Feedback jujur kayak gini sebenarnya *udah ada.*",
+   "audio": "episodes/tatemae-hilang/audio/a055226fd560-4.wav",
+   "from": 1011,
+   "frames": 80,
+   "speechFrames": 74
+  },
+  {
+   "scene": "app",
+   "speaker": "interviewer",
+   "app": {
+    "video": "footage/Jawaban wawancara kamu digrading.mp4",
+    "volume": 0.15,
+    "badge": "Jawaban wawancaramu di-grading"
+   },
+   "say": "Di *ConvoPartner,* tiap jawabanmu langsung dikoreksi, dan dikasih tau contoh jawaban yang benar.",
+   "audio": "episodes/tatemae-hilang/audio/d39e2db57dab-0.wav",
+   "from": 1091,
+   "frames": 170,
+   "speechFrames": 164
+  },
+  {
+   "scene": "debate",
+   "speaker": "interviewer",
+   "debate": {
+    "left": {
+     "icon": "😶",
+     "label": "Tetap Basa-basi"
+    },
+    "right": {
+     "icon": "🗯️",
+     "label": "Blak-blakan"
+    },
+    "prompt": "Tulis pendapatmu di komen"
+   },
+   "say": "Menurutmu, lebih enak orang Jepang *blak-blakan,* atau tetap *basa-basi?* Coba kasih pendapatmu di komen.",
+   "audio": "episodes/tatemae-hilang/audio/d39e2db57dab-1.wav",
+   "from": 1261,
+   "frames": 216,
+   "speechFrames": 174
+  }
+ ]
+}

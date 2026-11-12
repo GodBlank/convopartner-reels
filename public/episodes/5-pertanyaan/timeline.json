@@ -1,0 +1,369 @@
+{
+ "id": "5-pertanyaan",
+ "fps": 30,
+ "durationInFrames": 2974,
+ "series": "Tips Mensetsu",
+ "candidate": {
+  "name": "Kamu"
+ },
+ "interviewer": {
+  "name": "Yui",
+  "image": "brand/yui.png"
+ },
+ "bgm": null,
+ "disclaimer": "Dialog fiktif. Suara dan karakter dibuat dengan AI.",
+ "beats": [
+  {
+   "scene": "hook",
+   "speaker": "interviewer",
+   "teaser": 5,
+   "title": "5 Pertanyaan Mensetsu yang Paling Sering Bikin Orang *Gagal* 🇯🇵",
+   "say": "5 pertanyaan mensetsu yang paling sering bikin orang gagal.",
+   "audio": "episodes/5-pertanyaan/audio/2a30242060b8.wav",
+   "from": 0,
+   "frames": 133,
+   "speechFrames": 127
+  },
+  {
+   "scene": "point",
+   "speaker": "interviewer",
+   "point": {
+    "n": 1,
+    "of": 5,
+    "text": "自己紹介をお願いします",
+    "romaji": "Jiko shoukai wo onegai shimasu",
+    "arti": "Tolong perkenalkan diri kamu"
+   },
+   "say": "自己紹介をお願いします。",
+   "audio": "episodes/5-pertanyaan/audio/41b1c6bd23cc.wav",
+   "from": 133,
+   "frames": 66,
+   "speechFrames": 60
+  },
+  {
+   "scene": "point",
+   "speaker": "interviewer",
+   "point": {
+    "n": 1,
+    "of": 5,
+    "text": "自己紹介をお願いします",
+    "romaji": "Jiko shoukai wo onegai shimasu",
+    "arti": "Tolong perkenalkan diri kamu"
+   },
+   "say": "Kedengarannya gampang, tapi ini yang *paling banyak* orang gagal.",
+   "audio": "episodes/5-pertanyaan/audio/50e53bd213ad.wav",
+   "from": 199,
+   "frames": 128,
+   "speechFrames": 122
+  },
+  {
+   "scene": "point",
+   "speaker": "interviewer",
+   "point": {
+    "n": 1,
+    "of": 5,
+    "text": "自己紹介をお願いします",
+    "romaji": "Jiko shoukai wo onegai shimasu",
+    "arti": "Tolong perkenalkan diri kamu"
+   },
+   "say": "Kebanyakan jawab ~terlalu panjang~ atau ~terlalu pendek.~",
+   "audio": "episodes/5-pertanyaan/audio/e45c0092095c.wav",
+   "from": 327,
+   "frames": 121,
+   "speechFrames": 115
+  },
+  {
+   "scene": "point",
+   "speaker": "interviewer",
+   "point": {
+    "n": 1,
+    "of": 5,
+    "text": "自己紹介をお願いします",
+    "romaji": "Jiko shoukai wo onegai shimasu",
+    "arti": "Tolong perkenalkan diri kamu"
+   },
+   "say": "Idealnya *30–60 detik,* struktur jelas, dan langsung relevan sama posisi yang dilamar.",
+   "speak": "Idealnya tiga puluh sampai enam puluh detik, struktur jelas, dan langsung relevan sama posisi yang dilamar.",
+   "audio": "episodes/5-pertanyaan/audio/3e82be11b955.wav",
+   "from": 448,
+   "frames": 215,
+   "speechFrames": 209
+  },
+  {
+   "scene": "point",
+   "speaker": "interviewer",
+   "point": {
+    "n": 2,
+    "of": 5,
+    "text": "なぜ日本で働きたいですか？",
+    "romaji": "Naze nihon de hatarakitai desu ka?",
+    "arti": "Kenapa mau kerja di Jepang?"
+   },
+   "say": "なぜ日本で働きたいですか？",
+   "audio": "episodes/5-pertanyaan/audio/2af696c29034.wav",
+   "from": 663,
+   "frames": 76,
+   "speechFrames": 70
+  },
+  {
+   "scene": "point",
+   "speaker": "interviewer",
+   "point": {
+    "n": 2,
+    "of": 5,
+    "text": "なぜ日本で働きたいですか？",
+    "romaji": "Naze nihon de hatarakitai desu ka?",
+    "arti": "Kenapa mau kerja di Jepang?"
+   },
+   "say": "Ini yang paling sering dijawab salah, karena orangnya jujur tapi *gak strategis.*",
+   "audio": "episodes/5-pertanyaan/audio/bbdb65b0f85b.wav",
+   "from": 739,
+   "frames": 164,
+   "speechFrames": 158
+  },
+  {
+   "scene": "point",
+   "speaker": "interviewer",
+   "point": {
+    "n": 2,
+    "of": 5,
+    "text": "なぜ日本で働きたいですか？",
+    "romaji": "Naze nihon de hatarakitai desu ka?",
+    "arti": "Kenapa mau kerja di Jepang?"
+   },
+   "say": "Jawaban kayak ~gaji lebih besar~ atau ~suka anime~ itu gak bikin interviewer terkesan.",
+   "audio": "episodes/5-pertanyaan/audio/2a2cd5c11cfb.wav",
+   "from": 903,
+   "frames": 153,
+   "speechFrames": 147
+  },
+  {
+   "scene": "point",
+   "speaker": "interviewer",
+   "point": {
+    "n": 2,
+    "of": 5,
+    "text": "なぜ日本で働きたいですか？",
+    "romaji": "Naze nihon de hatarakitai desu ka?",
+    "arti": "Kenapa mau kerja di Jepang?"
+   },
+   "say": "Harus ada alasan yang konkret, yang menjawab *kenapa harus Jepang* dan bukan negara lain.",
+   "audio": "episodes/5-pertanyaan/audio/45bf766d29b4.wav",
+   "from": 1056,
+   "frames": 157,
+   "speechFrames": 151
+  },
+  {
+   "scene": "point",
+   "speaker": "interviewer",
+   "point": {
+    "n": 3,
+    "of": 5,
+    "text": "長所と短所を教えてください",
+    "romaji": "Chousho to tansho wo oshiete kudasai",
+    "arti": "Sebutkan kelebihan dan kekuranganmu"
+   },
+   "say": "長所と短所を教えてください。",
+   "audio": "episodes/5-pertanyaan/audio/8b45a6e3c832.wav",
+   "from": 1213,
+   "frames": 84,
+   "speechFrames": 78
+  },
+  {
+   "scene": "point",
+   "speaker": "interviewer",
+   "point": {
+    "n": 3,
+    "of": 5,
+    "text": "長所と短所を教えてください",
+    "romaji": "Chousho to tansho wo oshiete kudasai",
+    "arti": "Sebutkan kelebihan dan kekuranganmu"
+   },
+   "say": "Yang sering salah di sini, jawab kekurangan yang ~terlalu fatal~ atau ~terlalu dibuat-buat.~",
+   "audio": "episodes/5-pertanyaan/audio/ca09aa69ee64.wav",
+   "from": 1297,
+   "frames": 173,
+   "speechFrames": 167
+  },
+  {
+   "scene": "point",
+   "speaker": "interviewer",
+   "point": {
+    "n": 3,
+    "of": 5,
+    "text": "長所と短所を教えてください",
+    "romaji": "Chousho to tansho wo oshiete kudasai",
+    "arti": "Sebutkan kelebihan dan kekuranganmu"
+   },
+   "say": "Kekurangan yang bagus itu yang *masih bisa dikembangkan,* dan udah ada langkah untuk memperbaikinya.",
+   "audio": "episodes/5-pertanyaan/audio/10bf5f4712ba.wav",
+   "from": 1470,
+   "frames": 176,
+   "speechFrames": 170
+  },
+  {
+   "scene": "point",
+   "speaker": "interviewer",
+   "point": {
+    "n": 4,
+    "of": 5,
+    "text": "どうやって日本語を勉強しますか？",
+    "romaji": "Dou yatte nihongo wo benkyou shimasu ka?",
+    "arti": "Gimana cara kamu belajar bahasa Jepang?"
+   },
+   "say": "どうやって日本語を勉強しますか？",
+   "audio": "episodes/5-pertanyaan/audio/21d74c072388.wav",
+   "from": 1646,
+   "frames": 93,
+   "speechFrames": 87
+  },
+  {
+   "scene": "point",
+   "speaker": "interviewer",
+   "point": {
+    "n": 4,
+    "of": 5,
+    "text": "どうやって日本語を勉強しますか？",
+    "romaji": "Dou yatte nihongo wo benkyou shimasu ka?",
+    "arti": "Gimana cara kamu belajar bahasa Jepang?"
+   },
+   "say": "Pertanyaan ini *kesempatan,* bukan cuma jawab ~belajar dari buku.~",
+   "audio": "episodes/5-pertanyaan/audio/e1831c3d7c8d.wav",
+   "from": 1739,
+   "frames": 122,
+   "speechFrames": 116
+  },
+  {
+   "scene": "app",
+   "speaker": "interviewer",
+   "app": {
+    "screen": "cara4.png",
+    "badge": "Latihan ngomong + koreksi langsung"
+   },
+   "say": "Aku jawab dengan cerita cara latihan ngomong langsung di *ConvoPartner.*",
+   "audio": "episodes/5-pertanyaan/audio/5a73931ac967.wav",
+   "from": 1861,
+   "frames": 124,
+   "speechFrames": 118
+  },
+  {
+   "scene": "app",
+   "speaker": "interviewer",
+   "app": {
+    "screen": "cara4.png",
+    "badge": "Latihan ngomong + koreksi langsung"
+   },
+   "say": "Simulasi percakapan sama AI, salah *langsung dikoreksi,* dan bisa latihan kapanpun.",
+   "audio": "episodes/5-pertanyaan/audio/62490b172a3f.wav",
+   "from": 1985,
+   "frames": 166,
+   "speechFrames": 160
+  },
+  {
+   "scene": "point",
+   "speaker": "interviewer",
+   "point": {
+    "n": 4,
+    "of": 5,
+    "text": "どうやって日本語を勉強しますか？",
+    "romaji": "Dou yatte nihongo wo benkyou shimasu ka?",
+    "arti": "Gimana cara kamu belajar bahasa Jepang?"
+   },
+   "say": "Itu yang bikin jawaban kamu kedengeran lebih *serius dan konkret.*",
+   "audio": "episodes/5-pertanyaan/audio/938c114a3a9e.wav",
+   "from": 2151,
+   "frames": 120,
+   "speechFrames": 114
+  },
+  {
+   "scene": "point",
+   "speaker": "interviewer",
+   "point": {
+    "n": 5,
+    "of": 5,
+    "text": "どんな性格か教えてください",
+    "romaji": "Donna seikaku ka oshiete kudasai",
+    "arti": "Ceritakan tentang karaktermu"
+   },
+   "say": "どんな性格か教えてください。",
+   "audio": "episodes/5-pertanyaan/audio/8550c342ba6f.wav",
+   "from": 2271,
+   "frames": 81,
+   "speechFrames": 75
+  },
+  {
+   "scene": "point",
+   "speaker": "interviewer",
+   "point": {
+    "n": 5,
+    "of": 5,
+    "text": "どんな性格か教えてください",
+    "romaji": "Donna seikaku ka oshiete kudasai",
+    "arti": "Ceritakan tentang karaktermu"
+   },
+   "say": "Beda sama kelebihan dan kekurangan, ini lebih ke *kepribadian kamu* secara keseluruhan.",
+   "audio": "episodes/5-pertanyaan/audio/e5fd3c0a790e.wav",
+   "from": 2352,
+   "frames": 149,
+   "speechFrames": 143
+  },
+  {
+   "scene": "point",
+   "speaker": "interviewer",
+   "point": {
+    "n": 5,
+    "of": 5,
+    "text": "どんな性格か教えてください",
+    "romaji": "Donna seikaku ka oshiete kudasai",
+    "arti": "Ceritakan tentang karaktermu"
+   },
+   "say": "Yang bikin gagal biasanya jawaban ~terlalu generic,~ saya pekerja keras, saya disiplin.",
+   "audio": "episodes/5-pertanyaan/audio/d5d0502e0749.wav",
+   "from": 2501,
+   "frames": 180,
+   "speechFrames": 174
+  },
+  {
+   "scene": "point",
+   "speaker": "interviewer",
+   "point": {
+    "n": 5,
+    "of": 5,
+    "text": "どんな性格か教えてください",
+    "romaji": "Donna seikaku ka oshiete kudasai",
+    "arti": "Ceritakan tentang karaktermu"
+   },
+   "say": "Harus ada *contoh konkret* yang nunjukin karakter itu beneran.",
+   "audio": "episodes/5-pertanyaan/audio/e10a987d195a.wav",
+   "from": 2681,
+   "frames": 105,
+   "speechFrames": 99
+  },
+  {
+   "scene": "cta",
+   "speaker": "interviewer",
+   "cta": {
+    "word": "MENSETSU",
+    "line": "Mau latihan jawab *semua pertanyaan ini?*"
+   },
+   "speak": "Mau latihan jawab semua pertanyaan ini? Komen MENSETSU di bawah!",
+   "audio": "episodes/5-pertanyaan/audio/3252236a21bb.wav",
+   "from": 2786,
+   "frames": 128,
+   "speechFrames": 122
+  },
+  {
+   "scene": "end",
+   "silent": true,
+   "end": {
+    "headline": "Latihan *mensetsu* bareng AI, 24 jam.",
+    "sub": "Roleplay, koreksi langsung, dan versi jawaban yang lebih natural.",
+    "cta": "Dapatkan Akses Sekarang"
+   },
+   "audio": null,
+   "from": 2914,
+   "frames": 60,
+   "speechFrames": 60
+  }
+ ]
+}

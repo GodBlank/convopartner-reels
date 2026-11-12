@@ -1,0 +1,285 @@
+{
+ "id": "denda-100-yen",
+ "fps": 30,
+ "durationInFrames": 1756,
+ "series": "Bagaimana Jika",
+ "candidate": {
+  "name": "Kamu"
+ },
+ "interviewer": {
+  "name": "Yui",
+  "image": "brand/yui.png",
+  "role": "AI Partner"
+ },
+ "bgm": null,
+ "disclaimer": "Dialog fiktif. Suara dan karakter dibuat dengan AI.",
+ "beats": [
+  {
+   "scene": "hook",
+   "speaker": "interviewer",
+   "title": "Bagaimana jika salah ngomong Jepang *didenda ¥100?*",
+   "swap": {
+    "kind": "coin",
+    "from": "",
+    "to": ""
+   },
+   "say": "Bagaimana jika di Jepang, setiap kamu salah ngomong bahasa Jepang… kamu didenda seratus yen?",
+   "audio": "episodes/denda-100-yen/audio/bcf3893607b9-0-t1.1.wav",
+   "from": 0,
+   "frames": 168,
+   "speechFrames": 162
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Hari pertama kerja. Rina salah partikel… ~seratus yen.~",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Hari pertama kerja",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/dimas.png"
+    },
+    "bg": "story/bg/kerja.jpg",
+    "solo": "left",
+    "label": "Bagaimana jika…",
+    "bubbles": {
+     "left": {
+      "text": "日本に働きます。 ❌",
+      "sub": "✓ 日本で働きます",
+      "tone": "red"
+     }
+    },
+    "fine": {
+     "to": 100
+    }
+   },
+   "audio": "episodes/denda-100-yen/audio/bcf3893607b9-1-t1.1.wav",
+   "from": 168,
+   "frames": 144,
+   "speechFrames": 138
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Ngomong ke atasan pakai bahasa santai… ~seratus yen lagi.~",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Hari pertama kerja",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/dimas.png"
+    },
+    "bg": "story/bg/kerja.jpg",
+    "solo": "left",
+    "label": "Bagaimana jika…",
+    "bubbles": {
+     "left": {
+      "text": "わかった！ ❌",
+      "sub": "✓ わかりました",
+      "tone": "red"
+     }
+    },
+    "fine": {
+     "to": 200
+    }
+   },
+   "audio": "episodes/denda-100-yen/audio/bcf3893607b9-2-t1.1.wav",
+   "from": 312,
+   "frames": 121,
+   "speechFrames": 115
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Seminggu kemudian, dendanya udah ~sepuluh ribu yen~ lebih. Lebih mahal dari uang makannya!",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Dompet menipis 😵",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/dimas.png"
+    },
+    "bg": "story/bg/kerja.jpg",
+    "solo": "left",
+    "later": "1 minggu kemudian…",
+    "fine": {
+     "to": 10400
+    }
+   },
+   "audio": "episodes/denda-100-yen/audio/bcf3893607b9-3-t1.1.wav",
+   "from": 433,
+   "frames": 172,
+   "speechFrames": 166
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Dimas beda. Dia milih *diam.* Nggak pernah salah, nggak pernah didenda.",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Nekat ngomong",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Milih diam 🤐",
+     "image": "story/chars/dimas.png"
+    },
+    "bg": "story/bg/kerja.jpg",
+    "focus": "right",
+    "label": "Bagaimana jika…",
+    "fine": {
+     "from": 0,
+     "to": 0,
+     "label": "DENDA DIMAS"
+    }
+   },
+   "audio": "episodes/denda-100-yen/audio/8768517eb4a5-0-t1.1.wav",
+   "from": 605,
+   "frames": 148,
+   "speechFrames": 142
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "say": "Tapi juga ~nggak pernah diajak ngobrol…~ dan ~nggak pernah naik jabatan.~",
+   "duel": {
+    "left": {
+     "name": "Rina",
+     "tag": "",
+     "trait": "Nekat ngomong",
+     "image": "story/chars/rina.png"
+    },
+    "right": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Milih diam 🤐",
+     "image": "story/chars/dimas.png"
+    },
+    "bg": "story/bg/kerja.jpg",
+    "label": "Bagaimana jika…",
+    "stamp": {
+     "side": "right",
+     "text": "MENTOK",
+     "color": "red"
+    }
+   },
+   "audio": "episodes/denda-100-yen/audio/8768517eb4a5-1-t1.1.wav",
+   "from": 753,
+   "frames": 129,
+   "speechFrames": 123
+  },
+  {
+   "scene": "card",
+   "speaker": "interviewer",
+   "card": {
+    "kicker": "Ternyata…",
+    "title": "Bukan salahnya, tapi tempatnya",
+    "icon": "!",
+    "rows": [
+     {
+      "kind": "no",
+      "label": "KERJA",
+      "text": "Salah = mahal"
+     },
+     {
+      "kind": "yes",
+      "label": "LATIHAN",
+      "text": "Salah = gratis"
+     }
+    ]
+   },
+   "say": "Ternyata masalahnya bukan salahnya, tapi *di mana* kamu salah. Salah di tempat kerja itu ~mahal.~ Salah waktu latihan itu +gratis.+",
+   "audio": "episodes/denda-100-yen/audio/8768517eb4a5-2-t1.1.wav",
+   "from": 882,
+   "frames": 246,
+   "speechFrames": 240
+  },
+  {
+   "scene": "app",
+   "speaker": "interviewer",
+   "app": {
+    "video": "footage-web/Correction and Analytics.mp4",
+    "volume": 0.15,
+    "demo": true
+   },
+   "say": "Di *ConvoPartner,* kamu bisa salah sebanyak apa pun.",
+   "audio": "episodes/denda-100-yen/audio/8768517eb4a5-3-t1.1.wav",
+   "from": 1128,
+   "frames": 157,
+   "speechFrames": 112
+  },
+  {
+   "scene": "app",
+   "speaker": "interviewer",
+   "app": {
+    "video": "footage-web/Simulasi Koreksi.mp4",
+    "volume": 0.15,
+    "demo": true,
+    "rate": 1.15
+   },
+   "say": "Tiap jawabanmu *langsung dikoreksi,* ditunjukin bagian yang salah,",
+   "audio": "episodes/denda-100-yen/audio/cff758832a93-0-t1.1.wav",
+   "from": 1285,
+   "frames": 109,
+   "speechFrames": 103
+  },
+  {
+   "scene": "app",
+   "speaker": "interviewer",
+   "app": {
+    "video": "footage-web/Simulasi Koreksi.mp4",
+    "volume": 0.15,
+    "demo": true,
+    "rate": 1.15
+   },
+   "say": "dan dikasih contoh yang benar. Nggak ada yang ngetawain, nggak ada ~denda.~",
+   "audio": "episodes/denda-100-yen/audio/cff758832a93-1-t1.1.wav",
+   "from": 1394,
+   "frames": 133,
+   "speechFrames": 127
+  },
+  {
+   "scene": "debate",
+   "speaker": "interviewer",
+   "debate": {
+    "left": {
+     "icon": "🗣️",
+     "label": "Tetap Nekat Ngomong"
+    },
+    "right": {
+     "icon": "🤐",
+     "label": "Mending Diam"
+    },
+    "prompt": "Tulis pendapatmu di komen"
+   },
+   "say": "Kalau aturan ini beneran ada, kamu tim *tetap nekat ngomong,* atau tim *mending diam?* Tulis di komen.",
+   "audio": "episodes/denda-100-yen/audio/cff758832a93-2-t1.1.wav",
+   "from": 1527,
+   "frames": 229,
+   "speechFrames": 187
+  }
+ ]
+}

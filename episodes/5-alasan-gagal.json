@@ -1,0 +1,47 @@
+{
+  "id": "5-alasan-gagal",
+  "series": "Tips Mensetsu",
+  "topic": "5 alasan gagal wawancara kerja ke Jepang (listicle)",
+  "candidate": { "name": "Kamu", "voice": "male" },
+  "interviewer": { "name": "Yui", "image": "brand/yui.png" },
+  "beats": [
+    { "scene": "hook", "speaker": "interviewer", "teaser": 5,
+      "title": "5 Alasan Kamu *Gagal* Wawancara Kerja ke Jepang 😭",
+      "say": "5 alasan kamu gagal wawancara kerja ke Jepang." },
+
+    { "scene": "point", "speaker": "interviewer",
+      "point": { "n": 1, "of": 5, "text": "Mikir lama sebelum jawab" },
+      "say": "Di depan orang Jepang, jeda *5 detik* aja udah keliatan ~gak siap.~" },
+
+    { "scene": "point", "speaker": "interviewer",
+      "point": { "n": 2, "of": 5, "text": "Jawaban melenceng dari pertanyaan" },
+      "say": "Perusahaan tanya A, jawabnya malah B. Bukan karena gak ngerti, tapi *gugup.*" },
+
+    { "scene": "point", "speaker": "interviewer",
+      "point": { "n": 3, "of": 5, "text": "Latihan sendiri tanpa ada yang benerin", "tag": "AKAR MASALAH" },
+      "say": "Ini *akar masalahnya.* Latihan depan cermin ~gak ada feedback.~" },
+    { "scene": "app", "speaker": "interviewer",
+      "app": { "screen": "cara4.png", "badge": "Jawaban mensetsu di-grading" },
+      "say": "Di *ConvoPartner,* tiap jawaban mensetsu di-grading langsung." },
+    { "scene": "app", "speaker": "interviewer",
+      "app": { "screen": "cara4.png", "badge": "Jawaban mensetsu di-grading" },
+      "say": "Tau persis bagian mana yang harus *diperbaiki* sebelum hari H." },
+
+    { "scene": "point", "speaker": "interviewer",
+      "point": { "n": 4, "of": 5, "text": "Jawaban terlalu kaku, kayak hafalan" },
+      "say": "Perusahaan tau kamu lagi baca dari ingatan, *bukan ngomong beneran.*" },
+
+    { "scene": "point", "speaker": "interviewer",
+      "point": { "n": 5, "of": 5, "text": "Lupa soal etika dan kesan pertama" },
+      "say": "Cara masuk, cara duduk, ekspresi. Semua dinilai *bahkan sebelum kamu ngomong.*" },
+
+    { "scene": "cta", "speaker": "interviewer",
+      "cta": { "word": "MENSETSU", "line": "Mau persiapan yang *bener* sebelum wawancara?" },
+      "speak": "Mau persiapan yang bener sebelum wawancara? Komen MENSETSU sekarang!" },
+
+    { "scene": "end", "silent": true, "hold": 2.0,
+      "end": { "headline": "Latihan *mensetsu* bareng AI, 24 jam.",
+        "sub": "Roleplay, grading jawaban, dan versi yang lebih natural.",
+        "cta": "Dapatkan Akses Sekarang" } }
+  ]
+}

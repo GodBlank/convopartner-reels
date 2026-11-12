@@ -1,0 +1,318 @@
+{
+  "id": "tokyo-tanpa-hp",
+  "series": "Bagaimana Jika",
+  "topic": "Bagaimana jika besok kamu bangun di Tokyo tanpa HP dan tanpa teman? (pilar Bagaimana jika, B11)",
+  "tempo": 1.15,
+  "candidate": {
+    "name": "Kamu",
+    "voice": "male"
+  },
+  "interviewer": {
+    "name": "Yui",
+    "image": "brand/yui.png",
+    "role": "AI Partner"
+  },
+  "beats": [
+    {
+      "scene": "hook",
+      "speaker": "interviewer",
+      "title": "Bagaimana jika kamu bangun di Tokyo *tanpa HP?*",
+      "swap": {
+        "kind": "screen",
+        "from": "📵 HP: TIDAK ADA",
+        "to": "💴 Uang: ¥1,000"
+      },
+      "say": "Bagaimana jika besok kamu bangun di Tokyo… tanpa HP, tanpa teman, cuma bawa seribu yen?"
+    },
+    {
+      "scene": "duel",
+      "speaker": "interviewer",
+      "say": "Rina panik. Nggak ada *Google Maps,* nggak ada *Google Translate.*",
+      "duel": {
+        "left": {
+          "name": "Rina",
+          "tag": "",
+          "trait": "Panik 😱",
+          "image": "story/chars/rina-sedih.png"
+        },
+        "right": {
+          "name": "Dimas",
+          "tag": "",
+          "trait": "",
+          "image": "story/chars/dimas-travel.png"
+        },
+        "bg": "story/bg/stasiun.jpg",
+        "solo": "left",
+        "label": "Bagaimana jika…",
+        "thought": {
+          "side": "left",
+          "text": "Ini di mana?! 😭"
+        }
+      }
+    },
+    {
+      "scene": "duel",
+      "speaker": "interviewer",
+      "say": "Papan stasiunnya? ~Semua kanji.~",
+      "duel": {
+        "left": {
+          "name": "Rina",
+          "tag": "",
+          "trait": "Panik 😱",
+          "image": "story/chars/rina-sedih.png"
+        },
+        "right": {
+          "name": "Dimas",
+          "tag": "",
+          "trait": "",
+          "image": "story/chars/dimas-travel.png"
+        },
+        "bg": "story/bg/stasiun.jpg",
+        "solo": "left",
+        "label": "Bagaimana jika…",
+        "screen": {
+          "side": "left",
+          "text": "新宿方面 · 乗換口 ❓"
+        }
+      }
+    },
+    {
+      "scene": "duel",
+      "speaker": "interviewer",
+      "say": "Dua jam kemudian, masih muter di tempat yang sama. ~Nggak berani nanya.~",
+      "duel": {
+        "left": {
+          "name": "Rina",
+          "tag": "",
+          "trait": "Masih nyasar 😵",
+          "image": "story/chars/rina-sedih.png"
+        },
+        "right": {
+          "name": "Dimas",
+          "tag": "",
+          "trait": "",
+          "image": "story/chars/dimas-travel.png"
+        },
+        "bg": "story/bg/stasiun.jpg",
+        "solo": "left",
+        "later": "2 jam kemudian…"
+      }
+    },
+    {
+      "scene": "duel",
+      "speaker": "interviewer",
+      "say": "Dimas cuma hafal *tiga kalimat.*",
+      "duel": {
+        "left": {
+          "name": "Rina",
+          "tag": "",
+          "trait": "",
+          "image": "story/chars/rina-sedih.png"
+        },
+        "right": {
+          "name": "Dimas",
+          "tag": "",
+          "trait": "Cuma hafal 3 kalimat",
+          "image": "story/chars/dimas-travel.png"
+        },
+        "bg": "story/bg/tokyo.jpg",
+        "solo": "right",
+        "label": "Bagaimana jika…"
+      }
+    },
+    {
+      "scene": "duel",
+      "speaker": "interviewer",
+      "say": "Satu: *sumimasen.* Permisi.",
+      "duel": {
+        "left": {
+          "name": "Rina",
+          "tag": "",
+          "trait": "",
+          "image": "story/chars/rina-sedih.png"
+        },
+        "right": {
+          "name": "Dimas",
+          "tag": "",
+          "trait": "Cuma hafal 3 kalimat",
+          "image": "story/chars/dimas-travel.png"
+        },
+        "bg": "story/bg/tokyo.jpg",
+        "solo": "right",
+        "label": "Bagaimana jika…",
+        "bubbles": {
+          "right": {
+            "text": "① すみません。",
+            "sub": "Sumimasen · “Permisi.”"
+          }
+        }
+      }
+    },
+    {
+      "scene": "duel",
+      "speaker": "interviewer",
+      "say": "Dua: *eki wa doko desu ka?* Stasiunnya di mana?",
+      "duel": {
+        "left": {
+          "name": "Rina",
+          "tag": "",
+          "trait": "",
+          "image": "story/chars/rina-sedih.png"
+        },
+        "right": {
+          "name": "Dimas",
+          "tag": "",
+          "trait": "Cuma hafal 3 kalimat",
+          "image": "story/chars/dimas-travel.png"
+        },
+        "bg": "story/bg/tokyo.jpg",
+        "solo": "right",
+        "label": "Bagaimana jika…",
+        "bubbles": {
+          "right": {
+            "text": "② 駅はどこですか？",
+            "sub": "Eki wa doko desu ka? · “Stasiunnya di mana?”"
+          }
+        }
+      }
+    },
+    {
+      "scene": "duel",
+      "speaker": "interviewer",
+      "say": "Tiga: *mou ichido onegaishimasu.* Tolong ulangi.",
+      "duel": {
+        "left": {
+          "name": "Rina",
+          "tag": "",
+          "trait": "",
+          "image": "story/chars/rina-sedih.png"
+        },
+        "right": {
+          "name": "Dimas",
+          "tag": "",
+          "trait": "Cuma hafal 3 kalimat",
+          "image": "story/chars/dimas-travel.png"
+        },
+        "bg": "story/bg/tokyo.jpg",
+        "solo": "right",
+        "label": "Bagaimana jika…",
+        "bubbles": {
+          "right": {
+            "text": "③ もう一度お願いします。",
+            "sub": "Mou ichido onegaishimasu · “Tolong ulangi.”"
+          }
+        }
+      }
+    },
+    {
+      "scene": "duel",
+      "speaker": "interviewer",
+      "say": "Dia nanya ke satpam, ke kakek di halte, ke kasir konbini.",
+      "duel": {
+        "left": {
+          "name": "Rina",
+          "tag": "",
+          "trait": "",
+          "image": "story/chars/rina-sedih.png"
+        },
+        "right": {
+          "name": "Dimas",
+          "tag": "",
+          "trait": "Nanya terus 🙋",
+          "image": "story/chars/dimas-travel.png"
+        },
+        "bg": "story/bg/konbini.jpg",
+        "solo": "right",
+        "label": "Bagaimana jika…"
+      }
+    },
+    {
+      "scene": "duel",
+      "speaker": "interviewer",
+      "say": "Satu jam kemudian, dia udah *sampai tujuan.*",
+      "hold": 0.4,
+      "duel": {
+        "left": {
+          "name": "Rina",
+          "tag": "",
+          "trait": "",
+          "image": "story/chars/rina-sedih.png"
+        },
+        "right": {
+          "name": "Dimas",
+          "tag": "",
+          "trait": "Nanya terus 🙋",
+          "image": "story/chars/dimas-travel.png"
+        },
+        "bg": "story/bg/tokyo.jpg",
+        "solo": "right",
+        "later": "1 jam kemudian…",
+        "stamp": {
+          "side": "right",
+          "text": "SAMPAI",
+          "color": "green"
+        }
+      }
+    },
+    {
+      "scene": "card",
+      "speaker": "interviewer",
+      "card": {
+        "kicker": "Ternyata…",
+        "title": "Yang nyelametin Dimas",
+        "icon": "!",
+        "rows": [
+          {
+            "kind": "no",
+            "label": "BUKAN",
+            "text": "Kosakata yang banyak"
+          },
+          {
+            "kind": "yes",
+            "label": "TAPI",
+            "text": "Berani buka mulut duluan"
+          }
+        ],
+        "note": "🇯🇵 Orang Jepang mau bantu, asal kamu nanya"
+      },
+      "say": "Yang nyelametin Dimas bukan kosakata yang banyak. Tapi *berani buka mulut duluan.*"
+    },
+    {
+      "scene": "app",
+      "speaker": "interviewer",
+      "app": {
+        "video": "footage/Simulasi kehidupan sehari-hari di Jepang.mp4",
+        "volume": 0.15,
+        "demo": true
+      },
+      "say": "Keberanian itu *bisa dilatih.*"
+    },
+    {
+      "scene": "app",
+      "speaker": "interviewer",
+      "app": {
+        "video": "footage/Simulasi kehidupan sehari-hari di Jepang.mp4",
+        "volume": 0.15,
+        "demo": true
+      },
+      "say": "Di *ConvoPartner,* simulasi ngobrol dari konbini sampai stasiun."
+    },
+    {
+      "scene": "debate",
+      "speaker": "interviewer",
+      "hold": 1.2,
+      "debate": {
+        "left": {
+          "icon": "🧭",
+          "label": "Pasti Survive"
+        },
+        "right": {
+          "icon": "😱",
+          "label": "Langsung Panik"
+        },
+        "prompt": "Tulis pendapatmu di komen"
+      },
+      "say": "Kalau besok kamu bangun di Tokyo tanpa HP, kamu tim *pasti survive,* atau tim *langsung panik?* Tulis di komen."
+    }
+  ]
+}

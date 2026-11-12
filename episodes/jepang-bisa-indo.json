@@ -1,0 +1,78 @@
+{
+  "id": "jepang-bisa-indo",
+  "series": "Bagaimana Jika",
+  "topic": "Bagaimana jika semua orang Jepang tiba-tiba lancar bahasa Indonesia? (pilar Bagaimana jika, B4)",
+  "tempo": 1.1,
+  "candidate": { "name": "Kamu", "voice": "male" },
+  "interviewer": { "name": "Yui", "image": "brand/yui.png", "role": "AI Partner" },
+  "beats": [
+    { "scene": "hook", "speaker": "interviewer",
+      "title": "Bagaimana jika orang Jepang *tiba-tiba lancar bahasa Indonesia?*",
+      "swap": { "kind": "news", "from": "Seluruh Jepang Kini Lancar Bahasa Indonesia", "to": "Terjadi dalam semalam, para ahli bingung" },
+      "say": "Bagaimana jika besok pagi, semua orang Jepang tiba-tiba lancar bahasa Indonesia?" },
+
+    { "scene": "duel", "speaker": "interviewer",
+      "say": "Rina, yang udah belajar Jepang *tiga tahun,* langsung lemes.",
+      "duel": {
+        "left": { "name": "Rina", "tag": "", "trait": "Belajar Jepang 3 tahun", "image": "story/chars/rina.png" },
+        "right": { "name": "Dimas", "tag": "", "trait": "Belum pernah belajar", "image": "story/chars/dimas.png" },
+        "bg": "story/bg/kerja.jpg", "focus": "left", "label": "Bagaimana jika…",
+        "bubbles": { "left": "Terus… buat apa aku belajar? 😩" } } },
+    { "scene": "duel", "speaker": "interviewer",
+      "say": "Dimas, yang belum pernah belajar, langsung beli tiket ke Tokyo.",
+      "duel": {
+        "left": { "name": "Rina", "tag": "", "trait": "Belajar Jepang 3 tahun", "image": "story/chars/rina.png" },
+        "right": { "name": "Dimas", "tag": "", "trait": "Belum pernah belajar", "image": "story/chars/dimas.png" },
+        "bg": "story/bg/kerja.jpg", "focus": "right", "label": "Bagaimana jika…",
+        "bubbles": { "right": "Tokyo, aku dataang! ✈️" } } },
+
+    { "scene": "card", "speaker": "interviewer",
+      "card": { "kicker": "1 bulan kemudian", "title": "Lowongan kerja di Jepang", "icon": "!",
+        "rows": [ { "kind": "info", "label": "PELAMAR", "text": "Naik 10× lipat 📈" },
+                  { "kind": "no", "label": "SAINGAN", "text": "Semua bisa ngobrol" } ] },
+      "say": "Bulan pertama, lowongan buat orang Indonesia *meledak.* Semua orang bisa kerja di Jepang." },
+
+    { "scene": "duel", "speaker": "interviewer",
+      "say": "Tapi justru di situ masalahnya. Kalau semua bisa… apa yang bikin *kamu beda?*",
+      "duel": {
+        "left": { "name": "Rina", "tag": "", "trait": "", "image": "story/chars/rina.png" },
+        "right": { "name": "Dimas", "tag": "", "trait": "", "image": "story/chars/dimas.png" },
+        "bg": "story/bg/wawancara.jpg", "ask": true, "label": "Bagaimana jika…" } },
+
+    { "scene": "duel", "speaker": "interviewer",
+      "say": "Mensetsu. Interviewer nanya pakai *bahasa Indonesia.*",
+      "duel": {
+        "left": { "name": "Rina", "tag": "", "trait": "", "image": "story/chars/rina.png" },
+        "right": { "name": "面接官", "tag": "", "trait": "Lancar bahasa Indonesia 🇮🇩", "image": "story/chars/interviewer.png" },
+        "bg": "story/bg/wawancara.jpg", "focus": "right", "label": "Bagaimana jika…",
+        "bubbles": { "right": "Kenapa mau kerja di sini?" } } },
+    { "scene": "duel", "speaker": "interviewer",
+      "say": "Tapi Rina jawab pakai *bahasa Jepang.*",
+      "duel": {
+        "left": { "name": "Rina", "tag": "", "trait": "", "image": "story/chars/rina.png" },
+        "right": { "name": "面接官", "tag": "", "trait": "Lancar bahasa Indonesia 🇮🇩", "image": "story/chars/interviewer.png" },
+        "bg": "story/bg/wawancara.jpg", "focus": "left", "label": "Bagaimana jika…",
+        "bubbles": { "left": { "text": "御社で成長したいです。", "sub": "“Saya ingin berkembang di perusahaan ini.”" } } } },
+    { "scene": "duel", "speaker": "interviewer",
+      "say": "Interviewer langsung *senyum.* Yang dia lihat bukan cuma bahasanya, tapi *usaha* dan *rasa hormat* ke budayanya.",
+      "hold": 0.4,
+      "duel": {
+        "left": { "name": "Rina", "tag": "", "trait": "", "image": "story/chars/rina.png" },
+        "right": { "name": "面接官", "tag": "", "trait": "Terkesan 😊", "image": "story/chars/interviewer.png" },
+        "bg": "story/bg/wawancara.jpg", "label": "Bagaimana jika…",
+        "stamp": { "side": "left", "text": "LOLOS", "color": "green" } } },
+
+    { "scene": "app", "speaker": "interviewer",
+      "app": { "video": "footage/Simulasi wawancara kerja ke Jepang.mp4", "volume": 0.15, "demo": true },
+      "say": "Bisa ngomong Jepang itu nilai tambah yang *nggak bisa diganti.*" },
+    { "scene": "app", "speaker": "interviewer",
+      "app": { "video": "footage/Simulasi wawancara kerja ke Jepang.mp4", "volume": 0.15, "demo": true },
+      "say": "Di *ConvoPartner,* kamu latihan sampai jawaban mensetsu-mu kedengeran *natural.*" },
+
+    { "scene": "debate", "speaker": "interviewer", "hold": 1.2,
+      "debate": { "left": { "icon": "📚", "label": "Tetap Belajar" },
+                  "right": { "icon": "😎", "label": "Ngapain Belajar Lagi" },
+                  "prompt": "Tulis pendapatmu di komen" },
+      "say": "Kalau orang Jepang bisa bahasa Indonesia, kamu tim *tetap belajar,* atau tim *ngapain belajar lagi?* Tulis di komen." }
+  ]
+}

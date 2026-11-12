@@ -1,0 +1,675 @@
+{
+ "id": "gaji-26-juta",
+ "fps": 30,
+ "durationInFrames": 1763,
+ "series": "Bagaimana Jika",
+ "candidate": {
+  "name": "Kamu"
+ },
+ "interviewer": {
+  "name": "Yui",
+  "image": "brand/yui.png",
+  "role": "AI Partner"
+ },
+ "bgm": null,
+ "disclaimer": "Dialog fiktif. Suara dan karakter dibuat dengan AI.",
+ "beats": [
+  {
+   "scene": "hook",
+   "speaker": "interviewer",
+   "title": "Gaji *26 juta rupiah* di Jepang itu *sebanyak apa sih?*",
+   "swap": {
+    "kind": "screen",
+    "from": "Rp 26.000.000",
+    "to": "= ¥233.025 / bulan"
+   },
+   "say": "Gaji 26 juta rupiah sebulan. Di Jepang… sebanyak apa sih? Dimas sampai *kaget dua kali.*",
+   "money": true,
+   "audio": "episodes/gaji-26-juta/audio/6d33e1f724f2-0-t1.15.wav",
+   "from": 0,
+   "frames": 203,
+   "speechFrames": 197
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Gajian pertama 🤩",
+     "image": "story/chars/dimas-kerja.png"
+    },
+    "right": {
+     "name": "Senpai",
+     "tag": "",
+     "trait": "Rekan kerja",
+     "image": "story/chars/atasan.png"
+    },
+    "label": "Simulasi · termasuk lembur 20 jam/bulan",
+    "bg": "story/bg/gudang.jpg",
+    "screen": {
+     "side": "left",
+     "text": "給与明細 · ¥233.025",
+     "tone": "green"
+    },
+    "react": {
+     "side": "left",
+     "kind": "jump"
+    }
+   },
+   "say": "Bulan pertama, plus *dua puluh jam lembur.*",
+   "ambience": "room",
+   "audio": "episodes/gaji-26-juta/audio/6d33e1f724f2-1-t1.15.wav",
+   "from": 203,
+   "frames": 82,
+   "speechFrames": 76
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Gajian pertama 🤩",
+     "image": "story/chars/dimas-kerja.png"
+    },
+    "right": {
+     "name": "Senpai",
+     "tag": "",
+     "trait": "Rekan kerja",
+     "image": "story/chars/atasan.png"
+    },
+    "label": "Simulasi · termasuk lembur 20 jam/bulan",
+    "bg": "story/bg/gudang.jpg",
+    "focus": "right",
+    "bubbles": {
+     "right": {
+      "text": "初任給、おめでとう！",
+      "sub": "“Selamat atas gaji pertamamu!”",
+      "voice": "pria",
+      "emotion": "happy"
+     }
+    }
+   },
+   "say": "Totalnya: *dua ratus tiga puluh tiga ribu yen.*",
+   "ambience": "room",
+   "audio": "episodes/gaji-26-juta/audio/6d33e1f724f2-2-t1.15.wav",
+   "line": {
+    "audio": "episodes/gaji-26-juta/audio/line-02859a87e704.wav",
+    "side": "right",
+    "at": 76,
+    "frames": 52
+   },
+   "from": 285,
+   "frames": 134,
+   "speechFrames": 72
+  },
+  {
+   "scene": "ledger",
+   "speaker": "interviewer",
+   "say": "Kita bedah: asuransi kesehatan, pensiun, asuransi kerja, *pajak.*",
+   "ledger": {
+    "title": "Slip gaji Dimas · 1 bulan",
+    "kicker": "Simulasi · termasuk lembur 20 jam/bulan",
+    "rows": [
+     {
+      "label": "Gaji total + lembur",
+      "yen": 233025,
+      "kind": "base",
+      "rp": "±Rp 26,3 juta",
+      "icon": "💴"
+     },
+     {
+      "label": "Asuransi kesehatan",
+      "yen": 12000,
+      "icon": "🏥"
+     },
+     {
+      "label": "Dana pensiun",
+      "yen": 21960,
+      "icon": "👴"
+     },
+     {
+      "label": "Asuransi kerja",
+      "yen": 1280,
+      "icon": "🦺"
+     },
+     {
+      "label": "Pajak penghasilan",
+      "yen": 4700,
+      "icon": "🧾"
+     }
+    ],
+    "note": "Kurs ¥1 ≈ Rp113 · angka dibulatkan"
+   },
+   "audio": "episodes/gaji-26-juta/audio/6d33e1f724f2-3-t1.15.wav",
+   "from": 419,
+   "frames": 152,
+   "speechFrames": 146
+  },
+  {
+   "scene": "ledger",
+   "speaker": "interviewer",
+   "say": "Lalu sewa, listrik, makan, *HP.*",
+   "ledger": {
+    "title": "Slip gaji Dimas · 1 bulan",
+    "kicker": "Simulasi · termasuk lembur 20 jam/bulan",
+    "rows": [
+     {
+      "label": "Gaji total + lembur",
+      "yen": 233025,
+      "kind": "base",
+      "rp": "±Rp 26,3 juta",
+      "icon": "💴"
+     },
+     {
+      "label": "Asuransi kesehatan",
+      "yen": 12000,
+      "icon": "🏥"
+     },
+     {
+      "label": "Dana pensiun",
+      "yen": 21960,
+      "icon": "👴"
+     },
+     {
+      "label": "Asuransi kerja",
+      "yen": 1280,
+      "icon": "🦺"
+     },
+     {
+      "label": "Pajak penghasilan",
+      "yen": 4700,
+      "icon": "🧾"
+     },
+     {
+      "label": "Sewa apartemen",
+      "yen": 40000,
+      "icon": "🏠"
+     },
+     {
+      "label": "Listrik, air, gas",
+      "yen": 12000,
+      "icon": "💡"
+     },
+     {
+      "label": "Makan",
+      "yen": 27000,
+      "icon": "🍚"
+     },
+     {
+      "label": "HP & lain-lain",
+      "yen": 5000,
+      "icon": "📱"
+     }
+    ],
+    "note": "Kurs ¥1 ≈ Rp113 · angka dibulatkan"
+   },
+   "audio": "episodes/gaji-26-juta/audio/6d33e1f724f2-4-t1.15.wav",
+   "from": 571,
+   "frames": 96,
+   "speechFrames": 90
+  },
+  {
+   "scene": "ledger",
+   "speaker": "interviewer",
+   "say": "Sisanya *seratus sembilan ribu.* Kok… *segini?*",
+   "ledger": {
+    "title": "Slip gaji Dimas · 1 bulan",
+    "kicker": "Simulasi · termasuk lembur 20 jam/bulan",
+    "rows": [
+     {
+      "label": "Gaji total + lembur",
+      "yen": 233025,
+      "kind": "base",
+      "rp": "±Rp 26,3 juta",
+      "icon": "💴"
+     },
+     {
+      "label": "Asuransi kesehatan",
+      "yen": 12000,
+      "icon": "🏥"
+     },
+     {
+      "label": "Dana pensiun",
+      "yen": 21960,
+      "icon": "👴"
+     },
+     {
+      "label": "Asuransi kerja",
+      "yen": 1280,
+      "icon": "🦺"
+     },
+     {
+      "label": "Pajak penghasilan",
+      "yen": 4700,
+      "icon": "🧾"
+     },
+     {
+      "label": "Sewa apartemen",
+      "yen": 40000,
+      "icon": "🏠"
+     },
+     {
+      "label": "Listrik, air, gas",
+      "yen": 12000,
+      "icon": "💡"
+     },
+     {
+      "label": "Makan",
+      "yen": 27000,
+      "icon": "🍚"
+     },
+     {
+      "label": "HP & lain-lain",
+      "yen": 5000,
+      "icon": "📱"
+     },
+     {
+      "label": "Sisa",
+      "yen": 109085,
+      "kind": "total",
+      "rp": "±Rp 12,3 juta",
+      "icon": "👛"
+     }
+    ],
+    "note": "Kurs ¥1 ≈ Rp113 · angka dibulatkan"
+   },
+   "audio": "episodes/gaji-26-juta/audio/b853338358b5-0-t1.15.wav",
+   "from": 667,
+   "frames": 103,
+   "speechFrames": 97
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Ngitung terus 🧮",
+     "image": "story/chars/dimas-kerja.png"
+    },
+    "right": {
+     "name": "",
+     "tag": "",
+     "trait": ""
+    },
+    "label": "Simulasi · termasuk lembur 20 jam/bulan",
+    "bg": "story/bg/konbini.jpg",
+    "solo": "left",
+    "cut": true,
+    "later": "Konbini",
+    "screen": {
+     "side": "left",
+     "text": "🍙 ¥150 = Rp17rb"
+    }
+   },
+   "say": "Belanja pun dihitung pakai rupiah. Onigiri, *tujuh belas ribu.*",
+   "ambience": "city",
+   "audio": "episodes/gaji-26-juta/audio/b853338358b5-1-t1.15.wav",
+   "from": 770,
+   "frames": 129,
+   "speechFrames": 123
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Ngitung terus 🧮",
+     "image": "story/chars/dimas-kerja.png"
+    },
+    "right": {
+     "name": "",
+     "tag": "",
+     "trait": ""
+    },
+    "label": "Simulasi · termasuk lembur 20 jam/bulan",
+    "bg": "story/bg/konbini.jpg",
+    "solo": "left",
+    "later": "Konbini",
+    "react": {
+     "side": "left",
+     "kind": "shiver"
+    },
+    "screen": {
+     "side": "left",
+     "text": "🍜 ¥1.000 = Rp113rb"
+    }
+   },
+   "say": "Ramen, *seratus ribu lebih.*",
+   "ambience": "city",
+   "audio": "episodes/gaji-26-juta/audio/b853338358b5-2-t1.15.wav",
+   "from": 899,
+   "frames": 58,
+   "speechFrames": 52
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "",
+     "image": "story/chars/dimas-kerja.png"
+    },
+    "right": {
+     "name": "Senpai",
+     "tag": "",
+     "trait": "Rekan kerja",
+     "image": "story/chars/atasan.png"
+    },
+    "label": "Simulasi · termasuk lembur 20 jam/bulan",
+    "bg": "story/bg/izakaya.jpg",
+    "mood": "warm",
+    "focus": "right",
+    "bubbles": {
+     "right": {
+      "text": "円で考えなよ。",
+      "sub": "“Mikirnya pakai yen aja.”",
+      "voice": "pria"
+     }
+    }
+   },
+   "say": "Sampai senpai-nya bilang:",
+   "ambience": "crowd",
+   "audio": "episodes/gaji-26-juta/audio/b853338358b5-3-t1.15.wav",
+   "line": {
+    "audio": "episodes/gaji-26-juta/audio/line-bd5ca34f6dcf.wav",
+    "side": "right",
+    "at": 54,
+    "frames": 54
+   },
+   "from": 957,
+   "frames": 114,
+   "speechFrames": 50
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Baru sadar 💡",
+     "image": "story/chars/dimas-kerja.png"
+    },
+    "right": {
+     "name": "Senpai",
+     "tag": "",
+     "trait": "Rekan kerja",
+     "image": "story/chars/atasan.png"
+    },
+    "label": "Simulasi · termasuk lembur 20 jam/bulan",
+    "bg": "story/bg/izakaya.jpg",
+    "mood": "warm",
+    "focus": "left",
+    "screen": {
+     "side": "left",
+     "text": "🍜 0,43% ≈ 🍲 0,5%",
+     "tone": "green"
+    }
+   },
+   "say": "Ramen itu cuma *setengah persen* gajinya.",
+   "ambience": "crowd",
+   "audio": "episodes/gaji-26-juta/audio/b853338358b5-4-t1.15.wav",
+   "from": 1071,
+   "frames": 80,
+   "speechFrames": 74
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Baru sadar 💡",
+     "image": "story/chars/dimas-kerja.png"
+    },
+    "right": {
+     "name": "Senpai",
+     "tag": "",
+     "trait": "Rekan kerja",
+     "image": "story/chars/atasan.png"
+    },
+    "label": "Simulasi · termasuk lembur 20 jam/bulan",
+    "bg": "story/bg/izakaya.jpg",
+    "mood": "warm",
+    "focus": "left",
+    "screen": {
+     "side": "left",
+     "text": "🍜 0,43% ≈ 🍲 0,5%",
+     "tone": "green"
+    }
+   },
+   "say": "Kayak bakso dua puluh lima ribu, dari gaji *lima juta.*",
+   "ambience": "crowd",
+   "audio": "episodes/gaji-26-juta/audio/326823f97f0d-0-t1.15.wav",
+   "from": 1151,
+   "frames": 102,
+   "speechFrames": 96
+  },
+  {
+   "scene": "ledger",
+   "speaker": "interviewer",
+   "say": "Tapi lihat lagi sisanya. *Empat juta* ditabung.",
+   "ledger": {
+    "title": "Slip gaji Dimas · 1 bulan",
+    "kicker": "Simulasi · termasuk lembur 20 jam/bulan",
+    "rows": [
+     {
+      "label": "Gaji total + lembur",
+      "yen": 233025,
+      "kind": "base",
+      "rp": "±Rp 26,3 juta",
+      "icon": "💴"
+     },
+     {
+      "label": "Asuransi kesehatan",
+      "yen": 12000,
+      "icon": "🏥"
+     },
+     {
+      "label": "Dana pensiun",
+      "yen": 21960,
+      "icon": "👴"
+     },
+     {
+      "label": "Asuransi kerja",
+      "yen": 1280,
+      "icon": "🦺"
+     },
+     {
+      "label": "Pajak penghasilan",
+      "yen": 4700,
+      "icon": "🧾"
+     },
+     {
+      "label": "Sewa apartemen",
+      "yen": 40000,
+      "icon": "🏠"
+     },
+     {
+      "label": "Listrik, air, gas",
+      "yen": 12000,
+      "icon": "💡"
+     },
+     {
+      "label": "Makan",
+      "yen": 27000,
+      "icon": "🍚"
+     },
+     {
+      "label": "HP & lain-lain",
+      "yen": 5000,
+      "icon": "📱"
+     },
+     {
+      "label": "Sisa",
+      "yen": 109085,
+      "kind": "total",
+      "rp": "±Rp 12,3 juta",
+      "icon": "👛"
+     },
+     {
+      "label": "Ditabung",
+      "yen": 35400,
+      "kind": "save",
+      "rp": "±Rp 4 juta",
+      "icon": "🐷"
+     }
+    ],
+    "note": "Kurs ¥1 ≈ Rp113 · angka dibulatkan",
+    "fresh": 1
+   },
+   "audio": "episodes/gaji-26-juta/audio/326823f97f0d-1-t1.15.wav",
+   "from": 1253,
+   "frames": 95,
+   "speechFrames": 89
+  },
+  {
+   "scene": "ledger",
+   "speaker": "interviewer",
+   "say": "Dan *delapan juta* dikirim pulang. Lebih dari gaji lamanya *sebulan.*",
+   "ledger": {
+    "title": "Slip gaji Dimas · 1 bulan",
+    "kicker": "Simulasi · termasuk lembur 20 jam/bulan",
+    "rows": [
+     {
+      "label": "Gaji total + lembur",
+      "yen": 233025,
+      "kind": "base",
+      "rp": "±Rp 26,3 juta",
+      "icon": "💴"
+     },
+     {
+      "label": "Asuransi kesehatan",
+      "yen": 12000,
+      "icon": "🏥"
+     },
+     {
+      "label": "Dana pensiun",
+      "yen": 21960,
+      "icon": "👴"
+     },
+     {
+      "label": "Asuransi kerja",
+      "yen": 1280,
+      "icon": "🦺"
+     },
+     {
+      "label": "Pajak penghasilan",
+      "yen": 4700,
+      "icon": "🧾"
+     },
+     {
+      "label": "Sewa apartemen",
+      "yen": 40000,
+      "icon": "🏠"
+     },
+     {
+      "label": "Listrik, air, gas",
+      "yen": 12000,
+      "icon": "💡"
+     },
+     {
+      "label": "Makan",
+      "yen": 27000,
+      "icon": "🍚"
+     },
+     {
+      "label": "HP & lain-lain",
+      "yen": 5000,
+      "icon": "📱"
+     },
+     {
+      "label": "Sisa",
+      "yen": 109085,
+      "kind": "total",
+      "rp": "±Rp 12,3 juta",
+      "icon": "👛"
+     },
+     {
+      "label": "Ditabung",
+      "yen": 35400,
+      "kind": "save",
+      "rp": "±Rp 4 juta",
+      "icon": "🐷"
+     },
+     {
+      "label": "Dikirim ke Indonesia",
+      "yen": 70800,
+      "kind": "send",
+      "rp": "±Rp 8 juta",
+      "icon": "🇮🇩"
+     }
+    ],
+    "note": "Kurs ¥1 ≈ Rp113 · angka dibulatkan"
+   },
+   "audio": "episodes/gaji-26-juta/audio/326823f97f0d-2-t1.15.wav",
+   "from": 1348,
+   "frames": 126,
+   "speechFrames": 120
+  },
+  {
+   "scene": "duel",
+   "speaker": "interviewer",
+   "duel": {
+    "left": {
+     "name": "Dimas",
+     "tag": "",
+     "trait": "Terharu 🥹",
+     "image": "story/chars/dimas-kerja.png"
+    },
+    "right": {
+     "name": "",
+     "tag": "",
+     "trait": ""
+    },
+    "label": "Simulasi · termasuk lembur 20 jam/bulan",
+    "bg": "story/bg/kamar.jpg",
+    "solo": "left",
+    "mood": "night",
+    "cam": "push",
+    "screen": {
+     "side": "left",
+     "text": "📞 Ibu",
+     "tone": "green"
+    }
+   },
+   "say": "Malam itu, ibunya yang telepon duluan… *sambil nangis.*",
+   "ambience": "tick",
+   "audio": "episodes/gaji-26-juta/audio/326823f97f0d-3-t1.15.wav",
+   "from": 1474,
+   "frames": 148,
+   "speechFrames": 142
+  },
+  {
+   "scene": "debate",
+   "speaker": "interviewer",
+   "debate": {
+    "left": {
+     "icon": "🇯🇵",
+     "label": "Kerja di Jepang"
+    },
+    "right": {
+     "icon": "🇮🇩",
+     "label": "Mending di Indonesia"
+    },
+    "prompt": "Tulis pendapatmu di komen"
+   },
+   "say": "Tim *kerja di Jepang,* atau tim *mending di Indonesia?* Tulis di komen.",
+   "audio": "episodes/gaji-26-juta/audio/326823f97f0d-4-t1.15.wav",
+   "from": 1622,
+   "frames": 141,
+   "speechFrames": 126
+  }
+ ]
+}
