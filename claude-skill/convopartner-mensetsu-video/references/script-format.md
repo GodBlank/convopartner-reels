@@ -84,3 +84,71 @@ Captions have a dark outline and the point scene a dark backdrop, so they stay r
 
 ## Safe zone
 Instagram covers the top ~150 px and bottom ~320 px; scenes already respect it — don't add text there.
+
+---
+
+# Story reels (Format C) — extra fields
+
+Top level: `"series": "Bagaimana Jika"`, `"tempo": 1.15` (ElevenLabs), `"interviewer": {"name": "Yui", "image": "brand/yui.png", "role": "AI Partner"}`.
+Narration beats use `"speaker": "interviewer"`. A beat without `say` is allowed when a character speaks (its length = the line).
+
+## hook
+```json
+{ "scene": "hook", "speaker": "interviewer",
+  "title": "Gaji *26 juta rupiah* di Jepang itu *sebanyak apa sih?*",
+  "swap": { "kind": "screen", "from": "Rp 26.000.000", "to": "= ¥233.025 / bulan" },
+  "money": true,
+  "say": "Gaji 26 juta rupiah sebulan. Di Jepang… sebanyak apa sih?" }
+```
+`swap.kind`: `news` (newspaper: from = headline, to = subline) · `screen` (glowing panel, `to` appears green at 60 %) · `thought` · `coin` · `sheet` · `mask`.
+`duo` instead of Yui: `{ "left": {"image": "story/chars/rina-senang.png", "name": "Rina", "place": "🇯🇵 TOKYO", "bg": "story/bg/tokyo.jpg"}, "right": {…}, "icon": "⇄" }`.
+
+## duel (story scene)
+```json
+{ "scene": "duel", "speaker": "interviewer", "say": "Di kantor, ke atasan, *sama persis:*", "ambience": "room",
+  "duel": {
+    "left":  { "name": "Dimas", "tag": "", "trait": "Jadi Satō 🇯🇵", "image": "story/chars/dimas.png" },
+    "right": { "name": "Tanaka", "tag": "部長", "trait": "Atasan", "image": "story/chars/atasan.png" },
+    "bg": "story/bg/wawancara.jpg", "later": "09.00", "cut": true, "focus": "left", "cam": "push",
+    "bubbles": { "left": { "text": "おはよう！", "sub": "“Pagi!”", "voice": "dimas", "emotion": "happy" } } } }
+```
+| field | meaning |
+|---|---|
+| `bg` | background image; crossfades with blur when it changes |
+| `solo` | only that side on screen (centered) |
+| `focus` | `left`/`right`/`both`: the other side dims |
+| `label` | small pill on top (e.g. "Simulasi · termasuk lembur 20 jam/bulan"); hidden when `later` is set |
+| `later` | time banner ("Bulan 6", "Jakarta · Hari 3"); `cut: true` adds a full-screen black card first |
+| `bubbles` | `{text, sub, tone?, voice?, emotion?, speed?}`; with `voice` the line is spoken after the narration and the bubble pops in then. One voiced bubble per beat |
+| `thought` | thought cloud above a head `{side, text}` |
+| `screen` | glowing panel above a head `{side, text, fix?, tone?}`; keep text ≤ ~22 chars |
+| `stamp` | `{side, text, color}` (LOLOS / GAGAL / KETAHUAN / PENUH…) |
+| `fine` | yen counter `{to, from?, label?, tone?}` counting from the previous beat's value to `to` (exact final number) |
+| `react` | `{side, kind}`: `jump`, `shrink`, `nod`, `shiver` |
+| `cam` | `push` · `close` · `pull` · `left` · `right` (no `cam` = ease back to neutral) |
+| `shake` | flash + camera shake + impact |
+| `mood` | `night` · `dusk` · `warm` · `dark` color grade |
+| `fx` | `dust` · `sparkle` · `rain` · `steam` |
+| `ask` | big "?" between the two |
+Beat-level `ambience`: `room` · `crowd` · `train` · `tick` · `city` · `rain`.
+Characters listed in `RIGS` (src/puppet.tsx) blink and move one hand automatically (more while their bubble is spoken).
+
+## ledger (money table)
+```json
+{ "scene": "ledger", "speaker": "interviewer", "say": "Lalu sewa, listrik, makan, *HP.*",
+  "ledger": { "title": "Slip gaji Dimas · 1 bulan", "kicker": "Simulasi · termasuk lembur 20 jam/bulan",
+    "note": "Kurs ¥1 ≈ Rp113 · angka dibulatkan",
+    "rows": [ { "label": "Gaji total + lembur", "yen": 233025, "kind": "base", "rp": "±Rp 26,3 juta", "icon": "💴" },
+              { "label": "Sewa apartemen", "yen": 40000, "icon": "🏠" } ] } }
+```
+Row `kind`: `base` · `minus` (default, red "−¥") · `total` (highlighted) · `save` (gold) · `send` (green). Keep rows cumulative across
+consecutive beats with the same title; ≤ 12 rows fit above the caption. Labels short enough for one line.
+
+## debate (last beat)
+```json
+{ "scene": "debate", "speaker": "interviewer", "hold": 0.8,
+  "debate": { "left": {"icon": "🇯🇵", "label": "Kerja di Jepang"}, "right": {"icon": "🇮🇩", "label": "Mending di Indonesia"},
+              "prompt": "Tulis pendapatmu di komen" },
+  "say": "Tim *kerja di Jepang,* atau tim *mending di Indonesia?* Tulis di komen." }
+```
+Reference episodes: `jadi-orang-jepang` (spoken lines, cam/shake), `sejuta-lowongan`, `tukar-hidup` (duo hook), `gaji-26-juta` (ledger, money hook), `anime-dilarang` (mood/fx/cut).
